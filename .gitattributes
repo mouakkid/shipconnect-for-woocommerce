@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.mo binary
+/README.md export-ignore
+/README.fr.md export-ignore
+/SECURITY.md export-ignore
+/docs export-ignore
+/.gitattributes export-ignore

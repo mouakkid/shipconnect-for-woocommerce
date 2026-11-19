@@ -1,0 +1,32 @@
+/* ShipConnect : encadré de suivi affiché au client (Mon compte > Commande). */
+.shipc-customer {
+	margin: 2em 0;
+	padding: 1.25em 1.5em;
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	background: #f8fafc;
+}
+
+.shipc-customer h2 {
+	margin-top: 0;
+	font-size: 1.2em;
+}
+
+.shipc-customer p {
+	margin: .35em 0;
+}
+
+.shipc-customer__btn {
+	display: inline-block;
+	margin-top: .5em;
+	padding: .6em 1.1em;
+	border-radius: 8px;
+	background: #0f766e;
+	color: #fff !important;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.shipc-customer__btn:hover {
+	background: #115e59;
+}

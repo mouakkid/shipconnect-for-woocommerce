@@ -1,0 +1,396 @@
+/*
+ * ShipConnect : onglet Transporteurs (logos, interrupteurs, filtres, fiches du catalogue).
+ * Chargé après admin.css, dont il reprend les jetons (--shipc-*). Propriétés logiques pour le RTL.
+ */
+
+/* ---------- Logo ou monogramme ---------- */
+
+.shipc-logo-mark {
+	flex: none;
+	display: inline-grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	border: 1px solid var(--shipc-line, #dcdcde);
+	border-radius: 8px;
+	background: #fff;
+	overflow: hidden;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: .02em;
+	line-height: 1;
+}
+
+/*
+ * Taille naturelle, plafonnée : un favicon de 16 px reste net au lieu d'être étiré,
+ * un grand logo est réduit pour tenir dans la pastille.
+ */
+.shipc-logo-mark img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 30px;
+	max-height: 30px;
+	object-fit: contain;
+}
+
+.shipc-logo-mark--lg {
+	width: 48px;
+	height: 48px;
+}
+
+.shipc-logo-mark--lg img {
+	max-width: 36px;
+	max-height: 36px;
+}
+
+/* Monogramme : teinte dérivée du nom, contraste suffisant (fond très clair, texte foncé). */
+.shipc-logo-mark--mono {
+	--shipc-mono-h: 210;
+	border-color: hsl(var(--shipc-mono-h) 40% 84%);
+	background: hsl(var(--shipc-mono-h) 55% 94%);
+	color: hsl(var(--shipc-mono-h) 55% 28%);
+}
+
+.shipc-logo-mark--icon {
+	background: var(--shipc-bg, #f6f7f7);
+	color: var(--shipc-muted, #50575e);
+}
+
+.shipc .shipc-logo-mark--icon .dashicons {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+/* ---------- Mes transporteurs ---------- */
+
+.shipc .shipc-connection__main {
+	flex-direction: row;
+	align-items: center;
+	gap: var(--shipc-s3, 12px);
+}
+
+.shipc-connection__text {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	min-width: 0;
+	overflow-wrap: anywhere;
+}
+
+.shipc-connection:hover {
+	border-color: #c3c4c7;
+}
+
+/* Interrupteur : la position du curseur (et pas seulement la couleur) indique l'état. */
+.shipc .shipc-switch input[type="checkbox"] {
+	appearance: none;
+	-webkit-appearance: none;
+	position: relative;
+	flex: none;
+	width: 34px;
+	min-width: 34px;
+	height: 20px;
+	margin: 0;
+	border: 0;
+	border-radius: 999px;
+	background: var(--shipc-control, #8c8f94);
+	box-shadow: none;
+	cursor: pointer;
+	transition: background-color .15s ease;
+}
+
+.shipc .shipc-switch input[type="checkbox"]::before,
+.shipc .shipc-switch input[type="checkbox"]:checked::before {
+	content: "";
+	position: absolute;
+	inset-block-start: 3px;
+	inset-inline-start: 3px;
+	float: none;
+	width: 14px;
+	height: 14px;
+	margin: 0;
+	border-radius: 50%;
+	background: #fff;
+	transition: transform .15s ease;
+}
+
+.shipc .shipc-switch input[type="checkbox"]:checked {
+	background: var(--shipc-accent, #2271b1);
+}
+
+.shipc .shipc-switch input[type="checkbox"]:checked::before {
+	transform: translateX(14px);
+}
+
+.rtl .shipc .shipc-switch input[type="checkbox"]:checked::before {
+	transform: translateX(-14px);
+}
+
+.shipc .shipc-switch input[type="checkbox"]:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.shipc .shipc-switch input[type="checkbox"]:focus-visible {
+	outline: 2px solid var(--shipc-accent, #2271b1);
+	outline-offset: 2px;
+}
+
+/* ---------- Tuiles (connexions disponibles et catalogue) ---------- */
+
+.shipc-tile__head--logo {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: var(--shipc-s3, 12px);
+}
+
+.shipc-tile__title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	min-width: 0;
+}
+
+.shipc-tile__title h3 {
+	overflow-wrap: anywhere;
+}
+
+.shipc-tile .shipc-tile__foot {
+	gap: var(--shipc-s2, 8px) var(--shipc-s3, 12px);
+	padding-top: var(--shipc-s2, 8px);
+}
+
+.shipc-grid--adapters .shipc-tile {
+	background: var(--shipc-surface, #fff);
+}
+
+/* ---------- En-tête du catalogue et outil de logos ---------- */
+
+.shipc-logos-tool {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: var(--shipc-s2, 8px) var(--shipc-s3, 12px);
+	text-align: end;
+}
+
+.shipc-logos-tool .shipc-help {
+	order: -1;
+}
+
+/* ---------- Filtres : barre collante sur grand écran ---------- */
+
+.shipc-catalog__bar {
+	margin: 0 calc(var(--shipc-s5, 24px) * -1) var(--shipc-s3, 12px);
+	padding: var(--shipc-s3, 12px) var(--shipc-s5, 24px) var(--shipc-s2, 8px);
+	border-block: 1px solid var(--shipc-line, #dcdcde);
+	background: var(--shipc-bg, #f6f7f7);
+}
+
+.shipc-catalog__bar .shipc-filters {
+	margin: 0;
+}
+
+.shipc-filters select {
+	flex: 0 1 200px;
+	min-width: 0;
+	max-width: 220px;
+}
+
+.shipc-filters__meta {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: var(--shipc-s1, 4px) var(--shipc-s3, 12px);
+	min-height: 32px;
+	margin: var(--shipc-s1, 4px) 0 0;
+}
+
+.shipc-filters__meta .shipc-filters__count {
+	margin: 0;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.wp-core-ui .shipc .shipc-filters__reset,
+.wp-core-ui .shipc .shipc-more {
+	display: inline-flex;
+	align-items: center;
+	min-height: 32px;
+	border-radius: 4px;
+	color: var(--shipc-accent, #2271b1);
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.wp-core-ui .shipc .shipc-filters__reset:hover,
+.wp-core-ui .shipc .shipc-more:hover {
+	color: var(--shipc-accent-dark, #135e96);
+	text-decoration: underline;
+}
+
+@media (min-width: 783px) {
+	.shipc-catalog__bar {
+		position: sticky;
+		top: var(--wp-admin--admin-bar--height, 32px);
+		z-index: 4;
+	}
+}
+
+/* ---------- Fiches du catalogue ---------- */
+
+.shipc-grid--catalog {
+	grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr));
+}
+
+.shipc-tile--catalog {
+	padding: var(--shipc-s3, 12px) var(--shipc-s4, 16px);
+	border-inline-start: 3px solid var(--shipc-line, #dcdcde);
+	background: var(--shipc-surface, #fff);
+}
+
+/* Connectable par API : filet d'accent (en plus du bouton principal « Connecter »). */
+.shipc-tile--connectable {
+	border-inline-start-color: var(--shipc-accent, #2271b1);
+}
+
+.shipc-tile--catalog:hover {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+
+.shipc-tile--catalog .shipc-logo-mark {
+	align-self: flex-start;
+}
+
+.shipc-tile__coverage {
+	font-size: 12px;
+}
+
+/* Notes : deux lignes, puis « Lire la suite » (admin.js masque le bouton si tout tient). */
+.shipc-tile__notes [data-shipc-clamp] {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	margin: 0;
+	overflow: hidden;
+}
+
+.shipc-tile__notes [data-shipc-clamp].is-expanded {
+	display: block;
+	-webkit-line-clamp: unset;
+	line-clamp: unset;
+	overflow: visible;
+}
+
+/* Cible de 32 px sans allonger la fiche. */
+.wp-core-ui .shipc .shipc-more {
+	margin-block: -4px;
+}
+
+.shipc-more[aria-expanded="false"] .shipc-more__close,
+.shipc-more[aria-expanded="true"] .shipc-more__open {
+	display: none;
+}
+
+.shipc-tile--catalog .shipc-chips {
+	margin-top: 2px;
+}
+
+/* ---------- Petits écrans et tactile ---------- */
+
+@media (max-width: 782px) {
+	.shipc-logos-tool {
+		justify-content: flex-start;
+		text-align: start;
+	}
+
+	.shipc-logos-tool .shipc-help {
+		order: 0;
+	}
+
+	.shipc-catalog__bar {
+		margin-inline: calc(var(--shipc-s4, 16px) * -1);
+		padding-inline: var(--shipc-s4, 16px);
+	}
+
+	/* Recherche sur toute la largeur, puis les trois listes côte à côte ou empilées. */
+	.shipc-filters {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: var(--shipc-s2, 8px);
+	}
+
+	.shipc-filters__search {
+		grid-column: 1 / -1;
+	}
+
+	.shipc-filters select {
+		width: 100%;
+		max-width: none;
+	}
+
+	.shipc-connection__actions .button {
+		flex: 1 1 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.shipc-filters {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.shipc-filters #shipc-cat-country {
+		grid-column: 1 / -1;
+	}
+}
+
+@media (max-width: 782px), (pointer: coarse) {
+	.shipc .shipc-switch input[type="checkbox"] {
+		width: 44px;
+		min-width: 44px;
+		height: 26px;
+	}
+
+	.shipc .shipc-switch input[type="checkbox"]::before,
+	.shipc .shipc-switch input[type="checkbox"]:checked::before {
+		width: 20px;
+		height: 20px;
+	}
+
+	.shipc .shipc-switch input[type="checkbox"]:checked::before {
+		transform: translateX(18px);
+	}
+
+	.rtl .shipc .shipc-switch input[type="checkbox"]:checked::before {
+		transform: translateX(-18px);
+	}
+
+	.wp-core-ui .shipc .shipc-filters__reset,
+	.wp-core-ui .shipc .shipc-more {
+		min-height: 44px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.shipc .shipc-switch input[type="checkbox"],
+	.shipc .shipc-switch input[type="checkbox"]::before {
+		transition: none;
+	}
+}
+
+@media (forced-colors: active) {
+	.shipc .shipc-switch input[type="checkbox"] {
+		border: 1px solid CanvasText;
+	}
+
+	.shipc .shipc-switch input[type="checkbox"]::before {
+		background: CanvasText;
+	}
+}

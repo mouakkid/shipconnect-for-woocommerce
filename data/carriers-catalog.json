@@ -1,0 +1,5002 @@
+[
+    {
+        "name": "17TRACK",
+        "slug": "17track",
+        "hq_country": "CN",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://www.17track.net/en/api",
+        "signup_url": "https://www.17track.net/en/api",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Page API lue : enregistrement et suivi de numéros, webhooks, en-tête 17token, essai gratuit sans carte; 3 500+ transporteurs annoncés, tarifs sur devis.",
+        "website": "https://www.17track.net/"
+    },
+    {
+        "name": "AfterShip",
+        "slug": "aftership",
+        "hq_country": "HK",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Docs et tarifs officiels non lus (403); essai gratuit, devis au-delà d'environ 5 000 envois selon tiers, 1 400+ transporteurs annoncés.",
+        "website": "https://www.aftership.com/"
+    },
+    {
+        "name": "Amana",
+        "slug": "amana",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "postal",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Express de Barid Al-Maghrib (Poste Maroc) ; aucune API publique trouvee, un connecteur tiers (eGrow) existe sans methode verifiee."
+    },
+    {
+        "name": "AMEEX Delivery",
+        "slug": "ameex",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Application Shopify AMEEX Delivery (envoi automatique, statuts, COD) ; API publique non trouvee."
+    },
+    {
+        "name": "Andreani",
+        "slug": "andreani",
+        "hq_country": "AR",
+        "coverage": [
+            "AR"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Portail developers.andreani.com : HTTP 500 « URL blocked » (non lisible depuis ce poste) ; apis.andreani.com répond 403 JSON « Missing Authentication Token » (passerelle API vivante).",
+        "website": "https://www.andreani.com/"
+    },
+    {
+        "name": "Aramex",
+        "slug": "aramex",
+        "hq_country": "AE",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Global",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://www.aramex.com/developers/aramex-apis",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Shipping Services, Rates Calculator et Tracking APIs avec manuels publics ; identifiants sandbox et production obtenus via un commercial Aramex ; page officielle bloquee (403).",
+        "website": "https://www.aramex.com/"
+    },
+    {
+        "name": "Australia Post",
+        "slug": "australia-post",
+        "hq_country": "AU",
+        "coverage": [
+            "AU"
+        ],
+        "region": "Océanie",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://developers.auspost.com.au/content/apis/shipping-and-tracking/info/api-resources/faq.html",
+        "signup_url": "https://developers.auspost.com.au",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Shipping & Tracking lu : test bed, clé API en Basic + en-tête Account-Number; réservé aux clients contrat eParcel ou StarTrack; annulation en ligne impossible.",
+        "website": "https://auspost.com.au/"
+    },
+    {
+        "name": "Blue Dart",
+        "slug": "blue-dart",
+        "hq_country": "IN",
+        "coverage": [
+            "IN"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.dhl.com/api-reference/bd-tracking-shipment",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Référence hébergée sur le portail DHL (pickup, waybill, tracking, délais); page non lue (rejet), identifiants via « My Apps » ou commercial selon les sources.",
+        "website": "https://www.bluedart.com/"
+    },
+    {
+        "name": "BobGo",
+        "slug": "bobgo",
+        "hq_country": "ZA",
+        "coverage": [
+            "ZA"
+        ],
+        "region": "Afrique du Sud",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.bobgo.co.za/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Open API annoncee sur le site officiel (tarifs au checkout, envois, suivi) avec environnement de test ; documentation non ouverte, cle API issue de plugins tiers.",
+        "website": "https://www.bobgo.co.za/"
+    },
+    {
+        "name": "Bosta",
+        "slug": "bosta",
+        "hq_country": "EG",
+        "coverage": [
+            "EG"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "cod",
+            "returns"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.bosta.co",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Portail docs.bosta.co vu ; endpoints et version (v0 ou v2) decrits par des SDK tiers, a confirmer ; cle API dans l'en-tete Authorization.",
+        "website": "https://bosta.co/"
+    },
+    {
+        "name": "Boxtal",
+        "slug": "boxtal",
+        "hq_country": "FR",
+        "coverage": [
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.boxtal.com/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Documentation API v3 (et v1) publique avec serveur de test et compte test gratuit ; guides vus via resultats de recherche, page racine non lue.",
+        "website": "https://www.boxtal.com/"
+    },
+    {
+        "name": "bpost",
+        "slug": "bpost",
+        "hq_country": "BE",
+        "coverage": [
+            "BE"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Identifiants de production obtenus apres contrat (Shipping Manager pour les clients existants, contrat specifique pour bpost International) ; aucun portail developpeur public trouve.",
+        "website": "https://www.bpost.be/"
+    },
+    {
+        "name": "Canada Post",
+        "slug": "canada-post",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "returns",
+            "sandbox"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer-developpeur.canadapost-postescanada.ca/devportal-portaildesdeveloppeurs/api-catalog",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Portail développeur : 403 depuis ce poste (anti-bot) ; soa-gw.canadapost.ca et ct.soa-gw répondent 404 XML avec messages d'API (passerelle vivante, prod et dev).",
+        "website": "https://www.canadapost-postescanada.ca/"
+    },
+    {
+        "name": "Chilexpress",
+        "slug": "chilexpress",
+        "hq_country": "CL",
+        "coverage": [
+            "CL"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developers.wschilexpress.com/",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Portail développeurs chargé (HTTP 200) : inscription, clé de test et plugins WooCommerce/PrestaShop/Magento ; testservices.wschilexpress.com répond 404 JSON « Resource not found » (Azure API Management).",
+        "website": "https://www.chilexpress.cl/"
+    },
+    {
+        "name": "Chronopost (La Poste)",
+        "slug": "chronopost",
+        "hq_country": "FR",
+        "coverage": [
+            "FR"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "soap_credentials",
+        "developer_docs_url": "https://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "WSDL public chargé (ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl, HTTP 200 XML) : service SOAP d'expédition ; identifiants de compte requis pour appeler.",
+        "website": "https://www.chronopost.fr/"
+    },
+    {
+        "name": "Chronopost Maroc",
+        "slug": "chronopost-maroc",
+        "hq_country": "FR",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Marque du groupe La Poste ; presence marocaine citee par WeShip, aucune API Chronopost Maroc trouvee (les integrations API connues concernent la France)."
+    },
+    {
+        "name": "Coliix",
+        "slug": "coliix",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://www.coliix.com/",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "www.coliix.com sert la page « API Introduction » (collection Postman) : API de type livreur (POST /api/login_check, changeParcelStatus, notes de distribution), identique à LivreeGo, Express Livraison et SP Delivery (plateforme commune) ; création de colis marchand non documentée. www.coliix.com/api/ répond 401 JSON « Invalid token. ».",
+        "website": "https://www.coliix.com/"
+    },
+    {
+        "name": "Correios",
+        "slug": "correios",
+        "hq_country": "BR",
+        "coverage": [
+            "BR"
+        ],
+        "region": "Amériques",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "tracking",
+            "create_shipment",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://www.correios.com.br/atendimento/developers",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Portail vu: Preço, Prazo, Pré-Postagem, Rastro, Coleta; clé d'accès via Meu Correios; API Prazo et APIs privées réservées aux clients contractuels; homologation signalée par des extraits.",
+        "website": "https://www.correios.com.br/"
+    },
+    {
+        "name": "Correos",
+        "slug": "correos",
+        "hq_country": "ES",
+        "coverage": [
+            "ES"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://www.correos.es/es/gl/empresas/ecommerce/reforza-a-loxistica-do-teu-ecommerce/integracion-api",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Portail developpeur via Correos ID, acces demande API par API, contrat de transport signe requis ; APIs Preregister, Labels, demandes d'enlevement et Trackpub ; Correos Express est une filiale distincte.",
+        "website": "https://www.correos.es/"
+    },
+    {
+        "name": "CouriersPlease",
+        "slug": "couriersplease",
+        "hq_country": "AU",
+        "coverage": [
+            "AU"
+        ],
+        "region": "Océanie",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "pickup",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Documentation officielle non lue; intégration via clé API et numéro de compte CouriersPlease (selon ShipEngine et ReadyToShip).",
+        "website": "https://www.couriersplease.com.au/"
+    },
+    {
+        "name": "CTM Messagerie",
+        "slug": "ctm-messagerie",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Filiale colis du groupe CTM (offre e-tijar pour e-commercants, 2021) ; aucune API trouvee ; litige avec Barid Al-Maghrib en mai 2026."
+    },
+    {
+        "name": "Cubyn",
+        "slug": "cubyn",
+        "hq_country": "DE",
+        "coverage": [
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "marketplace_logistique",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Cle API dans le portail Cubyn, environnements production et sandbox, webhook de statut d'expedition (vu via un connecteur tiers) ; documentation officielle non trouvee.",
+        "website": "https://www.cubyn.com/"
+    },
+    {
+        "name": "Delhivery",
+        "slug": "delhivery",
+        "hq_country": "IN",
+        "coverage": [
+            "IN"
+        ],
+        "region": "Asie",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://help.delhivery.com/docs/client-developer-portal-1",
+        "signup_url": "https://ucp.delhivery.com",
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Portail développeur derrière connexion (ucp.delhivery.com), clés obtenues via commercial; staging disponible selon l'aide Delhivery.",
+        "website": "https://www.delhivery.com/"
+    },
+    {
+        "name": "Deutsche Post (E-POSTBUSINESS)",
+        "slug": "deutsche-post",
+        "hq_country": "DE",
+        "coverage": [
+            "DE"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.dhl.com/api-reference/e-postbusiness-api-hybrid-mail-shipments",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "API d'envoi de courrier hybride (lettres, pas colis) documentee sur le portail DHL Group ; hors perimetre colis.",
+        "website": "https://www.deutschepost.de/"
+    },
+    {
+        "name": "DHL Express",
+        "slug": "dhl-express",
+        "hq_country": "DE",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Global",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.dhl.com/express",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "API MyDHL (tarifs, envoi, suivi) ; compte DHL Express requis pour les identifiants ; page developpeur vue via extrait de recherche, fetch bloque (rejet).",
+        "website": "https://www.dhl.com/"
+    },
+    {
+        "name": "DHL Paket (Deutsche Post DHL)",
+        "slug": "dhl-paket",
+        "hq_country": "DE",
+        "coverage": [
+            "DE"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "pickup",
+            "returns",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://www.dhl.de/de/geschaeftskunden/paket/versandsoftware/group-api-developer-portal.html",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Portail Group API DHL (un seul login) avec APIs Shipping, Pickup, Returns et Tracking ; acces lie au contrat d'expedition business ; l'ancienne API SOAP v2 est retiree.",
+        "website": "https://www.dhl.de/"
+    },
+    {
+        "name": "DHL Parcel Connect (eConnect)",
+        "slug": "dhl-parcel-connect",
+        "hq_country": null,
+        "coverage": [
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "API REST eConnect (etiquettes, suivi) et connecteurs plateformes, decrite par une page produit DHL non lue en detail ; acces via compte DHL Parcel Connect."
+    },
+    {
+        "name": "DPD (Geopost)",
+        "slug": "dpd",
+        "hq_country": "FR",
+        "coverage": [
+            "EU",
+            "GB",
+            "CH"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://label-print-docs.dpd.ch/shipment-api/overview",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Pas de portail unique : documentation par pays (Suisse REST, Pays-Bas REST et SOAP, Royaume-Uni sur approbation du compte, sans annulation d'etiquette ni planification d'enlevement via API).",
+        "website": "https://www.dpd.com/"
+    },
+    {
+        "name": "EasyPost",
+        "slug": "easypost",
+        "hq_country": "US",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.easypost.com",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Page webhooks vue: création via POST /webhooks, événements avec mode test ou production; tarifs négociés seulement en production.",
+        "website": "https://www.easypost.com/"
+    },
+    {
+        "name": "Easyship",
+        "slug": "easyship",
+        "hq_country": null,
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://developers.easyship.com/docs/overview-flow-guide",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs vues (version 2024.09): tarifs via POST /rates, envoi, étiquette, suivi, webhooks; jetons sandbox préfixés sand_; siège non vérifié.",
+        "website": "https://www.easyship.com/"
+    },
+    {
+        "name": "Ecom Express",
+        "slug": "ecom-express",
+        "hq_country": "IN",
+        "coverage": [
+            "IN"
+        ],
+        "region": "Asie",
+        "company_type": "transporteur",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Portail officiel non trouvé; capacités (manifeste, étiquette, suivi) issues de ClickPost et Openleaf.",
+        "website": "https://ecomexpress.in/"
+    },
+    {
+        "name": "Ecotrack",
+        "slug": "ecotrack",
+        "hq_country": "DZ",
+        "coverage": [
+            "DZ"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "agregateur_envois",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Plateforme agregatrice (famille EcoTrack, un jeton pour plusieurs transporteurs selon sources tierces) ; documentation officielle non trouvee."
+    },
+    {
+        "name": "Envía.com",
+        "slug": "envia-com",
+        "hq_country": "MX",
+        "coverage": [
+            "MX"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://docs.envia.com/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs vues: jeton API, tarifs, génération d'étiquette, suivi, webhooks; sandbox api-test.envia.com selon extraits, tarifs sandbox simulés.",
+        "website": "https://envia.com/"
+    },
+    {
+        "name": "Eurosender",
+        "slug": "eurosender",
+        "hq_country": null,
+        "coverage": [
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://integrators.eurosender.com/guides/examples",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Guides d'integration avec exemples de flux (vus dans les resultats de recherche) ; capacites et authentification non verifiees.",
+        "website": "https://www.eurosender.com/"
+    },
+    {
+        "name": "Evri (ex-Hermes UK)",
+        "slug": "evri",
+        "hq_country": "GB",
+        "coverage": [
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://api.business.evri.com/.p2g/index.html",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Swagger UI public chargé sur api.business.evri.com (HTTP 200) ; accès aux appels via compte Evri Business. Contenu des opérations non relu en détail.",
+        "website": "https://www.evri.com/"
+    },
+    {
+        "name": "Fastway Couriers South Africa",
+        "slug": "fastway-za",
+        "hq_country": "ZA",
+        "coverage": [
+            "ZA"
+        ],
+        "region": "Afrique du Sud",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "label",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://sa.api.fastway.org/v3/docs/index.html",
+        "signup_url": "https://sa.api.fastway.org",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "API REST (suivi, devis, etiquettes) vue sur le site officiel ; cle limitee a 100 appels par jour par defaut ; webhooks, COD et retours non mentionnes."
+    },
+    {
+        "name": "FedEx",
+        "slug": "fedex",
+        "hq_country": "US",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer.fedex.com",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Catalogue (Rate, Track, Address Validation) et webhooks AIV vus par extraits; page fedex.com en 403; API Ship non confirmée et sandbox signalé par des tiers.",
+        "website": "https://www.fedex.com/"
+    },
+    {
+        "name": "Fez Delivery",
+        "slug": "fez-delivery",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://fez-delivery-co.gitbook.io/fezcorporate-api-docs",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Entreprise nigeriane (Lagos) : classee Maroc dans la demande, mais aucune presence marocaine trouvee ; plugin WooCommerce existant sur l'API Fez."
+    },
+    {
+        "name": "Flash Express",
+        "slug": "flash-express",
+        "hq_country": "TH",
+        "coverage": [
+            "TH",
+            "MY",
+            "LA",
+            "PH"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucune API officielle trouvée; étiquettes via l'intégrateur Anchanto; Indonésie non confirmée par les sources.",
+        "website": "https://www.flashexpress.co.th/"
+    },
+    {
+        "name": "Forcelog",
+        "slug": "forcelog",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": "https://customer.forcelog.ma",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Site officiel visite (Casablanca) : pas de page API ou developpeur, seulement un espace client ; API non decrite."
+    },
+    {
+        "name": "GIG Logistics",
+        "slug": "gig-logistics",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Le site corporate annonce des API d'integration d'expedition ; documentation non trouvee.",
+        "website": "https://giglogistics.com/"
+    },
+    {
+        "name": "GLS",
+        "slug": "gls",
+        "hq_country": "DE",
+        "coverage": [
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "cod",
+            "returns"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://shipit.gls-group.eu/webservices/5_1_4/doxygen/WS-REST-API/rest_shipment_processing.html",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Documentation ShipIT publique (versions 2.9 a 5.1.4, REST et SOAP) ; identifiants individuels fournis par GLS ; siege a verifier.",
+        "website": "https://gls-group.com/"
+    },
+    {
+        "name": "Gokada",
+        "slug": "gokada",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Billet officiel Gokada : API de creation de commandes et d'estimation de prix, cles test et production dans le dashboard ; activite actuelle non verifiee."
+    },
+    {
+        "name": "InPost",
+        "slug": "inpost",
+        "hq_country": "LU",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://developers.inpost-group.com/",
+        "signup_url": "https://bliskociebie.inpost.pl/en/integration",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Portail développeurs InPost Group chargé (« API Documentation », HTTP 200) ; api-shipx-pl.easypack24.net répond 200 JSON {\"version\":\"2.10.16\"}."
+    },
+    {
+        "name": "J&T Express",
+        "slug": "jt-express",
+        "hq_country": "ID",
+        "coverage": [
+            "ASIA"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.jet.co.id/documentation",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs lues (J&T Indonésie) : commande et waybill, tarifs, suivi, signature MD5 + Base64; accord de coopération requis; ne couvre pas forcément J&T Chine."
+    },
+    {
+        "name": "Japan Post",
+        "slug": "japan-post",
+        "hq_country": "JP",
+        "coverage": [
+            "JP"
+        ],
+        "region": "Asie",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "label",
+            "pickup",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Identifiants sandbox et production liés à un consignor ID fournis par Japan Post, selon un guide tiers; portail officiel non lu.",
+        "website": "https://www.post.japanpost.jp/"
+    },
+    {
+        "name": "Jumia Logistics",
+        "slug": "jumia-logistics",
+        "hq_country": null,
+        "coverage": [
+            "MA",
+            "NG"
+        ],
+        "region": "Maroc",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://vendorcenter.jumia.com/api-docs/",
+        "signup_url": "https://vendor.jumia.com",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "API Vendor Center (commandes, colis, etiquettes, suivi) documentee ; Maroc non citee sur la page, la livraison Jumia n'y est couverte qu'en partie."
+    },
+    {
+        "name": "Kwik Delivery",
+        "slug": "kwik-delivery",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://apikwik.docs.apiary.io",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "API annoncee par la presse en 2024, identifiants via le panel ; documentation apiary citee par un wrapper tiers, non ouverte (site inaccessible)."
+    },
+    {
+        "name": "La Poste (Colissimo)",
+        "slug": "colissimo",
+        "hq_country": "FR",
+        "coverage": [
+            "FR"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "pickup"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://www.colissimo.entreprise.laposte.fr/media/368/download",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Documentation API en PDF (versions 2020-2023, non relue dans le detail) ; acces reserve aux contrats Colissimo Pro ; suivi non confirme.",
+        "website": "https://www.colissimo.fr/"
+    },
+    {
+        "name": "La Poste Tunisienne",
+        "slug": "la-poste-tunisienne",
+        "hq_country": "TN",
+        "coverage": [
+            "TN"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "postal",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Suivi relaye par des agregateurs tiers (TrackingMore, WeShip) ; API officielle non trouvee."
+    },
+    {
+        "name": "Lalamove",
+        "slug": "lalamove",
+        "hq_country": "HK",
+        "coverage": [
+            "ASIA"
+        ],
+        "region": "Asie",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developers.lalamove.com/",
+        "signup_url": "https://partnerportal.lalamove.com",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "API v3 lue : devis, commandes, webhooks, signature HMAC-SHA256; sandbox sans approbation, clés via Partner Portal (production : solde requis).",
+        "website": "https://www.lalamove.com/"
+    },
+    {
+        "name": "Maroc Express",
+        "slug": "maroc-express",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Citee dans une annonce d'emploi (Casablanca) et un memoire de 2008 ; statut actuel et API non verifies."
+    },
+    {
+        "name": "Metapack",
+        "slug": "metapack",
+        "hq_country": "GB",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://dev.metapack.com/welcome/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Portail developpeur avec APIs Shipping et Tracking (300+ transporteurs) ; cle API fournie par l'equipe d'implementation apres contrat commercial ; basic HTTP selon la doc Shipping.",
+        "website": "https://www.metapack.com/"
+    },
+    {
+        "name": "Mylerz",
+        "slug": "mylerz",
+        "hq_country": "EG",
+        "coverage": [
+            "EG",
+            "MA"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "cod"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://integration.morocco.mylerz.net/swagger/ui/index",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Swagger 2.0 public chargé (integration.morocco.mylerz.net/swagger/docs/v1, HTTP 200) : AddOrders (COD_Value), GetAWB, TrackPackages, CancelPackage, GetCityZoneList, webhook ; jeton via POST /token ; /api/Lookup/GetAllServiceType répond 200 JSON sans clé. Instance Maroc ; pas de sandbox ni de limite de débit documentés. Connecteur intégré à ShipConnect."
+    },
+    {
+        "name": "Naqel Express",
+        "slug": "naqel-express",
+        "hq_country": "SA",
+        "coverage": [
+            "SA"
+        ],
+        "region": "Moyen-Orient",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://naqelexpress.com/en/About/NaqelAPIs",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page API lue : « NAQEL Shipping API » en SOAP et PDF de documentation téléchargeable; détails des endpoints et accès non vérifiés.",
+        "website": "https://www.naqelexpress.com/"
+    },
+    {
+        "name": "Nearya Express",
+        "slug": "nearya-express",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Presente seulement dans des annonces d'emploi (livraison et e-commerce au Maroc) ; existence actuelle et API a confirmer."
+    },
+    {
+        "name": "Ninja Van",
+        "slug": "ninja-van",
+        "hq_country": "SG",
+        "coverage": [
+            "SG",
+            "MY",
+            "ID",
+            "PH",
+            "TH",
+            "VN"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://sites.google.com/ninjavan.co/ninjaapi/api-docs",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs lues : Create Order, Waybill et webhooks seulement (pas de tracking en pull); sandbox sur demande par e-mail puis audit; présence Moyen-Orient non confirmée.",
+        "website": "https://www.ninjavan.co/"
+    },
+    {
+        "name": "NZ Post",
+        "slug": "nz-post",
+        "hq_country": "NZ",
+        "coverage": [
+            "NZ"
+        ],
+        "region": "Océanie",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "label",
+            "pickup",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://www.nzpost.co.nz/business/ecommerce/shipping-apis",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page API lue : Shipping Options, Parcel Label, Parcel Pickup, Parcel Track; accès par demande via le portail développeur, clé API délivrée après candidature.",
+        "website": "https://www.nzpost.co.nz/"
+    },
+    {
+        "name": "Olva Courier",
+        "slug": "olva",
+        "hq_country": "PE",
+        "coverage": [
+            "PE"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Documentation API non publique: accès et jeton via l'équipe commerciale selon un blog tiers; capacités issues de ce même blog, non vérifiées."
+    },
+    {
+        "name": "Osterreichische Post (Austrian Post)",
+        "slug": "austrian-post",
+        "hq_country": "AT",
+        "coverage": [
+            "AT"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucune documentation developpeur officielle trouvee (ELLA est un portail client) ; un connecteur tiers evoque une API REST non verifiee.",
+        "website": "https://www.post.at/"
+    },
+    {
+        "name": "Ozon Express",
+        "slug": "ozon-express",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Aucune doc publique (api.ozonexpress.ma/ répond 200 JSON « null »). Le endpoint /customers/ répond 200 JSON {CHECK_API: ERROR « Please verify your API Key »} : API à clé vivante, documentation via le compte client.",
+        "website": "https://www.ozonexpress.ma/"
+    },
+    {
+        "name": "Packeta (Zasilkovna)",
+        "slug": "packeta",
+        "hq_country": "CZ",
+        "coverage": [
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.packeta.com/",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Mot de passe API dans l'espace client ; pas de sandbox ni de webhook documentes sur la page d'accueil ; depot en point de retrait uniquement selon un guide tiers.",
+        "website": "https://www.packeta.com/"
+    },
+    {
+        "name": "Packlink PRO",
+        "slug": "packlink-pro",
+        "hq_country": "ES",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Cle API generee dans Parametres > Packlink PRO API key ; specifications OpenAPI relayees par apis.io, non verifiees sur le site developpeur officiel (introuvable)."
+    },
+    {
+        "name": "Parcel Perform",
+        "slug": "parcel-perform",
+        "hq_country": "SG",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "unknown",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "returns"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Portail développeur non atteint (404); endpoints et OAuth2 issus d'un catalogue tiers modélisé, non vérifiés.",
+        "website": "https://parcelperform.com/"
+    },
+    {
+        "name": "Parcelify",
+        "slug": "parcelify",
+        "hq_country": null,
+        "coverage": [],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucune source trouvee lors de la recherche (une seule requete) ; entree a valider manuellement."
+    },
+    {
+        "name": "Pargo",
+        "slug": "pargo",
+        "hq_country": "ZA",
+        "coverage": [
+            "ZA"
+        ],
+        "region": "Afrique du Sud",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": "https://pargo.co.za/business-sign-up",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Reseau de plus de 4 000 points de retrait ; 'API Pargo' et plugins Shopify/WooCommerce annonces sur la page marketing, sans documentation publique.",
+        "website": "https://pargo.co.za/"
+    },
+    {
+        "name": "Pirate Ship",
+        "slug": "pirate-ship",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "none",
+        "api_protocol": "none",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": false,
+        "confidence": "medium",
+        "notes": "Centre d'aide officiel: pas d'API publique pour connexions externes, seulement des intégrations boutiques et des clés transporteur; API non-officielles communautaires sans garantie.",
+        "website": "https://www.pirateship.com/"
+    },
+    {
+        "name": "Poste Italiane",
+        "slug": "poste-italiane",
+        "hq_country": "IT",
+        "coverage": [
+            "IT"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Identifiant web-API fourni par le conseiller commercial apres contrat direct (service Crono) ; aucune documentation publique trouvee.",
+        "website": "https://www.poste.it/"
+    },
+    {
+        "name": "PostNL",
+        "slug": "postnl",
+        "hq_country": "NL",
+        "coverage": [
+            "NL",
+            "BE"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "returns",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.postnl.nl/integration-with-postnl/api-overview/labelling-v4/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Labelling V4 avec cle API demandee sur le portail, sandbox dedie et validation de 10 etiquettes avant production ; retours decrits de facon contradictoire selon les pages.",
+        "website": "https://www.postnl.nl/"
+    },
+    {
+        "name": "Purolator",
+        "slug": "purolator",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "returns"
+        ],
+        "auth": "soap_credentials",
+        "developer_docs_url": "https://www.purolator.com/en/services/technology-solutions/e-ship-web-services",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "E-Ship Web Services (SOAP/XML) selon extraits; clé de production activée après approbation; page officielle non lue (403); environnement de test non confirmé.",
+        "website": "https://www.purolator.com/"
+    },
+    {
+        "name": "Quick Livraison",
+        "slug": "quick-livraison",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "pickup",
+            "cod"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://api.quicklivraison.ma/",
+        "signup_url": "https://clients.quicklivraison.ma",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Documentation développeurs publique chargée (HTTP 200) : création de colis avec montant COD, suivi getParcelDetails, étiquettes PDF, suppression, ramassages, webhooks HMAC-SHA256, échanges ; clients.quicklivraison.ma/api/getCityIDs répond 200 JSON sans clé. Clé API depuis Profil > API. Connecteur intégré à ShipConnect."
+    },
+    {
+        "name": "Royal Mail",
+        "slug": "royal-mail",
+        "hq_country": "GB",
+        "coverage": [
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://help.parcel.royalmail.com/hc/en-gb/articles/360011462338",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "API Click & Drop (creation de commandes, recuperation d'etiquettes) avec cle dans les parametres d'integration ; portail partenaire separe reserve aux comptes connectes.",
+        "website": "https://www.royalmail.com/"
+    },
+    {
+        "name": "Sagawa Express",
+        "slug": "sagawa-express",
+        "hq_country": "JP",
+        "coverage": [
+            "JP"
+        ],
+        "region": "Asie",
+        "company_type": "transporteur",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "label",
+            "pickup",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucun portail officiel trouvé; capacités (étiquette, enlèvement, suivi, annulation) listées par ClickPost seulement."
+    },
+    {
+        "name": "Sendbox",
+        "slug": "sendbox",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Resultats ambigus (fiche App Store decrite comme fulfilment pour le social commerce) ; aucune documentation API trouvee."
+    },
+    {
+        "name": "Sendcloud",
+        "slug": "sendcloud",
+        "hq_country": "NL",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "returns"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://sendcloud.dev/docs/getting-started",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "API v3 recommandee (v2 en maintenance) ; authentification par cle publique et cle secrete en Basic ; un endpoint de creation d'envoi est reserve aux partenaires officiels.",
+        "website": "https://www.sendcloud.com/"
+    },
+    {
+        "name": "Sendit",
+        "slug": "sendit",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "cod",
+            "pickup",
+            "returns"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://app.sendit.ma/api/documentation",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "API publique (OpenAPI 1.0.0) : tarifs par quartier, colis avec contre-remboursement, étiquettes, suivi, webhook signé. Connecteur intégré à ShipConnect."
+    },
+    {
+        "name": "Sendle",
+        "slug": "sendle",
+        "hq_country": "AU",
+        "coverage": [
+            "US",
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "sandbox"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://developers.sendle.com/reference",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Page de référence non lue (erreur DNS), informations issues d'extraits de recherche: sandbox.sendle.com, auth Basic, couverture US et CA dans notre zone.",
+        "website": "https://www.sendle.com/"
+    },
+    {
+        "name": "Sendparcel",
+        "slug": "sendparcel",
+        "hq_country": null,
+        "coverage": [],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucune documentation officielle trouvee ; une API de suivi n'est citee que par des agregateurs tiers (TrackingMore, AfterShip)."
+    },
+    {
+        "name": "Sendy",
+        "slug": "sendy",
+        "hq_country": "KE",
+        "coverage": [
+            "KE",
+            "UG",
+            "CI",
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Module PrestaShop officiel (GitHub sendyit) : cle API et environnements Testing/Live generes depuis l'admin ; couverture citee par une source d'environ 2021.",
+        "website": "https://sendyit.com/"
+    },
+    {
+        "name": "Servientrega",
+        "slug": "servientrega",
+        "hq_country": "CO",
+        "coverage": [
+            "CO"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucune documentation API publique trouvée; Servientrega propose une app Shopify officielle (création, étiquettes, enlèvement, suivi), accès API à confirmer auprès du transporteur.",
+        "website": "https://www.servientrega.com/"
+    },
+    {
+        "name": "SF Express",
+        "slug": "sf-express",
+        "hq_country": "CN",
+        "coverage": [
+            "CN"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://open.sf-express.com",
+        "signup_url": "https://open.sf-express.com",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Plateforme 顺丰开放平台 (en chinois) accessible, mais référence non lue; code client et clé de contrôle obtenus après inscription selon des tiers.",
+        "website": "https://www.sf-express.com/"
+    },
+    {
+        "name": "Ship&co",
+        "slug": "shipandco",
+        "hq_country": null,
+        "coverage": [
+            "JP"
+        ],
+        "region": "Asie",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.shipandco.com/en",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Agrégateur reliant Japan Post, Sagawa et Yamato (domestique) ainsi que DHL, FedEx et UPS; page développeur vue seulement en extrait.",
+        "website": "https://www.shipandco.com/"
+    },
+    {
+        "name": "Ship24",
+        "slug": "ship24",
+        "hq_country": null,
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.ship24.com",
+        "signup_url": "https://www.ship24.com/tracking-api",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Page lue : API de suivi avec webhooks, 2 500+ transporteurs; gratuit 10 envois/mois, Pro 39 $ pour 1 000 envois; accès API selon le plan à vérifier (sources contradictoires).",
+        "website": "https://www.ship24.com/"
+    },
+    {
+        "name": "ShipBob",
+        "slug": "shipbob",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://developer.shipbob.com/guides/build-orders-integration",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Guide vu: création de commande via POST /order, suivi via GET avec HasTracking et webhooks d'expédition; sandbox non mentionné.",
+        "website": "https://www.shipbob.com/"
+    },
+    {
+        "name": "Shipbubble",
+        "slug": "shipbubble",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "agregateur_envois",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Agregateur nigerian (presse 2023, integration API 'one-stop') ; aucune documentation developpeur trouvee sur le site."
+    },
+    {
+        "name": "Shipcloud",
+        "slug": "shipcloud",
+        "hq_country": "DE",
+        "coverage": [
+            "DE"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developers.shipcloud.io/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "API REST avec cles de test et de production, plan developpeur gratuit ; transporteurs surtout allemands ; suivi et retours non documentes sur la page portail.",
+        "website": "https://www.shipcloud.io/"
+    },
+    {
+        "name": "ShipEngine (ShipStation API)",
+        "slug": "shipengine",
+        "hq_country": "US",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.shipengine.com/docs/getting-started/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Sandbox vu: clés TEST_, transporteurs testables UPS, FedEx et USPS seulement, pas de webhooks ni de suivi simulé, 20 requêtes/min; docs en cours de fusion dans ShipStation API.",
+        "website": "https://www.shipengine.com/"
+    },
+    {
+        "name": "Shippo",
+        "slug": "shippo",
+        "hq_country": "US",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://docs.goshippo.com",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs vues: mode test avec clés shippo_test_, webhooks de suivi et de création d'étiquette, API Webhooks en beta.",
+        "website": "https://goshippo.com/"
+    },
+    {
+        "name": "Shiprocket",
+        "slug": "shiprocket",
+        "hq_country": "IN",
+        "coverage": [
+            "IN"
+        ],
+        "region": "Asie",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://apidocs.shiprocket.in",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Référence publique apidocs.shiprocket.in (lecture partielle); création (adhoc), suivi par AWB et webhooks confirmés par des sources tierces.",
+        "website": "https://www.shiprocket.in/"
+    },
+    {
+        "name": "Shipwire",
+        "slug": "shipwire",
+        "hq_country": "US",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://www.shipwire.com/developers/welcome-developers/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Page développeurs vue partiellement: API REST v3 et ancienne API XML avec hôte bêta, API Webhooks présente; version, authentification et tarifs non confirmés."
+    },
+    {
+        "name": "Skydropx",
+        "slug": "skydropx",
+        "hq_country": "MX",
+        "coverage": [
+            "MX"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://pro.skydropx.com/api-docs",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "API Pro (OAuth2, sandbox sb-pro.skydropx.com) décrite par des extraits tiers; la page docs n'a affiché que son titre; clés dans Conexiones > API du tableau PRO.",
+        "website": "https://www.skydropx.com/"
+    },
+    {
+        "name": "SMSA Express",
+        "slug": "smsa-express",
+        "hq_country": "SA",
+        "coverage": [
+            "SA"
+        ],
+        "region": "Moyen-Orient",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Aucune page développeur officielle trouvée; capacités issues de tiers (ClickPost, bibliothèques PHP, connecteurs ERP).",
+        "website": "https://www.smsaexpress.com/"
+    },
+    {
+        "name": "StarTrack",
+        "slug": "startrack",
+        "hq_country": "AU",
+        "coverage": [
+            "AU"
+        ],
+        "region": "Océanie",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://developers.auspost.com.au/content/apis/shipping-and-tracking/info/api-resources/faq.html",
+        "signup_url": "https://developers.auspost.com.au",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Filiale d'Australia Post : même API Shipping & Tracking, ouverte aux clients avec contrat StarTrack Premium ou Express.",
+        "website": "https://startrack.com.au/"
+    },
+    {
+        "name": "Stord",
+        "slug": "stord",
+        "hq_country": null,
+        "coverage": [
+            "AMERICAS"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "api_key",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Page intégrations vue: API et connectivité EDI sans documentation publique; un catalogue tiers cite clé API et identifiants fournis par un commercial, non vérifié.",
+        "website": "https://www.stord.com/"
+    },
+    {
+        "name": "Stuart",
+        "slug": "stuart",
+        "hq_country": "FR",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://stuart.com/developers/",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Portail developpeur et API On-demand REST (api-docs.stuart.com) ; tokens d'acces expirant environ au bout d'un mois ; webhooks par etape de livraison ; sandbox non mentionne.",
+        "website": "https://stuart.com/"
+    },
+    {
+        "name": "Tawssil",
+        "slug": "tawssil",
+        "hq_country": "TN",
+        "coverage": [
+            "TN"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Integrations no-code via eGrow et API de suivi referencee par TrackingMore (tiers) ; documentation officielle non trouvee."
+    },
+    {
+        "name": "Terminal Africa",
+        "slug": "terminal-africa",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "pickup",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.terminal.africa",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Documentation TShip vue : tarifs temps reel, envoi, ramassage, suivi et webhooks, sandbox via collection Postman ; expansion Ghana et Kenya annoncee en 2023."
+    },
+    {
+        "name": "The Courier Guy",
+        "slug": "the-courier-guy",
+        "hq_country": "ZA",
+        "coverage": [
+            "ZA"
+        ],
+        "region": "Afrique du Sud",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel bloque (403) ; la plateforme Shiplogic citee dans la demande n'a pas ete retrouvee par la recherche.",
+        "website": "https://www.thecourierguy.co.za/"
+    },
+    {
+        "name": "Topship",
+        "slug": "topship",
+        "hq_country": "NG",
+        "coverage": [
+            "NG"
+        ],
+        "region": "Afrique subsaharienne",
+        "company_type": "agregateur_envois",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Profil Liners : API developpeur et plugins WooCommerce/Shopify annonces ; documentation non trouvee (usetopship.com a verifier)."
+    },
+    {
+        "name": "Track123",
+        "slug": "track123",
+        "hq_country": null,
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.track123.com",
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Docs lues : enregistrer, obtenir et supprimer des trackings, webhooks; en-tête Track123-Api-Secret (extrait); 1 700+ transporteurs annoncés, pas de sandbox visible.",
+        "website": "https://www.track123.com/"
+    },
+    {
+        "name": "Tryoto",
+        "slug": "tryoto",
+        "hq_country": "SA",
+        "coverage": [
+            "SA"
+        ],
+        "region": "Moyen-Orient",
+        "company_type": "agregateur_envois",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Recherche infructueuse : aucun document développeur Tryoto trouvé, à vérifier directement auprès de la société."
+    },
+    {
+        "name": "UPS",
+        "slug": "ups",
+        "hq_country": "US",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "returns",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer.ups.com",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Portail renvoyant 403 à la lecture (non vu); OAuth2 client credentials et environnement CIE selon sources tierces; identifiants sandbox et production distincts selon la plupart des guides.",
+        "website": "https://www.ups.com/"
+    },
+    {
+        "name": "USPS",
+        "slug": "usps",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developers.usps.com/apis?page=0",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Catalogue vu (Prices, Labels, Addresses 3.0, Carrier Pickup); suivi et webhooks cités par la fiche USPS mais absents de la page 0 lue; environnement TEM mentionné par la fiche d'inscription.",
+        "website": "https://www.usps.com/"
+    },
+    {
+        "name": "Yalidine",
+        "slug": "yalidine",
+        "hq_country": "DZ",
+        "coverage": [
+            "DZ"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "API v1 (api.yalidine.app) avec ID et jeton du portail Developpement selon des plugins tiers ; site officiel bloque (403)."
+    },
+    {
+        "name": "Yamato Transport",
+        "slug": "yamato-transport",
+        "hq_country": "JP",
+        "coverage": [
+            "JP"
+        ],
+        "region": "Asie",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://business.kuronekoyamato.co.jp/service/lineup/b2api/index.html",
+        "signup_url": "https://bmypage.kuronekoyamato.co.jp",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "WebAPI B2 Cloud (émission de numéros de colis) réservée aux entreprises sur demande, environnement de développement avant production; suivi non visible.",
+        "website": "https://www.kuronekoyamato.co.jp/"
+    },
+    {
+        "name": "Yodel (InPost UK)",
+        "slug": "yodel",
+        "hq_country": "GB",
+        "coverage": [
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.yodel.co.uk/",
+        "signup_url": null,
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Portail « Yodel API Developer Portal » chargé (HTTP 200) mais bannière « APIs are coming » : produits API pas encore confirmés ; api-sb.yodel.co.uk répond 404 via la passerelle.",
+        "website": "https://www.yodel.co.uk/"
+    },
+    {
+        "name": "YTO Express",
+        "slug": "yto-express",
+        "hq_country": "CN",
+        "coverage": [
+            "CN"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "pickup",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Portail officiel (圆通开放平台) non trouvé; capacités issues de ClickPost et TrackingMore (tiers), à confirmer auprès de YTO.",
+        "website": "https://www.yto.net.cn/"
+    },
+    {
+        "name": "ZR Express",
+        "slug": "zr-express",
+        "hq_country": "DZ",
+        "coverage": [
+            "DZ"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": null,
+        "signup_url": null,
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Deux generations d'API (Procolis historique et api.zrexpress.app) selon des sources tierces ; une source indique l'absence d'API publique standard."
+    },
+    {
+        "name": "Quiqup",
+        "slug": "quiqup",
+        "hq_country": "GB",
+        "coverage": [
+            "AE",
+            "GB"
+        ],
+        "region": "Moyen-Orient",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer-docs.quiqup.com/",
+        "signup_url": "",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs lues : deux API (Fulfilment et Last-mile). Auth OAuth2 client credentials ou clé Bearer Quiqdash ; environnement staging séparé ; abonnements webhook ; identifiants de production fournis par l'account manager.",
+        "website": "https://www.quiqup.com/"
+    },
+    {
+        "name": "AyMakan",
+        "slug": "aymakan",
+        "hq_country": "SA",
+        "coverage": [
+            "SA",
+            "AE",
+            "KW",
+            "BH",
+            "OM",
+            "QA"
+        ],
+        "region": "Moyen-Orient",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "returns",
+            "cod"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://github.com/aymakan/php-sdk",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "SDK PHP officiel (GitHub aymakan) vu dans les résultats : création d'expédition simple/en masse, retour (reverse pickup), étiquette AWB, demande d'enlèvement, liste des villes. Clé API dans le tableau de bord client (sources tierces). Page marketing aymakan.com sans documentation API ; COD et couverture GCC non confirmés par une doc officielle lue.",
+        "website": "https://www.aymakan.com/"
+    },
+    {
+        "name": "Mondial Relay",
+        "slug": "mondial-relay",
+        "hq_country": "FR",
+        "coverage": [
+            "FR",
+            "BE",
+            "LU",
+            "NL",
+            "ES",
+            "PT"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "soap_credentials",
+        "developer_docs_url": "https://storage.mondialrelay.fr/web-service-dual-carrier-v-271.pdf",
+        "signup_url": "",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Documentation officielle en PDF sur storage.mondialrelay.fr (WebServices Point Relais SOAP, et interface REST « dual carrier » v2.71 avec sandbox). Identifiants à demander au support API Mondial Relay (sources tierces). Contenu des PDF non lu en détail.",
+        "website": "https://www.mondialrelay.fr/"
+    },
+    {
+        "name": "PostNord",
+        "slug": "postnord",
+        "hq_country": "SE",
+        "coverage": [
+            "SE",
+            "DK",
+            "NO",
+            "FI"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.postnord.com/",
+        "signup_url": "https://developer.postnord.com/",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Portail développeur ouvert (page minimale). Pages officielles postnord.com / devportal.postnord.com : Booking API (commandes, enlèvements, étiquettes), suivi par colis ; inscription gratuite, clé API et sandbox ; client PostNord Business requis pour la réservation.",
+        "website": "https://www.postnord.com/"
+    },
+    {
+        "name": "Loggi",
+        "slug": "loggi",
+        "hq_country": "BR",
+        "coverage": [
+            "BR"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "returns"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://docs.api.loggi.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Docs lues : cotation de fret, création asynchrone d'envois, étiquettes, mise à jour/annulation, suivi et webhooks. Jeton via Authentication V1/V2. Sandbox non mentionné.",
+        "website": "https://www.loggi.com/"
+    },
+    {
+        "name": "Melhor Envio",
+        "slug": "melhor-envio",
+        "hq_country": "BR",
+        "coverage": [
+            "BR"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "returns",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://docs.melhorenvio.com.br/",
+        "signup_url": "https://docs.melhorenvio.com.br/",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs lues : cotation de fret, panier/achat d'étiquettes, génération et impression, logistique inverse, suivi, annulation, webhooks. Application créée dans le panneau Melhor Envio (flux d'autorisation) ; sandbox dédié. COD non mentionné.",
+        "website": "https://melhorenvio.com.br/"
+    },
+    {
+        "name": "99minutos",
+        "slug": "99minutos",
+        "hq_country": "MX",
+        "coverage": [
+            "MX",
+            "CL",
+            "CO",
+            "PE"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developers.99minutos.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Doc API v3 lue : devis, création de commandes (multi-colis), étiquettes PDF/ZPL, suivi, webhooks. Jeton OAuth client credentials (/api/v3/oauth/token). COD et sandbox non mentionnés ; liste des pays non vérifiée (Mexique cité).",
+        "website": "https://www.99minutos.com/"
+    },
+    {
+        "name": "Mercado Envíos",
+        "slug": "mercado-envios",
+        "hq_country": "AR",
+        "coverage": [
+            "AR",
+            "BR",
+            "MX",
+            "CL",
+            "CO",
+            "UY",
+            "PE"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developers.mercadolibre.com.ar/en_us/shipping-management",
+        "signup_url": "https://developers.mercadolibre.com.ar/",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Page développeur Mercado Libre (gestion des envois) non lisible (HTTP 403 à la lecture) ; capacités déduites du nom de la section, à revérifier. API liée à un compte vendeur Mercado Libre.",
+        "website": "https://www.mercadolibre.com.ar/"
+    },
+    {
+        "name": "Coordinadora",
+        "slug": "coordinadora",
+        "hq_country": "CO",
+        "coverage": [
+            "CO"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://developers.coordinadora.com/inicio",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Le site officiel liste un « Developer Portal » (developers.coordinadora.com) et une page d'intégrations web service ; contenu du portail non lu.",
+        "website": "https://www.coordinadora.com/"
+    },
+    {
+        "name": "Grab Express (GrabExpress)",
+        "slug": "grabexpress",
+        "hq_country": "SG",
+        "coverage": [
+            "ID",
+            "MY",
+            "PH",
+            "SG",
+            "TH",
+            "VN",
+            "MM",
+            "KH"
+        ],
+        "region": "Asie",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "cod",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer.grab.com/docs/grab-express",
+        "signup_url": "https://developer.grab.com/docs/grab-express",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Docs lues : devis, création/lecture/annulation de livraisons, pourboire, webhook de changement de statut, paiement à la livraison via cashOnDelivery. OAuth2 client credentials ; sandbox partner-api.grab.com/grab-express-sandbox ; 8 pays listés.",
+        "website": "https://www.grab.com/"
+    },
+    {
+        "name": "Uber Direct",
+        "slug": "uber-direct",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "CA",
+            "GB",
+            "FR",
+            "AU",
+            "JP"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "sandbox"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer.uber.com/docs/deliveries/overview",
+        "signup_url": "https://developer.uber.com/docs/deliveries/overview",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "ATTENTION : l'URL developer.uber.com/docs/deliveries/overview répond désormais HTTP 404 (lien de doc cassé, à remplacer) ; api.uber.com/v1/customers/ répond 404 texte (serveur vivant).",
+        "website": "https://www.uber.com/"
+    },
+    {
+        "name": "Allegro (Wysyłam z Allegro / One Kurier)",
+        "slug": "allegro-shipments",
+        "hq_country": "PL",
+        "coverage": [
+            "PL"
+        ],
+        "region": "Europe",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer.allegro.pl/documentation",
+        "signup_url": "https://developer.allegro.pl/",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Doc officielle lue (extrait) : gestion des envois (création, étiquettes, détails) et historique de suivi des colis. Réservé aux vendeurs Allegro ; auth/sandbox non vérifiés dans la page lue.",
+        "website": "https://allegro.pl/"
+    },
+    {
+        "name": "Omniva",
+        "slug": "omniva",
+        "hq_country": "EE",
+        "coverage": [
+            "EE",
+            "LV",
+            "LT"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "returns"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://developer.omniva.ee/",
+        "signup_url": "",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Spécification OpenAPI (OMX) et manuel lus : création/annulation d'envois, étiquettes PDF, suivi, enlèvements ; HTTP Basic, URL de test et de production fournies par l'account manager Omniva (client professionnel). COD non mentionné.",
+        "website": "https://www.omniva.ee/"
+    },
+    {
+        "name": "FAN Courier",
+        "slug": "fan-courier",
+        "hq_country": "RO",
+        "coverage": [
+            "RO"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "cod"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://www.fancourier.ro/wp-content/uploads/2025/09/EN_FANCourier_API_130825-1.pdf",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Documentation API officielle en PDF (versions 2.0 de 2023 et 2025) vue dans les résultats de recherche ; contrat FAN Courier requis. Contenu détaillé du PDF non lu (COD et auth à confirmer).",
+        "website": "https://www.fancourier.ro/"
+    },
+    {
+        "name": "Speedy (Bulgarie)",
+        "slug": "speedy-bg",
+        "hq_country": "BG",
+        "coverage": [
+            "BG",
+            "RO",
+            "GR"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "cod"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://api.speedy.bg/web-api.html",
+        "signup_url": "https://www.speedy.bg/en/system-integration",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Pages officielles api.speedy.bg/web-api.html et speedy.bg/en/system-integration référencées dans les résultats (API REST v1, SOAP arrêté fin sept. 2024, compte de test sur demande par e-mail) ; page de doc non lisible (HTTP 403). Capacités déduites, à confirmer.",
+        "website": "https://www.speedy.bg/"
+    },
+    {
+        "name": "BOX NOW",
+        "slug": "box-now",
+        "hq_country": "GR",
+        "coverage": [
+            "GR",
+            "CY",
+            "BG",
+            "HR"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking_webhook",
+            "cod"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://www.boxnow.bg/en/diy/eshops/api",
+        "signup_url": "https://boxnow.bg/en/partner-portal",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Doc lue : OAuth2 client credentials, POST /delivery-requests, étiquette PDF, annulation ; COD via paymentMode/amountToBeCollected. Webhooks décrits dans un PDF officiel séparé (Webhook responses). Accès partenaire via le Partner Portal.",
+        "website": "https://boxnow.bg/"
+    },
+    {
+        "name": "Nova Poshta (Nova Post)",
+        "slug": "nova-poshta",
+        "hq_country": "UA",
+        "coverage": [
+            "UA",
+            "PL"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup",
+            "cod"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developers.novaposhta.ua/",
+        "signup_url": "https://novaposhta.ua/en/for-business/cooperation/integration",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page d'intégration officielle lue : création d'expéditions, gestion des colis, services additionnels ; clé API gratuite (compte business > Sécurité) ; endpoints JSON/XML api.novaposhta.ua/v2.0. Portail développeur renvoie 403 à la lecture ; capacités détaillées (COD, étiquettes) non confirmées par lecture.",
+        "website": "https://novaposhta.ua/"
+    },
+    {
+        "name": "Borzo",
+        "slug": "borzo",
+        "hq_country": "",
+        "coverage": [
+            "IN",
+            "BR",
+            "TR"
+        ],
+        "region": "Asie",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking_webhook",
+            "cod",
+            "sandbox"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://borzodelivery.com/in/api-integration",
+        "signup_url": "https://borzodelivery.com/in/api-integration",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Résultats de recherche des pages officielles borzodelivery.com : Business API par pays (calcul de prix /calculate-order, /create-order, callbacks de statut), environnement de test puis production ; collection Postman publique. Docs différentes par marché (Inde, Brésil, Turquie via banabikurye.com).",
+        "website": "https://borzodelivery.com/"
+    },
+    {
+        "name": "Swiss Post (La Poste Suisse)",
+        "slug": "swiss-post",
+        "hq_country": "CH",
+        "coverage": [
+            "CH"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer.post.ch/en",
+        "signup_url": "https://developer.post.ch/en",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developer.post.ch/en chargé (SwissPost Developer Portal, HTTP 200) ; compte de facturation requis pour les appels, endpoints non testés.",
+        "website": "https://www.post.ch/"
+    },
+    {
+        "name": "TrackingMore",
+        "slug": "trackingmore",
+        "hq_country": "CN",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://www.trackingmore.com/docs/trackingmore/d5ac362fc3e8e-api-overview",
+        "signup_url": "https://www.trackingmore.com/",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page « API Docs » ouverte (contenu limité à la navigation). Pages produit officielles : suivi temps réel, par lot et webhooks, plus de 1 500 transporteurs.",
+        "website": "https://www.trackingmore.com/"
+    },
+    {
+        "name": "ClickPost",
+        "slug": "clickpost",
+        "hq_country": "IN",
+        "coverage": [
+            "IN",
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "pickup",
+            "returns"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://docs.clickpost.ai/",
+        "signup_url": "https://www.clickpost.ai/",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Docs lues : recommandation de transporteur, création/manifest de commandes, suivi par polling ou webhooks, serviceabilité, NDR, enlèvements, preuve de livraison, retours. Jeton via API d'authentification.",
+        "website": "https://www.clickpost.ai/"
+    },
+    {
+        "name": "Parcels App",
+        "slug": "parcelsapp",
+        "hq_country": "",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Suivi multi-transporteurs",
+        "company_type": "agregateur_suivi",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://parcelsapp.com/api-docs/",
+        "signup_url": "https://parcelsapp.com/api-docs/",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page API-docs lue : contrats OpenAPI v5 (courant) et v4 ; référence interactive sous /developers/docs. Détails webhooks/auth non lus.",
+        "website": "https://parcelsapp.com/"
+    },
+    {
+        "name": "Shipmondo",
+        "slug": "shipmondo",
+        "hq_country": "DK",
+        "coverage": [
+            "DK",
+            "SE",
+            "NO",
+            "FI",
+            "DE",
+            "NL",
+            "BE"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "https://shipmondo.dev/",
+        "signup_url": "https://app.shipmondo.com/",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Site développeur lu : API étendue, client d'impression, sandbox, plus de 100 intégrations ; inscription sur app.shipmondo.com. Méthode d'authentification non précisée sur la page (basic supposé, à confirmer).",
+        "website": "https://www.shipmondo.com/"
+    },
+    {
+        "name": "EasyParcel",
+        "slug": "easyparcel",
+        "hq_country": "MY",
+        "coverage": [
+            "MY",
+            "SG"
+        ],
+        "region": "Asie",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developers.easyparcel.com/",
+        "signup_url": "https://developers.easyparcel.com/",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Docs lues : tarifs, création et paiement de commandes, statut, suivi, assurance, abonnement webhook ; clé API d'un compte EasyParcel vérifié (paramètre api). Malaisie documentée ; Singapour a des docs séparées.",
+        "website": "https://www.easyparcel.com/"
+    },
+    {
+        "name": "MyParcel",
+        "slug": "myparcel",
+        "hq_country": "NL",
+        "coverage": [
+            "NL",
+            "BE"
+        ],
+        "region": "Europe",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking_webhook",
+            "pickup"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.myparcel.nl/api-reference/",
+        "signup_url": "https://developer.myparcel.nl/api-reference/",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Référence Core API lue : envois, webhooks, commandes, options de livraison, points de dépôt ; section d'authentification dédiée. Étiquettes/suivi/COD non listés sur la page lue.",
+        "website": "https://www.myparcel.nl/"
+    },
+    {
+        "name": "ShipBlu",
+        "slug": "shipblu",
+        "hq_country": "EG",
+        "coverage": [
+            "EG"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://docs.shipblu.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Page de docs lue : API REST dernier kilomètre pour les marchands ayant un compte ShipBlu (boutiques sur mesure ; Shopify et WooCommerce disponibles). COD et auth non décrits (voir page Quick Start ou tech@shipblu.com).",
+        "website": "https://www.shipblu.com/"
+    },
+    {
+        "name": "DSV",
+        "slug": "dsv",
+        "hq_country": "DK",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://developer.dsv.com/",
+        "signup_url": "https://developer.dsv.com/",
+        "sandbox_available": true,
+        "confidence": "high",
+        "notes": "Portail lu : API Booking, Label Print et Tracking ; inscription requise, clés d'abonnement pour un sandbox de test avant mise en production. Orienté fret/messagerie B2B.",
+        "website": "https://www.dsv.com/"
+    },
+    {
+        "name": "Amazon Shipping",
+        "slug": "amazon-shipping",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "GB",
+            "DE",
+            "FR",
+            "IT",
+            "ES",
+            "IN"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://developer-docs.shipping.amazon.com/apis",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Doc Shipping API v2 lue : achat depuis un tarif ou via SmartPurchase, génération d'étiquettes, documents d'expédition ; accès lié à Selling Partner API (SP-API) ; environnements Postman fournis. Suivi, régions et sandbox non confirmés sur la page.",
+        "website": "https://shipping.amazon.com/"
+    },
+    {
+        "name": "Biteship",
+        "slug": "biteship",
+        "hq_country": "ID",
+        "coverage": [
+            "ID"
+        ],
+        "region": "Asie",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "sandbox"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://www.biteship.com/en/docs",
+        "signup_url": "https://www.biteship.com/en/docs",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Page de docs lue : accès multi-transporteurs, calcul de tarifs en temps réel, création/gestion d'envois, suivi ; pages séparées pour sandbox et authentification (non lues). COD non confirmé.",
+        "website": "https://www.biteship.com/"
+    },
+    {
+        "name": "Giao Hang Nhanh (GHN)",
+        "slug": "ghn",
+        "hq_country": "VN",
+        "coverage": [
+            "VN"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "tracking_webhook",
+            "cod"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://developer.ghn.vn/home/docs/detail",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "URL de doc officielle obtenue par redirection de api.ghn.vn (la page renvoie 403 à la lecture) ; contenu non lu, capacités à confirmer.",
+        "website": "https://ghn.vn/"
+    },
+    {
+        "name": "Giao Hang Tiet Kiem (GHTK)",
+        "slug": "ghtk",
+        "hq_country": "VN",
+        "coverage": [
+            "VN"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking",
+            "cod"
+        ],
+        "auth": "token",
+        "developer_docs_url": "http://api.ghtk.vn/docs/submit-order/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "URL de doc officielle (api.ghtk.vn/docs, redirection) ; page renvoie 403 à la lecture ; contenu non lu, capacités à confirmer.",
+        "website": "https://giaohangtietkiem.vn/"
+    },
+    {
+        "name": "4PX",
+        "slug": "4px",
+        "hq_country": "CN",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Asie",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "http://open.4px.com/v2/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Plateforme ouverte 4PX (open.4px.com) ouverte mais page sans contenu lisible (titre « 开放平台 ») ; capacités à confirmer.",
+        "website": "https://www.4px.com/"
+    },
+    {
+        "name": "Pathao Courier",
+        "slug": "pathao-courier",
+        "hq_country": "BD",
+        "coverage": [
+            "BD"
+        ],
+        "region": "Asie",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "cod"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "https://merchant.pathao.com/courier/developer-api",
+        "signup_url": "https://merchant.pathao.com/courier/developer-api",
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Page « Developer API » du portail marchand ouverte (contenu marketing seulement). Clé et secret demandés dans le panneau marchand après KYC (sources tierces) ; endpoints et sandbox issus de SDK communautaires, non officiels.",
+        "website": "https://pathao.com/"
+    },
+    {
+        "name": "Cathedis",
+        "slug": "cathedis",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "cod"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel : rubrique « Connecteurs & API » pour plateformes de vente en ligne, sans documentation développeur publique. Application Shopify tierce « API-Cathedis » synchronise les commandes. COD supposé (usage marocain) mais non confirmé.",
+        "website": "https://www.cathedis.ma/"
+    },
+    {
+        "name": "Digylog",
+        "slug": "digylog",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "oauth2",
+        "developer_docs_url": "",
+        "signup_url": "https://seller.digylog.com/",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Pas de doc publique (seller.digylog.com = application Angular). api.digylog.com répond 401 JSON « OAuth2 authentication required » : API OAuth2 vivante, accès via le compte vendeur.",
+        "website": "https://www.digylog.com/"
+    },
+    {
+        "name": "Speedaf",
+        "slug": "speedaf",
+        "hq_country": "CN",
+        "coverage": [
+            "MA",
+            "DZ",
+            "NG",
+            "KE",
+            "GH",
+            "SA",
+            "AE",
+            "EG",
+            "PK"
+        ],
+        "region": "Global",
+        "company_type": "messagerie",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel (Speedaf Express) ouvert : aucun lien API/développeur visible. Le suivi est exposé par des tiers (AfterShip, TrackingMore). Couverture indicative non vérifiée par source officielle.",
+        "website": "https://www.speedaf.com/"
+    },
+    {
+        "name": "Maystro Delivery",
+        "slug": "maystro-delivery",
+        "hq_country": "DZ",
+        "coverage": [
+            "DZ"
+        ],
+        "region": "Afrique du Nord",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "cod"
+        ],
+        "auth": "token",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Pas de documentation officielle trouvée. Sources tierces (modules Odoo, bibliothèques multi-transporteurs) décrivent une API à jeton unique et des webhooks ; activation à demander à Maystro. Site officiel avec page « Integrations ».",
+        "website": "https://www.maystro-delivery.com/"
+    },
+    {
+        "name": "BRT (Bartolini)",
+        "slug": "brt",
+        "hq_country": "IT",
+        "coverage": [
+            "IT"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "cod"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel brt.it sans lien API/développeur. Intégrateurs tiers indiquent un webservice avec code client, mot de passe webservice et code point d'exploitation fournis par le commercial BRT.",
+        "website": "https://www.brt.it/"
+    },
+    {
+        "name": "SEUR",
+        "slug": "seur",
+        "hq_country": "ES",
+        "coverage": [
+            "ES",
+            "PT"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "returns",
+            "cod"
+        ],
+        "auth": "soap_credentials",
+        "developer_docs_url": "",
+        "signup_url": "https://www.seur.com/es/empresas/integracion-con-seur/",
+        "sandbox_available": true,
+        "confidence": "low",
+        "notes": "Site officiel : page « Integración con SEUR » (non lue en détail), pas de portail API public. Intégrateurs tiers : identifiants (utilisateur, mot de passe, CI, CCC, NIF) fournis par SEUR, sandbox et production.",
+        "website": "https://www.seur.com/"
+    },
+    {
+        "name": "Correos Express",
+        "slug": "correos-express",
+        "hq_country": "ES",
+        "coverage": [
+            "ES",
+            "PT"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "pickup"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Pas de documentation publique trouvée ; intégrateurs tiers : contrat requis, API REST v2 avec identifiants activés par le contact Correos. Site officiel : correosexpress.es (redirection depuis .com).",
+        "website": "https://www.correosexpress.es/"
+    },
+    {
+        "name": "CTT (Portugal)",
+        "slug": "ctt-portugal",
+        "hq_country": "PT",
+        "coverage": [
+            "PT"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "unknown",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel ctt.pt sans lien API/développeur ; aucun portail public trouvé. Des intégrateurs tiers (ClickPost, EasyPost pour CTT Express) indiquent des identifiants obtenus auprès de CTT.",
+        "website": "https://www.ctt.pt/"
+    },
+    {
+        "name": "Yurtiçi Kargo",
+        "slug": "yurtici-kargo",
+        "hq_country": "TR",
+        "coverage": [
+            "TR"
+        ],
+        "region": "Moyen-Orient",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "cod"
+        ],
+        "auth": "basic",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel sans lien API ; guides d'intégrateurs tiers : identifiants fournis par le représentant corporate, contrat et autorisation d'IP requis. Pas de documentation publique trouvée.",
+        "website": "https://www.yurticikargo.com/"
+    },
+    {
+        "name": "Estafeta",
+        "slug": "estafeta",
+        "hq_country": "MX",
+        "coverage": [
+            "MX"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "soap_credentials",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Site officiel estafeta.com sans lien API ; outil web Comando Estafeta pour guides. EasyPost documente une intégration Estafeta (compte direct requis), ce qui suggère une API sur contrat.",
+        "website": "https://www.estafeta.com/"
+    },
+    {
+        "name": "Cargus",
+        "slug": "cargus",
+        "hq_country": "RO",
+        "coverage": [
+            "RO"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Pas de doc publique trouvée ; urgentcargus.azure-api.net/api/ répond 404 JSON « Resource not found » (Azure API Management vivant).",
+        "website": "https://www.cargus.ro/"
+    },
+    {
+        "name": "Econt",
+        "slug": "econt",
+        "hq_country": "BG",
+        "coverage": [
+            "BG",
+            "RO",
+            "GR"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "label",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://www.econt.com/developers/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page développeurs chargée (HTTP 200) : intégration API XML et SOAP/JSON, modules e-commerce ; ee.econt.com/services/ répond 200 HTML.",
+        "website": "https://www.econt.com/"
+    },
+    {
+        "name": "Asendia",
+        "slug": "asendia",
+        "hq_country": "FR",
+        "coverage": [
+            "EU",
+            "US",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "label",
+            "tracking",
+            "returns"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://www.asendia-sync.com/swagger-ui/index.html",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Swagger UI chargé (HTTP 200) ; https://www.asendia-sync.com/v3/api-docs renvoie un OpenAPI 3.0.1 JSON « Asendia Sync API » ; la racine du site est une page HTML.",
+        "website": "https://www.asendia.com/"
+    },
+    {
+        "name": "Landmark Global",
+        "slug": "landmark-global",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "CA",
+            "EU",
+            "GB"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "returns"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://mercurydocs.landmarkglobal.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Documentation Mercury chargée (HTTP 200) avec pages ShipRequest, Track, Cancel, ImportRequest API ; api.landmarkglobal.com/v2/ répond 403 HTML (Apache) sans clé.",
+        "website": "https://landmarkglobal.com/eu/en/"
+    },
+    {
+        "name": "Atlas Livraison",
+        "slug": "atlas-livraison",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "pickup",
+            "cod",
+            "returns"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://atlaslivraison.com/api-docs",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Page API v2 chargée (HTTP 200) : x-api-key, /api/external/cities|stores|stocks|colis, webhooks signés HMAC-SHA256 ; api.atlaslivraison.com/api/external/cities répond 401 JSON « Clé API requise » ; doc complète réservée au compte. Connecteur intégré à ShipConnect (création, tarifs, suivi ; étiquette et annulation non documentées publiquement).",
+        "website": "https://atlaslivraison.com/"
+    },
+    {
+        "name": "Colivry",
+        "slug": "colivry",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "pickup",
+            "cod"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://www.colivry.co/api-livraison",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Page API chargée (HTTP 200) : 10 endpoints /api/v8, webhooks signés ; www.app.colivry.co/api/v8/districts répond 401 JSON « Missing API credentials ». Connecteur intégré à ShipConnect (pas d'étiquette dans l'API).",
+        "website": "https://www.colivry.co/"
+    },
+    {
+        "name": "Olivraison",
+        "slug": "olivraison",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "GraphQL",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "app.olivraison.com : application marchand (HTTP 200, pas de doc) ; api.olivraison.com/graphql répond 400 JSON (protection CSRF) : endpoint GraphQL vivant.",
+        "website": "https://www.olivraison.com/fr"
+    },
+    {
+        "name": "Onessta",
+        "slug": "onessta",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://api.onessta.com/docs/customers",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Doc Livewire chargée (HTTP 200, aperçu + webhooks lisibles ; autres sections chargées dynamiquement) : base /api/v1/, en-tête X-API-Key, webhooks X-Signature HMAC ; api.onessta.com/api/ répond 403 HTML.",
+        "website": "https://onessta.com/"
+    },
+    {
+        "name": "ASAP Delivery",
+        "slug": "asap-delivery",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "create_shipment",
+            "tracking",
+            "tracking_webhook",
+            "cod"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://api.asapdelivery.ma/docs.php",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Documentation complète chargée (api.asapdelivery.ma/docs.php) : tk/sk, track.php, addcolis.php, colislist.php, factures, villes, webhooks ; track.php sans paramètres répond 400 JSON « Some parameters are missing ».",
+        "website": "https://asapdelivery.ma/"
+    },
+    {
+        "name": "Eagle Express",
+        "slug": "eagle-express",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [
+            "rates",
+            "create_shipment",
+            "tracking",
+            "cod"
+        ],
+        "auth": "api_key",
+        "developer_docs_url": "https://eagleexpress.ma/apie.php",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "high",
+        "notes": "Doc apie.php chargée (HTTP 200) : tk/sk, addcolis.php, track.php, colislist.php, cities.php, editstate.php ; cities.php répond 200 JSON (villes + frais) sans clé ; identifiants passés dans l'URL.",
+        "website": "https://eagleexpress.ma/"
+    },
+    {
+        "name": "LivreeGo",
+        "slug": "livreego",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://api.livreego.ma/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Page « API Introduction » (HTTP 200) + collection Postman : documente l'API LIVREUR (login_check, allparcels, changeParcelStatus, notes de distribution), pas la création de colis marchand ; api.livreego.ma/api/ répond 401 JSON « Invalid token. ». Page identique à Coliix/Express Livraison/SP Delivery (plateforme commune).",
+        "website": "https://livreego.ma/"
+    },
+    {
+        "name": "Express Livraison",
+        "slug": "express-livraison",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://api.expresslivraison.ma/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Même page « API Introduction » que LivreeGo/Coliix/SP Delivery (hash identique) : API livreur seulement, pas de création de colis marchand ; api.expresslivraison.ma/api/ répond 401 JSON « Invalid token. ».",
+        "website": "https://expresslivraison.ma/"
+    },
+    {
+        "name": "SP Delivery",
+        "slug": "sp-delivery",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "REST",
+        "capabilities": [
+            "tracking"
+        ],
+        "auth": "token",
+        "developer_docs_url": "https://api.spdelivery.ma/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Même page « API Introduction » que LivreeGo/Coliix/Express Livraison (hash identique) : API livreur seulement ; api.spdelivery.ma/api/ répond 401 JSON « Invalid token. ».",
+        "website": "https://spdelivery.ma/"
+    },
+    {
+        "name": "Livo",
+        "slug": "livo",
+        "hq_country": "MA",
+        "coverage": [
+            "MA"
+        ],
+        "region": "Maroc",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "app.livo.ma : application marchand sans doc ; ws.livo.ma répond 200 JSON {\"ok\":true} (API vivante, doc non publique).",
+        "website": "https://livo.ma/"
+    },
+    {
+        "name": "Spring GDS",
+        "slug": "spring-gds",
+        "hq_country": "NL",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://docs.intersoftsapient.net/docs/getting-started",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "SAPIENT Developer Hub chargé (docs.intersoftsapient.net, nombreux endpoints) ; mtapi.net répond 200 JSON {ErrorLevel:10, Error:'Invalid request - Empty request'} (test et prod).",
+        "website": "https://www.spring-gds.com/"
+    },
+    {
+        "name": "Seven Senders",
+        "slug": "seven-senders",
+        "hq_country": "DE",
+        "coverage": [
+            "EU",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://api.sevensenders.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "api.sevensenders.com chargé (plateforme API Platform/Swagger) ; /v2/ répond 403 JSON « Missing Authentication Token ».",
+        "website": "https://sevensenders.com/"
+    },
+    {
+        "name": "Paack",
+        "slug": "paack",
+        "hq_country": "ES",
+        "coverage": [
+            "ES",
+            "PT",
+            "FR",
+            "IT",
+            "NL",
+            "PL",
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://paack.readme.io/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "paack.readme.io chargé (ReadMe, nombreux endpoints) ; api.paack.app/public/v3/ répond 404 texte « 404 page not found ».",
+        "website": "https://paack.co/"
+    },
+    {
+        "name": "GEODIS",
+        "slug": "geodis",
+        "hq_country": "FR",
+        "coverage": [
+            "FR",
+            "EU"
+        ],
+        "region": "Europe",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.geodis.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "GEODIS DevPortal chargé (HTTP 200) ; espace-client.geodis.com/services/api/ répond 500 JSON avec identifiant d'erreur (API vivante).",
+        "website": "https://geodis.com/fr"
+    },
+    {
+        "name": "Shopopop",
+        "slug": "shopopop",
+        "hq_country": "FR",
+        "coverage": [
+            "FR"
+        ],
+        "region": "Europe",
+        "company_type": "marketplace_logistique",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "shopopop.com : défi Cloudflare (403) ; partners-api.shopopop.com et sandbox répondent 404 texte « Not Found » (hôte API vivant, route racine absente).",
+        "website": ""
+    },
+    {
+        "name": "DPD UK",
+        "slug": "dpd-uk",
+        "hq_country": "GB",
+        "coverage": [
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "dpd.co.uk : site grand public, pas de doc ; api.dpd.co.uk répond 404 texte « Cannot GET /esgServer/ » (serveur Express vivant).",
+        "website": "https://www.dpd.co.uk/"
+    },
+    {
+        "name": "Gophr",
+        "slug": "gophr",
+        "hq_country": "GB",
+        "coverage": [
+            "GB"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developers.gophr.com/docs/gophr-commercial-api",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developers.gophr.com chargé (« Gophr Commercial API », OpenAPI/Postman) ; api.gophr.com répond 500 HTML Google.",
+        "website": "https://uk.gophr.com/"
+    },
+    {
+        "name": "Hermes Germany",
+        "slug": "hermes-germany",
+        "hq_country": "DE",
+        "coverage": [
+            "DE"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Page IT-Integration redirige vers myhermes.de/geschaeftskunden (page marketing sans doc) ; de-api.hermesworld.com répond 404 JSON Kong « no Route matched ».",
+        "website": "https://www.myhermes.de/"
+    },
+    {
+        "name": "DHL Parcel Benelux (DHL eCommerce)",
+        "slug": "dhl-parcel-benelux",
+        "hq_country": "NL",
+        "coverage": [
+            "NL",
+            "BE",
+            "LU"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://api-gw.dhlparcel.nl/docs/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "api-gw.dhlparcel.nl/docs/ chargé (Swagger UI « My DHL Parcel API ») ; la racine api-gw.dhlparcel.nl redirige vers cette doc.",
+        "website": "https://www.dhlecommerce.nl/nl"
+    },
+    {
+        "name": "Bring (Posten Norge)",
+        "slug": "bring",
+        "hq_country": "NO",
+        "coverage": [
+            "NO",
+            "SE",
+            "DK",
+            "FI"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.bring.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developer.bring.com chargé (« Bring Developer », nombreux endpoints) ; api.bring.com répond 403 HTML « Request forbidden by administrative rules ».",
+        "website": "https://www.bring.com/"
+    },
+    {
+        "name": "Budbee",
+        "slug": "budbee",
+        "hq_country": "SE",
+        "coverage": [
+            "SE",
+            "NO",
+            "DK",
+            "FI",
+            "NL"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.budbee.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developer.budbee.com chargé (« Budbee API Documentation ») ; api.budbee.com répond 404 texte (passerelle, backend NotFound).",
+        "website": "https://budbee.com/"
+    },
+    {
+        "name": "Airmee",
+        "slug": "airmee",
+        "hq_country": "SE",
+        "coverage": [
+            "SE"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "http://integration.docs.airmee.com.s3-website-eu-west-1.amazonaws.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Doc hébergée sur un site S3 (HTTP seulement, SPA « Loading... », nombreuses références API) ; api.airmee.com répond 403 JSON {\"message\":\"Forbidden\"}.",
+        "website": "https://www.airmee.com/"
+    },
+    {
+        "name": "Helthjem",
+        "slug": "helthjem",
+        "hq_country": "NO",
+        "coverage": [
+            "NO"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.helthjem.no/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "developer.helthjem.no chargé (« Welcome », références API) ; api.helthjem.no et pre-prod répondent 404 HTML nginx.",
+        "website": "https://www.helthjem.no/"
+    },
+    {
+        "name": "DAO (Dansk Avis Omdeling)",
+        "slug": "dao",
+        "hq_country": "DK",
+        "coverage": [
+            "DK"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://api.dao.as/docs/v1/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "api.dao.as/docs/v1/ chargé (« DAO API v1.0.0 ») ; api.dao.as répond 200 HTML « DAO API srv ».",
+        "website": "https://dao.as/"
+    },
+    {
+        "name": "Posti",
+        "slug": "posti",
+        "hq_country": "FI",
+        "coverage": [
+            "FI",
+            "EE",
+            "LV",
+            "LT"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://api.posti.fi/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "api.posti.fi chargé (portail API Posti) ; ecom-api.posti.com et argon.ecom-api.posti.com répondent 503.",
+        "website": "https://www.posti.fi/"
+    },
+    {
+        "name": "Poczta Polska (e-Nadawca)",
+        "slug": "poczta-polska",
+        "hq_country": "PL",
+        "coverage": [
+            "PL"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://e-nadawca.api.poczta-polska.pl/websrv/?wsdl",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Pas de page doc (liste = site commercial) ; les WSDL e-Nadawca prod et int-e-nadawca sont chargés (HTTP 200 XML) et documentent le service SOAP.",
+        "website": "https://www.poczta-polska.pl/"
+    },
+    {
+        "name": "PPL CZ",
+        "slug": "ppl-cz",
+        "hq_country": "CZ",
+        "coverage": [
+            "CZ"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.ppl.cz/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developer.ppl.cz chargé (« Pro developery », nombreuses références API) ; api.dhl.com/ecs/ppl/myapi2 répond 400 JSON problem+json « UndefinedResource ».",
+        "website": "https://www.ppl.cz/"
+    },
+    {
+        "name": "Magyar Posta (MPL)",
+        "slug": "magyar-posta",
+        "hq_country": "HU",
+        "coverage": [
+            "HU"
+        ],
+        "region": "Europe",
+        "company_type": "postal",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://www.posta.hu/api",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "www.posta.hu/api chargé (« API-k technikai oldala », OpenAPI) ; aucun endpoint listé ; une coupure TLS a été vue lors de la requête.",
+        "website": "https://www.posta.hu/"
+    },
+    {
+        "name": "Foxpost",
+        "slug": "foxpost",
+        "hq_country": "HU",
+        "coverage": [
+            "HU"
+        ],
+        "region": "Europe",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://webapi.foxpost.hu/swagger-ui/index.html",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "La racine webapi.foxpost.hu répond 401 JSON « NEED_AUTH » ; webapi.foxpost.hu/swagger-ui/index.html est un Swagger UI public (HTTP 200).",
+        "website": "https://foxpost.hu/"
+    },
+    {
+        "name": "Pitney Bowes (Shipping API)",
+        "slug": "pitney-bowes",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://docs.shipping360.pitneybowes.com/docs",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "docs.shipping360.pitneybowes.com chargé (« Pitney Bowes Shipping API ») ; api.pitneybowes.com et sandbox répondent 401 JSON (PB-APIM-ERR-1002).",
+        "website": "https://www.pitneybowes.com/us"
+    },
+    {
+        "name": "Veho",
+        "slug": "veho",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "veho.stoplight.io : SPA Stoplight (titre seul, contenu non lisible) ; api.shipveho.com/v2 et sandbox répondent 404 JSON {\"message\":\"Not found\"}.",
+        "website": "https://www.shipveho.com/"
+    },
+    {
+        "name": "Jitsu (ex-AxleHire)",
+        "slug": "jitsu",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://docs.gojitsu.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "docs.gojitsu.com chargé (« Jitsu API Documentation », OpenAPI/Swagger) ; api.gojitsu.com et staging répondent 404 JSON.",
+        "website": "https://gojitsu.com/"
+    },
+    {
+        "name": "Spee-Dee Delivery",
+        "slug": "spee-dee-delivery",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://speedeeapi.developer.azure-api.net/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Portail développeur Azure APIM Spee-Dee chargé (HTTP 200) ; speedeeapi.azure-api.net répond 404 JSON « Resource not found ».",
+        "website": "https://speedeedelivery.com/"
+    },
+    {
+        "name": "DoorDash Drive",
+        "slug": "doordash-drive",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "token",
+        "developer_docs_url": "https://developer.doordash.com/en-US/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developer.doordash.com chargé (« DoorDash Developer Services ») ; openapi.doordash.com/drive/v2/ répond 401 JSON « Request does not contain a JWT ».",
+        "website": "https://developer.doordash.com/en-US/"
+    },
+    {
+        "name": "Roadie (UPS)",
+        "slug": "roadie",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://docs.roadie.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "docs.roadie.com chargé (« Roadie API Reference ») ; connect.roadie.com/v1/ répond 403 HTML (défi Cloudflare).",
+        "website": "https://www.roadie.com/"
+    },
+    {
+        "name": "Passport",
+        "slug": "passport-shipping",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "GLOBAL"
+        ],
+        "region": "Amériques",
+        "company_type": "agregateur_envois",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "passportshipping.com redirige vers passportglobal.com (site marketing) ; api.passportshipping.com/v3/ répond 401 texte « authorization failed ».",
+        "website": "https://passportglobal.com/"
+    },
+    {
+        "name": "Estes Express Lines",
+        "slug": "estes-express",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "www.estes-express.com : site grand public ; cloudapi.estes-express.com répond 404 JSON Kong « no Route matched ».",
+        "website": "https://www.estes-express.com/"
+    },
+    {
+        "name": "Saia LTL Freight",
+        "slug": "saia",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "www.saia.com : site grand public ; api.saia.com répond 404 JSON « Resource not found » (Azure APIM).",
+        "website": "https://www.saia.com/"
+    },
+    {
+        "name": "R+L Carriers",
+        "slug": "rl-carriers",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://technology.rlcarriers.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "technology.rlcarriers.com chargé (« R+L Carriers API Integration ») ; api.rlcarriers.com/1.0.3/ répond 403 HTML.",
+        "website": "https://www.rlcarriers.com/"
+    },
+    {
+        "name": "TForce Freight",
+        "slug": "tforce-freight",
+        "hq_country": "US",
+        "coverage": [
+            "US",
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developer.tforcefreight.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developer.tforcefreight.com chargé (portail développeur) ; api.tforcefreight.com répond 404 JSON « Resource not found » (Azure APIM).",
+        "website": "https://www.tforcefreight.com/ltl/apps/home/"
+    },
+    {
+        "name": "ArcBest / ABF Freight",
+        "slug": "arcbest-abf",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "arcb.com redirige vers la page de connexion ; www.abfs.com/xml/ répond 403 XML (ABF NUMERRORS=1) : API XML vivante.",
+        "website": "https://arcb.com/"
+    },
+    {
+        "name": "Better Trucks",
+        "slug": "better-trucks",
+        "hq_country": "US",
+        "coverage": [
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "REST",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://prod.api-bettertrucks.com/swagger/index.html",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "prod.api-bettertrucks.com/swagger/index.html chargé (Swagger UI) ; la racine répond 400 « API Key is missing ».",
+        "website": "https://www.bettertrucks.com/"
+    },
+    {
+        "name": "Redpack (RedBox)",
+        "slug": "redpack",
+        "hq_country": "MX",
+        "coverage": [
+            "MX"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "api.redpack.com.mx : application Angular « ApiRedapck » (pas de doc lisible) ; stage.api.redboxsa.com répond 403 JSON « Missing Authentication Token », api.redboxsa.com 404 JSON.",
+        "website": "https://www.redpack.com.mx/es/inicio/"
+    },
+    {
+        "name": "iMile",
+        "slug": "imile",
+        "hq_country": "CN",
+        "coverage": [
+            "MX",
+            "BR",
+            "CL",
+            "CO",
+            "AE",
+            "SA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Doc Apiary (apiary-mock) répond 403 JSON ; openapi.imile.com répond 200 JSON {code 402, message sur la signature} : API vivante.",
+        "website": "https://www.imile.com/"
+    },
+    {
+        "name": "Total Express",
+        "slug": "total-express",
+        "hq_country": "BR",
+        "coverage": [
+            "BR"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "SOAP",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "www.totalexpress.com.br : 403 Access Denied ; edi.totalexpress.com.br/webservice24.php répond 401 SOAP/XML (service SOAP vivant).",
+        "website": ""
+    },
+    {
+        "name": "Azul Cargo Express",
+        "slug": "azul-cargo-express",
+        "hq_country": "BR",
+        "coverage": [
+            "BR"
+        ],
+        "region": "Amériques",
+        "company_type": "transporteur",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://hmg.onlineapp.com.br/EDIv2_API_INTEGRACAO_Toolkit/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "Portail APIM Azul : page de connexion ; la page hmg.onlineapp.com.br/EDIv2_API_INTEGRACAO_Toolkit/ (« Documentação Integração Fácil », hôte d'homologation tiers) est chargée (HTTP 200).",
+        "website": ""
+    },
+    {
+        "name": "Correo Argentino (MiCorreo)",
+        "slug": "correo-argentino",
+        "hq_country": "AR",
+        "coverage": [
+            "AR"
+        ],
+        "region": "Amériques",
+        "company_type": "postal",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "micorreo.correoargentino.com.ar/landing : page d'accueil MiCorreo sans doc ; api.correoargentino.com.ar/micorreo/v1/ répond 404 avec type JSON (corps vide).",
+        "website": "https://www.correoargentino.com.ar/"
+    },
+    {
+        "name": "PedidosYa Envíos",
+        "slug": "pedidosya-envios",
+        "hq_country": "UY",
+        "coverage": [
+            "AR",
+            "UY",
+            "CL",
+            "PE",
+            "EC"
+        ],
+        "region": "Amériques",
+        "company_type": "marketplace_logistique",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developers.pedidosya.com/",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developers.pedidosya.com chargé (« Courier API Documentation ») ; courier-api.pedidosya.com/v3/ répond 404 texte (serveur Go).",
+        "website": ""
+    },
+    {
+        "name": "UniUni",
+        "slug": "uniuni",
+        "hq_country": "CA",
+        "coverage": [
+            "CA",
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "api.ship.uniuni.com/prod répond 403 JSON (doc Mintlify non lisible) ; api.ship.uniuni.com répond 403 JSON {\"message\":\"Forbidden\"}.",
+        "website": "https://www.uniuni.com/"
+    },
+    {
+        "name": "Intelcom / Dragonfly",
+        "slug": "intelcom",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://developers.intelcomexpress.com/reference/using-the-apis",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "developers.intelcomexpress.com chargé (ReadMe « Using the APIs », OpenAPI/Postman) ; api.intelcomexpress.com répond 403 JSON.",
+        "website": "https://intelcom.ca/fr/"
+    },
+    {
+        "name": "Canpar Express",
+        "slug": "canpar",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "SOAP",
+        "capabilities": [
+            "create_shipment",
+            "tracking"
+        ],
+        "auth": "unknown",
+        "developer_docs_url": "https://canship.canpar.com/canshipws/services/CanshipBusinessService?wsdl",
+        "signup_url": "",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "Pas de page doc ; les WSDL CanshipBusinessService (prod et sandbox) sont chargés (HTTP 200 XML).",
+        "website": "https://www.canpar.com/"
+    },
+    {
+        "name": "GLS Canada",
+        "slug": "gls-canada",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://smart4i.gls-canada.com/documentation/index",
+        "signup_url": "",
+        "sandbox_available": true,
+        "confidence": "medium",
+        "notes": "smart4i.gls-canada.com/documentation/index chargé (« Smart4Integration API Doc ») ; sandbox-smart4i identique (HTTP 200).",
+        "website": "https://gls-group.com/CA/en/home/"
+    },
+    {
+        "name": "Nationex",
+        "slug": "nationex",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "on_request",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "nationex.com : site grand public ; api.nationex.com/api/v4 répond 404 JSON (Web API « No HTTP resource ») ; apidev.nationex.com 200 HTML.",
+        "website": "https://nationex.com/"
+    },
+    {
+        "name": "Chit Chats",
+        "slug": "chit-chats",
+        "hq_country": "CA",
+        "coverage": [
+            "CA",
+            "US"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://github.com/chitchats/chitchats-api-doc",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Dépôt GitHub chitchats/chitchats-api-doc chargé (doc API v1) ; chitchats.com/api/v1/ répond 404 HTML (Rails).",
+        "website": "https://chitchats.com/"
+    },
+    {
+        "name": "FlashBox",
+        "slug": "flashbox",
+        "hq_country": "CA",
+        "coverage": [
+            "CA"
+        ],
+        "region": "Amériques",
+        "company_type": "messagerie",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://flashbox.readme.io/reference/pick-up-addresses",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "low",
+        "notes": "flashbox.readme.io chargé (ReadMe, références d'endpoints) ; api.flashbox.co répond 525 (échec du handshake SSL Cloudflare).",
+        "website": ""
+    },
+    {
+        "name": "Karrio",
+        "slug": "karrio",
+        "hq_country": "",
+        "coverage": [
+            "GLOBAL"
+        ],
+        "region": "Global",
+        "company_type": "agregateur_envois",
+        "api_status": "public_docs",
+        "api_protocol": "unknown",
+        "capabilities": [],
+        "auth": "unknown",
+        "developer_docs_url": "https://github.com/karrioapi/karrio",
+        "signup_url": "",
+        "sandbox_available": null,
+        "confidence": "medium",
+        "notes": "Dépôt GitHub karrioapi/karrio chargé (API d'expédition open source, OpenAPI/Postman).",
+        "website": ""
+    }
+]

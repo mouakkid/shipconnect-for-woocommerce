@@ -1,0 +1,1673 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ShipConnect for WooCommerce 0.2.0\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: shipconnect-for-woocommerce\n"
+
+msgid "Carrier"
+msgstr "Transporteur"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Tracking no."
+msgstr "N° de suivi"
+
+msgid "To collect"
+msgstr "À encaisser"
+
+msgid "Latest event"
+msgstr "Dernier événement"
+
+msgid "Refresh tracking"
+msgstr "Actualiser le suivi"
+
+msgid "Label"
+msgstr "Étiquette"
+
+msgid "(opens in a new tab)"
+msgstr "(s'ouvre dans un nouvel onglet)"
+
+msgid "Tracking page"
+msgstr "Page de suivi"
+
+msgid "Update the status"
+msgstr "Mettre à jour le statut"
+
+msgid "Correct this shipment"
+msgstr "Corriger cet envoi"
+
+msgid "Parcel status"
+msgstr "Statut du colis"
+
+msgid "Tracking number"
+msgstr "Numéro de suivi"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Cancel shipment"
+msgstr "Annuler l'envoi"
+
+msgid "No active carrier."
+msgstr "Aucun transporteur actif."
+
+msgid "Connect a carrier"
+msgstr "Connecter un transporteur"
+
+msgid "Previous shipment %1$s: %2$s."
+msgstr "Envoi précédent %1$s : %2$s."
+
+msgid "No shipment for this order yet."
+msgstr "Aucun envoi pour cette commande."
+
+msgid "Cash on delivery"
+msgstr "Paiement à la livraison"
+
+msgid "(chosen at checkout)"
+msgstr "(choisi à la commande)"
+
+msgid "This carrier does not collect cash on delivery through ShipConnect. Arrange the collection with the carrier, or choose another carrier."
+msgstr "Ce transporteur n'encaisse pas le paiement à la livraison via ShipConnect. Organisez l'encaissement avec lui, ou choisissez un autre transporteur."
+
+msgid "Given by the carrier when you hand over the parcel."
+msgstr "Donné par le transporteur lors de la remise du colis."
+
+msgid "Send to carrier"
+msgstr "Envoyer au transporteur"
+
+msgid "ShipConnect"
+msgstr "ShipConnect"
+
+msgid "Carrier rates, shipments and tracking, right inside WooCommerce."
+msgstr "Tarifs, envois et suivi de vos transporteurs, directement depuis WooCommerce."
+
+msgid "Orders"
+msgstr "Commandes"
+
+msgid "ShipConnect sections"
+msgstr "Sections ShipConnect"
+
+msgid "%d alert"
+msgid_plural "%d alerts"
+msgstr[0] "%d alerte"
+msgstr[1] "%d alertes"
+
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s jour"
+msgstr[1] "%s jours"
+
+msgid "Period"
+msgstr "Période"
+
+msgid "No shipments in this period yet. Figures appear as soon as orders are sent to a carrier."
+msgstr "Aucun envoi sur cette période. Les chiffres apparaissent dès que des commandes sont envoyées à un transporteur."
+
+msgid "Summary"
+msgstr "Résumé"
+
+msgid "Delivery rate"
+msgstr "Taux de livraison"
+
+msgid "No finished parcels in this period."
+msgstr "Aucun colis finalisé sur cette période."
+
+msgid "%1$s delivered, %2$s returned (finished parcels only)"
+msgstr "%1$s livrés, %2$s retournés (colis finalisés uniquement)"
+
+msgid "Shipments created"
+msgstr "Envois créés"
+
+msgid "Average delivery time"
+msgstr "Délai moyen de livraison"
+
+msgid "Return rate"
+msgstr "Taux de retour"
+
+msgid "Exceptions"
+msgstr "Anomalies"
+
+msgid "Cash on delivery in transit"
+msgstr "Paiement à la livraison en cours"
+
+msgid "All parcels not yet delivered"
+msgstr "Tous les colis pas encore livrés"
+
+msgid "Shipments per day"
+msgstr "Envois par jour"
+
+msgid "Shipments"
+msgstr "Envois"
+
+msgid "Day"
+msgstr "Jour"
+
+msgid "Parcels by status"
+msgstr "Colis par statut"
+
+msgid "No data for this period."
+msgstr "Aucune donnée sur cette période."
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Parcels"
+msgstr "Colis"
+
+msgid "Shipments by carrier"
+msgstr "Envois par transporteur"
+
+msgid "Performance by carrier"
+msgstr "Performance par transporteur"
+
+msgid "Delivered"
+msgstr "Livré"
+
+msgid "Returned"
+msgstr "Retourné"
+
+msgid "Public API"
+msgstr "API publique"
+
+msgid "API on request"
+msgstr "API sur demande"
+
+msgid "Partners only"
+msgstr "Partenaires"
+
+msgid "No API"
+msgstr "Pas d’API"
+
+msgid "To be checked"
+msgstr "À vérifier"
+
+msgid "My carriers"
+msgstr "Mes transporteurs"
+
+msgid "No carrier connected yet. Pick one below."
+msgstr "Aucun transporteur connecté. Choisissez-en un ci-dessous."
+
+msgid "Manual tracking"
+msgstr "Suivi manuel"
+
+msgid "API connection"
+msgstr "Connexion API"
+
+msgid "tested on %s"
+msgstr "testé le %s"
+
+msgid "Active"
+msgstr "Actif"
+
+msgid "Shown at checkout"
+msgstr "Affiché au checkout"
+
+msgid "Test"
+msgstr "Tester"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Available connections"
+msgstr "Connexions disponibles"
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "Connect"
+msgstr "Connecter"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid "Worldwide carrier catalogue"
+msgstr "Catalogue mondial des sociétés de livraison"
+
+msgid "Load logos"
+msgstr "Charger les logos"
+
+msgid "Load missing logos"
+msgstr "Charger les logos manquants"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Search a carrier or a country…"
+msgstr "Rechercher un transporteur, un pays…"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "All countries"
+msgstr "Tous les pays"
+
+msgid "Your store"
+msgstr "Votre boutique"
+
+msgid "Countries"
+msgstr "Pays"
+
+msgid "Region"
+msgstr "Région"
+
+msgid "All regions"
+msgstr "Toutes les régions"
+
+msgid "API type"
+msgstr "Type d'API"
+
+msgid "All API types"
+msgstr "Tous les types d’API"
+
+msgid "Reset filters"
+msgstr "Réinitialiser les filtres"
+
+msgid "Worldwide"
+msgstr "International"
+
+msgid "European Union"
+msgstr "Union européenne"
+
+msgid "API docs"
+msgstr "Doc API"
+
+msgid "Request access"
+msgstr "Demander l’accès"
+
+msgid "No carrier matches these filters."
+msgstr "Aucun transporteur ne correspond à ces filtres."
+
+msgid "Connect a carrier (or add one without an API)."
+msgstr "Connectez un transporteur (ou ajoutez-en un sans API)."
+
+msgid "Carriers"
+msgstr "Transporteurs"
+
+msgid "Add the \"ShipConnect\" method to a WooCommerce shipping zone."
+msgstr "Ajoutez la méthode « ShipConnect » à une zone de livraison WooCommerce."
+
+msgid "Shipping zones"
+msgstr "Zones de livraison"
+
+msgid "Complete the sender address and phone."
+msgstr "Complétez l'adresse et le téléphone de l'expéditeur."
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Turn on automatic sending after confirmation."
+msgstr "Activez l'envoi automatique après confirmation."
+
+msgid "Critical"
+msgstr "Critique"
+
+msgid "Warning"
+msgstr "Attention"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Get started: %1$d of %2$d steps done"
+msgstr "Mise en route : %1$d étapes sur %2$d terminées"
+
+msgid "(done)"
+msgstr "(fait)"
+
+msgid "(to do)"
+msgstr "(à faire)"
+
+msgid "Alerts"
+msgstr "Alertes"
+
+msgid "All good"
+msgstr "Tout va bien"
+
+msgid "Nothing needs your attention."
+msgstr "Rien ne demande votre attention."
+
+msgid "Key figures"
+msgstr "Indicateurs"
+
+msgid "Orders to ship"
+msgstr "Commandes à expédier"
+
+msgid "Parcels in progress"
+msgstr "Colis en cours"
+
+msgid "Orders with the \"%s\" status and no shipment yet."
+msgstr "Commandes au statut « %s » sans envoi créé."
+
+msgid "Open in the orders list"
+msgstr "Ouvrir dans la liste des commandes"
+
+msgid "Nothing to ship right now."
+msgstr "Rien à envoyer pour le moment."
+
+msgid "Order"
+msgstr "Commande"
+
+msgid "Customer"
+msgstr "Client"
+
+msgid "Chosen shipping"
+msgstr "Livraison choisie"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Delivery"
+msgstr "Livraison"
+
+msgid "Latest shipments"
+msgstr "Derniers envois"
+
+msgid "No shipments yet."
+msgstr "Aucun envoi pour le moment."
+
+msgid "Send an order to a carrier and it will show up here."
+msgstr "Envoyez une commande à un transporteur : elle apparaîtra ici."
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Refresh"
+msgstr "Actualiser"
+
+msgid "What's new"
+msgstr "Nouveautés"
+
+msgid "Dismiss"
+msgstr "Masquer"
+
+msgid "How it works"
+msgstr "Comment ça marche"
+
+msgid "The customer chooses shipping"
+msgstr "Le client choisit sa livraison"
+
+msgid "they see your carriers' real rates at checkout."
+msgstr "il voit les tarifs réels de vos transporteurs au checkout."
+
+msgid "You confirm the order"
+msgstr "Vous confirmez la commande"
+
+msgid "for example after a phone call, by setting it to \"Confirmed\"."
+msgstr "par exemple après un appel, en la passant à « Confirmée »."
+
+msgid "ShipConnect sends it to the carrier"
+msgstr "ShipConnect l'envoie au transporteur"
+
+msgid "automatically, or with the \"Send to carrier\" button in the orders list. The label is fetched for you."
+msgstr "automatiquement, ou avec le bouton « Envoyer au transporteur » de la liste des commandes. L'étiquette est récupérée pour vous."
+
+msgid "Tracking is automatic"
+msgstr "Le suivi est automatique"
+
+msgid "the order, the customer and the emails are updated at every step."
+msgstr "la commande, le client et les e-mails sont mis à jour à chaque étape."
+
+msgid "Automatic tracking: webhooks"
+msgstr "Suivi automatique : webhooks"
+
+msgid "Instead of waiting for the 30-minute refresh, the carrier can notify your store on every status change. Copy the address below into the carrier's dashboard."
+msgstr "Sans attendre la mise à jour toutes les 30 minutes, le transporteur peut prévenir la boutique à chaque changement de statut. Copiez l’adresse ci-dessous dans le tableau de bord du transporteur."
+
+msgid "Connect an API carrier first (Sendit, Shippo, EasyPost…)."
+msgstr "Connectez d'abord un transporteur par API (Sendit, Shippo, EasyPost…)."
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "Do not share this address: it contains a secret key."
+msgstr "Ne partagez pas cette adresse : elle contient une clé secrète."
+
+msgid "Parcel statuses"
+msgstr "Statuts des colis"
+
+msgid "Troubleshooting"
+msgstr "Dépannage"
+
+msgid "No rate at checkout? Add the \"ShipConnect\" method to the relevant shipping zone."
+msgstr "Aucun tarif au checkout ? Ajoutez la méthode « ShipConnect » à la zone d’expédition concernée."
+
+msgid "Open shipping zones"
+msgstr "Ouvrir les zones d’expédition"
+
+msgid "A carrier error? Details are in the WooCommerce log, source \"shipconnect\"."
+msgstr "Une erreur de transporteur ? Le détail est dans le journal WooCommerce, source « shipconnect »."
+
+msgid "Open logs"
+msgstr "Ouvrir les journaux"
+
+msgid "An order is not sent automatically? Check the trigger status in the settings and the alerts on the dashboard."
+msgstr "Une commande n'est pas envoyée automatiquement ? Vérifiez le statut déclencheur dans les réglages et les alertes du tableau de bord."
+
+msgid "View status"
+msgstr "Voir l'état"
+
+msgid "1. Sender address"
+msgstr "1. Adresse de l’expéditeur"
+
+msgid "2. Order confirmation and sending"
+msgstr "2. Confirmation et envoi des commandes"
+
+msgid "3. Alerts"
+msgstr "3. Alertes"
+
+msgid "4. Checkout rates"
+msgstr "4. Tarifs au checkout"
+
+msgid "5. Messages to customers"
+msgstr "5. Messages aux clients"
+
+msgid "6. Default parcel"
+msgstr "6. Colis par défaut"
+
+msgid "Address printed on labels. Pre-filled with your store address."
+msgstr "Adresse qui apparaît sur les étiquettes. Pré-remplie avec l’adresse de votre boutique."
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Company"
+msgstr "Société"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Address line 2"
+msgstr "Complément"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "Region / State"
+msgstr "Région / État"
+
+msgid "Postcode"
+msgstr "Code postal"
+
+msgid "Phone"
+msgstr "Téléphone"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Typical flow: the customer orders, you confirm by phone, you set the order to \"Confirmed\" and ShipConnect sends it to the carrier."
+msgstr "Déroulé type : le client commande, vous confirmez par téléphone, vous passez la commande à « Confirmée » et ShipConnect l'envoie au transporteur."
+
+msgid "Add a \"Confirmed\" order status"
+msgstr "Ajouter un statut de commande « Confirmée »"
+
+msgid "Shown in the orders list and in the bulk actions."
+msgstr "Visible dans la liste des commandes et dans les actions groupées."
+
+msgid "Put cash on delivery orders on hold until you confirm them"
+msgstr "Mettre en attente les commandes en paiement à la livraison jusqu'à leur confirmation"
+
+msgid "Send to the carrier automatically when the order reaches the trigger status"
+msgstr "Envoyer automatiquement au transporteur quand la commande atteint le statut déclencheur"
+
+msgid "Uses the rate chosen at checkout, or your first API carrier. Carriers without an API wait for a tracking number."
+msgstr "Utilise le tarif choisi à la commande, ou votre premier transporteur par API. Les transporteurs sans API attendent un numéro de suivi."
+
+msgid "Trigger status"
+msgstr "Statut déclencheur"
+
+msgid "The \"Send to carrier\" button in the orders list works at any status."
+msgstr "Le bouton « Envoyer au transporteur » de la liste des commandes fonctionne quel que soit le statut."
+
+msgid "Order status after the shipment is created"
+msgstr "Statut de la commande après création de l'envoi"
+
+msgid "Order status when the parcel is delivered"
+msgstr "Statut de la commande quand le colis est livré"
+
+msgid "For example \"Completed\"."
+msgstr "Par exemple « Terminée »."
+
+msgid "Order status when the parcel is returned"
+msgstr "Statut de la commande quand le colis est retourné"
+
+msgid "Email me when a parcel is in exception"
+msgstr "M'envoyer un e-mail quand un colis est en anomalie"
+
+msgid "Alert email address"
+msgstr "Adresse e-mail des alertes"
+
+msgid "Empty = the site administrator email."
+msgstr "Vide = l'e-mail de l'administrateur du site."
+
+msgid "Flag parcels without update after (days)"
+msgstr "Signaler les colis sans mise à jour après (jours)"
+
+msgid "Markup on carrier rate (%)"
+msgstr "Marge sur tarif transporteur (%)"
+
+msgid "Added to the carrier price. 0 = exact price."
+msgstr "Ajoutée au prix transporteur. 0 = prix exact."
+
+msgid "Fixed handling fee (%s)"
+msgstr "Frais de préparation fixes (%s)"
+
+msgid "Added to every shipment."
+msgstr "Ajoutés à chaque envoi."
+
+msgid "Free shipping from (%s)"
+msgstr "Livraison offerte à partir de (%s)"
+
+msgid "0 = disabled."
+msgstr "0 = désactivé."
+
+msgid "Exchange rate (if currency differs)"
+msgstr "Taux de change (si devise différente)"
+
+msgid "Multiplies the carrier rate when its currency differs from your store's."
+msgstr "Multiplie le tarif transporteur quand sa devise diffère de la boutique."
+
+msgid "Rate cache duration (minutes)"
+msgstr "Durée du cache des tarifs (minutes)"
+
+msgid "Avoids calling the APIs on every click. 0 = no cache."
+msgstr "Évite de rappeler les API à chaque clic. 0 = pas de cache."
+
+msgid "Fallback rate when no carrier responds"
+msgstr "Tarif de secours si aucun transporteur ne répond"
+
+msgid "Fallback rate price (%s)"
+msgstr "Prix du tarif de secours (%s)"
+
+msgid "Fallback rate label"
+msgstr "Libellé du tarif de secours"
+
+msgid "Message shown in the cart and at checkout"
+msgstr "Message affiché dans le panier et au checkout"
+
+msgid "For example: \"Delivery in 24-48 h across Morocco\". Empty = no message."
+msgstr "Par exemple : « Livraison en 24-48 h partout au Maroc ». Vide = aucun message."
+
+msgid "Show how much is left to get free shipping"
+msgstr "Afficher le montant restant pour obtenir la livraison offerte"
+
+msgid "Requires a free shipping threshold."
+msgstr "Nécessite un seuil de livraison offerte."
+
+msgid "Used when a product has no weight or dimensions."
+msgstr "Utilisés quand un produit n’a pas de poids ou de dimensions renseignés."
+
+msgid "Weight (kg)"
+msgstr "Poids (kg)"
+
+msgid "Length (cm)"
+msgstr "Longueur (cm)"
+
+msgid "Width (cm)"
+msgstr "Largeur (cm)"
+
+msgid "Height (cm)"
+msgstr "Hauteur (cm)"
+
+msgid "Unsaved changes"
+msgstr "Modifications non enregistrées"
+
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+msgid "PHP version"
+msgstr "Version de PHP"
+
+msgid "PHP 7.4 or later is required."
+msgstr "PHP 7.4 ou plus récent est requis."
+
+msgid "WordPress version"
+msgstr "Version de WordPress"
+
+msgid "WooCommerce version"
+msgstr "Version de WooCommerce"
+
+msgid "ShipConnect version"
+msgstr "Version de ShipConnect"
+
+msgid "API key encryption"
+msgstr "Chiffrement des clés d'API"
+
+msgid "Enable the sodium or OpenSSL PHP extension."
+msgstr "Activez l'extension PHP sodium ou OpenSSL."
+
+msgid "Dedicated encryption key"
+msgstr "Clé de chiffrement dédiée"
+
+msgid "Defined in wp-config.php"
+msgstr "Définie dans wp-config.php"
+
+msgid "Not defined (WordPress keys are used)"
+msgstr "Non définie (les clés WordPress sont utilisées)"
+
+msgid "Optional: define SHIPC_ENCRYPTION_KEY in wp-config.php so that changing the WordPress keys does not make saved API keys unreadable."
+msgstr "Facultatif : définissez SHIPC_ENCRYPTION_KEY dans wp-config.php pour qu'un changement des clés WordPress ne rende pas illisibles les clés d'API enregistrées."
+
+msgid "Labels folder"
+msgstr "Dossier des étiquettes"
+
+msgid "Protected"
+msgstr "Protégé"
+
+msgid "Could not be checked"
+msgstr "Vérification impossible"
+
+msgid "Publicly reachable"
+msgstr "Accessible publiquement"
+
+msgid "Labels contain customer addresses. On Nginx, deny access to wp-content/uploads/shipconnect-private/ in the server configuration."
+msgstr "Les étiquettes contiennent les adresses des clients. Sous Nginx, interdisez l'accès à wp-content/uploads/shipconnect-private/ dans la configuration du serveur."
+
+msgid "Automatic tracking"
+msgstr "Suivi automatique"
+
+msgid "Next run: %1$s · Last run: %2$s"
+msgstr "Prochain passage : %1$s · Dernier passage : %2$s"
+
+msgid "WP-Cron does not seem to run. Set up a real cron job on your server."
+msgstr "WP-Cron ne semble pas s'exécuter. Configurez une vraie tâche cron sur votre serveur."
+
+msgid "WP-Cron"
+msgstr "WP-Cron"
+
+msgid "Disabled in wp-config.php (a server cron job must call wp-cron.php)"
+msgstr "Désactivé dans wp-config.php (une tâche cron du serveur doit appeler wp-cron.php)"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "Background queue (Action Scheduler)"
+msgstr "File d'attente en arrière-plan (Action Scheduler)"
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "Not available: bulk sending uses WP-Cron"
+msgstr "Indisponible : l'envoi groupé utilise WP-Cron"
+
+msgid "Order storage"
+msgstr "Stockage des commandes"
+
+msgid "High-performance order storage (HPOS)"
+msgstr "Stockage haute performance des commandes (HPOS)"
+
+msgid "WordPress posts (classic)"
+msgstr "Articles WordPress (classique)"
+
+msgid "Shipments table"
+msgstr "Table des envois"
+
+msgid "%1$s (schema %2$s)"
+msgstr "%1$s (schéma %2$s)"
+
+msgid "Deactivate and reactivate the plugin to create the table."
+msgstr "Désactivez puis réactivez l'extension pour créer la table."
+
+msgid "ShipConnect is offered at checkout"
+msgstr "ShipConnect est proposé au checkout"
+
+msgid "ShipConnect is not in any shipping zone"
+msgstr "ShipConnect n'est dans aucune zone de livraison"
+
+msgid "%1$d connected, %2$d with automatic tracking"
+msgstr "%1$d connecté(s), %2$d avec suivi automatique"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "System status"
+msgstr "État du système"
+
+msgid "Check"
+msgstr "Vérification"
+
+msgid "State"
+msgstr "État"
+
+msgid "Details"
+msgstr "Détails"
+
+msgid "Open logs (source \"shipconnect\")"
+msgstr "Ouvrir les journaux (source « shipconnect »)"
+
+msgid "Webhook security"
+msgstr "Sécurité des webhooks"
+
+msgid "Each carrier has its own webhook address with a secret key. A notification only triggers a tracking check with the carrier: the store never trusts the content it receives."
+msgstr "Chaque transporteur a sa propre adresse de webhook avec une clé secrète. Une notification déclenche seulement une vérification du suivi auprès du transporteur : la boutique ne se fie jamais au contenu reçu."
+
+msgid "No API carrier connected."
+msgstr "Aucun transporteur connecté par API."
+
+msgid "Generate new webhook addresses"
+msgstr "Générer de nouvelles adresses de webhook"
+
+msgid "Use this if an address may have leaked. The old addresses stop working immediately."
+msgstr "À utiliser si une adresse a pu fuiter. Les anciennes adresses cessent de fonctionner immédiatement."
+
+msgid "Aramex: shipment creation and label through the Shipping API. For now, rates are entered as a flat rate and automatic tracking is not connected yet."
+msgstr "Aramex : création d’envoi et étiquette via l’API Shipping. Pour l’instant, les tarifs se saisissent en forfait et le suivi automatique n’est pas encore branché."
+
+msgid "API username"
+msgstr "Nom d’utilisateur API"
+
+msgid "Provided by Aramex when the API account is opened."
+msgstr "Fourni par Aramex à l’ouverture du compte API."
+
+msgid "API password"
+msgstr "Mot de passe API"
+
+msgid "Aramex account number"
+msgstr "Numéro de compte Aramex"
+
+msgid "Account PIN"
+msgstr "Code PIN du compte"
+
+msgid "Account entity (3 letters)"
+msgstr "Entité du compte (3 lettres)"
+
+msgid "Entity code provided by Aramex with your account."
+msgstr "Code d’entité fourni par Aramex avec votre compte."
+
+msgid "Account country (2-letter ISO code)"
+msgstr "Pays du compte (code ISO à 2 lettres)"
+
+msgid "Environment"
+msgstr "Environnement"
+
+msgid "Test (sandbox)"
+msgstr "Test (sandbox)"
+
+msgid "Production"
+msgstr "Production"
+
+msgid "Start with test mode: no real shipment is created."
+msgstr "Commencez par le test : aucun envoi réel n’est créé."
+
+msgid "International product type"
+msgstr "Type de produit à l’international"
+
+msgid "Economy Parcel Express: e-commerce, goods"
+msgstr "Economy Parcel Express : e-commerce, marchandises"
+
+msgid "Priority Parcel Express: priority delivery"
+msgstr "Priority Parcel Express : livraison prioritaire"
+
+msgid "Deferred Parcel Express: second-day delivery"
+msgstr "Deferred Parcel Express : livraison en 2e jour"
+
+msgid "Used for shipments leaving the origin country. Shipments within the same country automatically use the domestic product."
+msgstr "Utilisé pour les envois hors pays d’origine. Les envois au sein du même pays utilisent automatiquement le produit domestique."
+
+msgid "Flat rate (optional)"
+msgstr "Tarif forfaitaire (optionnel)"
+
+msgid "Offered at checkout until live Aramex rates are connected. In your store currency."
+msgstr "Proposé au checkout tant que les tarifs Aramex en direct ne sont pas branchés. Dans la devise de votre boutique."
+
+msgid "Connected to Aramex (%s)."
+msgstr "Connexion réussie à Aramex (%s)."
+
+msgid "production"
+msgstr "production"
+
+msgid "test environment"
+msgstr "environnement de test"
+
+msgid "Flat rate"
+msgstr "Tarif forfaitaire"
+
+msgid "Aramex did not return a tracking number (AWB)."
+msgstr "Aramex n’a pas renvoyé de numéro de suivi (AWB)."
+
+msgid "Automatic Aramex tracking is not available yet. Use manual tracking if needed."
+msgstr "Le suivi automatique Aramex n’est pas encore disponible. Utilisez le suivi manuel si besoin."
+
+msgid "Aramex rejected the request without details."
+msgstr "Aramex a refusé la demande sans précision."
+
+msgid "Goods"
+msgstr "Marchandises"
+
+msgid "Moroccan carrier: rates by city, shipment creation with cash on delivery and tracking. No label through the public API."
+msgstr "Transporteur marocain : tarifs par ville, création d'envoi avec paiement à la livraison et suivi. Pas d'étiquette via l'API publique."
+
+msgid "API key"
+msgstr "Clé API"
+
+msgid "In your Atlas Livraison dashboard: API settings. The API must first be activated for your account."
+msgstr "Dans votre tableau de bord Atlas Livraison : réglages API. L'API doit d'abord être activée pour votre compte."
+
+msgid "Store ID (optional)"
+msgstr "ID de la boutique (facultatif)"
+
+msgid "Only needed if your account has several stores. Without it, parcels are attached to your store automatically."
+msgstr "Utile seulement si votre compte a plusieurs boutiques. Sinon, les colis sont rattachés automatiquement à votre boutique."
+
+msgid "Customer may open the parcel"
+msgstr "Le client peut ouvrir le colis"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "Used when the carrier API returns no price for the destination. In dirhams."
+msgstr "Utilisé quand l'API du transporteur ne renvoie pas de prix pour la destination. En dirhams."
+
+msgid "Connected to %1$s (%2$d cities served)."
+msgstr "Connecté à %1$s (%2$d villes desservies)."
+
+msgid "%s needs a Moroccan mobile number (06 or 07 followed by 8 digits). Correct the phone number in the order."
+msgstr "%s exige un numéro de mobile marocain (06 ou 07 suivi de 8 chiffres). Corrigez le téléphone dans la commande."
+
+msgid "%s only accepts a cash-on-delivery amount in whole dirhams. Round the order total, then try again."
+msgstr "%s n'accepte qu'un montant à encaisser en dirhams entiers. Arrondissez le total de la commande, puis réessayez."
+
+msgid "%s needs a delivery address of at least 10 characters. Complete the address in the order."
+msgstr "%s exige une adresse de livraison d'au moins 10 caractères. Complétez l'adresse dans la commande."
+
+msgid "%s did not return a tracking number."
+msgstr "%s n'a pas renvoyé de numéro de suivi."
+
+msgid "Missing tracking number."
+msgstr "Numéro de suivi manquant."
+
+msgid "%s did not return a parcel status."
+msgstr "%s n'a pas renvoyé de statut de colis."
+
+msgid "%s rejected the request."
+msgstr "%s a refusé la demande."
+
+msgid "%s did not return its list of cities."
+msgstr "%s n'a pas renvoyé sa liste de villes."
+
+msgid "Moroccan carrier: shipment creation with cash on delivery, tracking and cancellation. No label through the API."
+msgstr "Transporteur marocain : création d'envoi avec paiement à la livraison, suivi et annulation. Pas d'étiquette via l'API."
+
+msgid "Public key"
+msgstr "Clé publique"
+
+msgid "In your Colivry customer area: API integration. The private key is shown only once, when the key is created."
+msgstr "Dans votre espace client Colivry : intégration API. La clé privée n'est affichée qu'une fois, à sa création."
+
+msgid "Private key"
+msgstr "Clé privée"
+
+msgid "Shop key (optional)"
+msgstr "Clé de la boutique (facultatif)"
+
+msgid "Leave empty if your account has a single shop: it is found automatically."
+msgstr "Laissez vide si votre compte a une seule boutique : elle est trouvée automatiquement."
+
+msgid "Connected to %s (account verified)."
+msgstr "Connecté à %s (compte vérifié)."
+
+msgid "Your account does not have exactly one shop: enter the key of the shop to use."
+msgstr "Votre compte n'a pas une seule boutique : saisissez la clé de la boutique à utiliser."
+
+msgid "DHL Express international shipping (MyDHL API): rates, shipment creation, label and tracking. Requires a DHL Express account."
+msgstr "Envois internationaux DHL Express (API MyDHL) : tarifs, création d’envoi, étiquette et suivi. Nécessite un compte DHL Express."
+
+msgid "Credentials provided by DHL Express: ask your sales contact or use the DHL developer portal."
+msgstr "Identifiants fournis par DHL Express : demandez-les à votre contact commercial ou via le portail développeur DHL."
+
+msgid "API secret"
+msgstr "Secret API"
+
+msgid "DHL Express account number"
+msgstr "Numéro de compte DHL Express"
+
+msgid "The account that pays for shipments."
+msgstr "Le compte qui paie les envois."
+
+msgid "Default HS code (optional)"
+msgstr "Code SH par défaut (optionnel)"
+
+msgid "Harmonized System code of your goods, used for the customs declaration. Recommended for shipments leaving the origin country."
+msgstr "Code du système harmonisé des marchandises, utilisé pour la déclaration douanière. Recommandé pour les envois hors pays d’origine."
+
+msgid "Connected to DHL Express (%s)."
+msgstr "Connexion réussie à DHL Express (%s)."
+
+msgid "Connection accepted, but DHL offered no product for the test route. Check the account number and its permissions."
+msgstr "Connexion acceptée, mais DHL n’a proposé aucun produit pour le trajet de test. Vérifiez le numéro de compte et les droits du compte."
+
+msgid "DHL did not return a tracking number."
+msgstr "DHL n’a pas renvoyé de numéro de suivi."
+
+msgid "Multi-carrier aggregator (USPS, UPS, FedEx, DHL, Canada Post…): rates, labels and tracking."
+msgstr "Agrégateur multi-transporteurs (USPS, UPS, FedEx, DHL, Canada Post…) : tarifs, étiquettes et suivi."
+
+msgid "EasyPost API key"
+msgstr "Clé API EasyPost"
+
+msgid "EZTK… (test) or EZAK… (live)"
+msgstr "EZTK… (test) ou EZAK… (production)"
+
+msgid "In EasyPost: Account > API Keys. The test key never creates a real shipment."
+msgstr "Dans EasyPost : Account > API Keys. La clé de test ne crée aucun envoi réel."
+
+msgid "Connected to EasyPost."
+msgstr "Connexion réussie à EasyPost."
+
+msgid "This rate is no longer available. Recalculate and try again."
+msgstr "Ce tarif n'est plus disponible. Relancez le calcul puis réessayez."
+
+msgid "Missing tracking number or carrier."
+msgstr "Numéro de suivi ou transporteur manquant."
+
+msgid "Carrier without API (manual tracking)"
+msgstr "Transporteur sans API (suivi manuel)"
+
+msgid "For carriers without an API: enter the tracking number yourself. The customer tracking link is generated automatically."
+msgstr "Pour les transporteurs sans API : saisissez le numéro de suivi vous-même. Le lien de suivi pour le client est généré automatiquement."
+
+msgid "Carrier name"
+msgstr "Nom du transporteur"
+
+msgid "Tracking link (optional)"
+msgstr "Lien de suivi (optionnel)"
+
+msgid "Put {tracking} where the number goes. Leave empty if the carrier has no tracking page."
+msgstr "Mettez {tracking} à l’endroit du numéro. Laissez vide si le transporteur n’a pas de page de suivi."
+
+msgid "Shown at checkout when filled in, in your store currency."
+msgstr "Affiché au checkout si renseigné, dans la devise de votre boutique."
+
+msgid "Carrier saved. Tracking is manual."
+msgstr "Transporteur enregistré. Le suivi se fait manuellement."
+
+msgid "Enter the tracking number provided by the carrier."
+msgstr "Saisissez le numéro de suivi fourni par le transporteur."
+
+msgid "Manual tracking: no automatic sync."
+msgstr "Suivi manuel : pas de synchronisation automatique."
+
+msgid "Mylerz Morocco: shipment creation with cash on delivery, waybill (AWB), tracking and cancellation."
+msgstr "Mylerz Maroc : création d'envoi avec paiement à la livraison, lettre de transport (AWB), suivi et annulation."
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Integration account provided by Mylerz."
+msgstr "Compte d'intégration fourni par Mylerz."
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Warehouse name"
+msgstr "Nom de l'entrepôt"
+
+msgid "Name of your pickup warehouse exactly as registered with Mylerz. Needed to get live rates."
+msgstr "Nom de votre entrepôt de ramassage, exactement comme enregistré chez Mylerz. Nécessaire pour obtenir les tarifs en direct."
+
+msgid "Next day"
+msgstr "Lendemain"
+
+msgid "Same day"
+msgstr "Jour même"
+
+msgid "%s did not confirm the cancellation."
+msgstr "%s n'a pas confirmé l'annulation."
+
+msgid "%s did not return an access token. Check your username and password."
+msgstr "%s n'a pas renvoyé de jeton d'accès. Vérifiez votre nom d'utilisateur et votre mot de passe."
+
+msgid "Moroccan carrier: rates by city, shipment creation with cash on delivery, PDF label, tracking and cancellation."
+msgstr "Transporteur marocain : tarifs par ville, création d'envoi avec paiement à la livraison, étiquette PDF, suivi et annulation."
+
+msgid "In Quick Livraison: Profile, then API, then API keys."
+msgstr "Dans Quick Livraison : Profil, puis API, puis Clés API."
+
+msgid "Connected to %s (API key accepted)."
+msgstr "Connecté à %s (clé API acceptée)."
+
+msgid "Registered"
+msgstr "Enregistré"
+
+msgid "Waiting for pickup"
+msgstr "En attente de ramassage"
+
+msgid "Picked up"
+msgstr "Ramassé"
+
+msgid "In transit"
+msgstr "En transit"
+
+msgid "At the warehouse"
+msgstr "À l'entrepôt"
+
+msgid "Out for delivery"
+msgstr "En cours de livraison"
+
+msgid "Postponed"
+msgstr "Reporté"
+
+msgid "Scheduled"
+msgstr "Programmé"
+
+msgid "No answer from the customer"
+msgstr "Pas de réponse du client"
+
+msgid "Customer unreachable"
+msgstr "Client injoignable"
+
+msgid "Wrong phone number"
+msgstr "Numéro de téléphone erroné"
+
+msgid "Address outside the delivery area"
+msgstr "Adresse hors zone de livraison"
+
+msgid "Refused by the customer"
+msgstr "Refusé par le client"
+
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgid "Moroccan carrier: rates by city, shipment creation with cash on delivery, label and tracking."
+msgstr "Transporteur marocain : tarifs par ville, création d'envoi avec paiement à la livraison, étiquette et suivi."
+
+msgid "In Sendit: API menu. Create a key pair for this store."
+msgstr "Dans Sendit : menu API. Créez une paire de clés pour cette boutique."
+
+msgid "Secret key"
+msgstr "Clé secrète"
+
+msgid "Pickup city ID"
+msgstr "ID de la ville de ramassage"
+
+msgid "Sendit ID of the city where parcels are picked up (Casablanca = 46)."
+msgstr "ID Sendit de la ville où les colis sont ramassés (Casablanca = 46)."
+
+msgid "Customer may try the product"
+msgstr "Le client peut essayer le produit"
+
+msgid "Connected to Sendit (%s)."
+msgstr "Connecté à Sendit (%s)."
+
+msgid "account verified"
+msgstr "compte vérifié"
+
+msgid "Sendit did not return a parcel code."
+msgstr "Sendit n'a pas renvoyé de code colis."
+
+msgid "To prepare"
+msgstr "À préparer"
+
+msgid "New destination"
+msgstr "Nouvelle destination"
+
+msgid "Pickup in progress"
+msgstr "Ramassage en cours"
+
+msgid "With the courier"
+msgstr "Chez le livreur"
+
+msgid "Sendit did not return an access token. Check your keys."
+msgstr "Sendit n'a pas renvoyé de jeton d'accès. Vérifiez vos clés."
+
+msgid "Sendit rejected the request."
+msgstr "Sendit a refusé la demande."
+
+msgid "The delivery city is missing."
+msgstr "La ville de livraison est manquante."
+
+msgid "No Sendit district found for the city \"%s\"."
+msgstr "Aucune zone Sendit trouvée pour la ville « %s »."
+
+msgid "Multi-carrier aggregator (USPS, UPS, DHL Express, FedEx, Canada Post…): rates, labels and tracking with a single API key."
+msgstr "Agrégateur multi-transporteurs (USPS, UPS, DHL Express, FedEx, Canada Post…) : tarifs, étiquettes et suivi avec une seule clé API."
+
+msgid "Shippo API token"
+msgstr "Jeton API Shippo"
+
+msgid "shippo_test_… or shippo_live_…"
+msgstr "shippo_test_… ou shippo_live_…"
+
+msgid "In Shippo: Settings > API. Start with a test token to validate the connection."
+msgstr "Dans Shippo : Settings > API. Commencez par un jeton de test pour valider la connexion."
+
+msgid "Connected: %d active carrier account."
+msgid_plural "Connected: %d active carrier accounts."
+msgstr[0] "Connexion réussie : %d compte transporteur actif."
+msgstr[1] "Connexion réussie : %d comptes transporteurs actifs."
+
+msgid "No active carrier account in Shippo. Add at least one carrier (USPS, UPS…) to get rates."
+msgstr "Aucun compte transporteur actif dans Shippo. Ajoutez au moins un transporteur (USPS, UPS…) pour obtenir des tarifs."
+
+msgid "Shippo could not generate the label."
+msgstr "Shippo n'a pas pu générer l'étiquette."
+
+msgid "ShipConnect Shipping"
+msgstr "Livraison ShipConnect"
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgid "Analytics"
+msgstr "Analyses"
+
+msgid "Help & tracking"
+msgstr "Aide & suivi"
+
+msgid "Access denied."
+msgstr "Accès refusé."
+
+msgid "Rates"
+msgstr "Tarifs"
+
+msgid "Shipment"
+msgstr "Envoi"
+
+msgid "Tracking"
+msgstr "Suivi"
+
+msgid "Auto tracking"
+msgstr "Suivi auto"
+
+msgid "Webhook"
+msgstr "Webhook"
+
+msgid "Pickup"
+msgstr "Enlèvement"
+
+msgid "Returns"
+msgstr "Retours"
+
+msgid "Test mode"
+msgstr "Mode test"
+
+msgid "— Do nothing —"
+msgstr "— Ne rien faire —"
+
+msgid "%1$s of %2$s carriers"
+msgstr "%1$s transporteurs sur %2$s"
+
+msgid "%1$s of %2$s logos"
+msgstr "%1$s logos sur %2$s"
+
+msgid "Something went wrong."
+msgstr "Une erreur est survenue."
+
+msgid "Delete this carrier?"
+msgstr "Supprimer ce transporteur ?"
+
+msgid "Existing shipments are kept. You can reconnect the carrier later."
+msgstr "Les envois existants sont conservés. Vous pourrez reconnecter le transporteur plus tard."
+
+msgid "Keep the shipment"
+msgstr "Conserver l'envoi"
+
+msgid "The shipment is cancelled in ShipConnect, and with the carrier when it supports it. You can then create a new one."
+msgstr "L'envoi est annulé dans ShipConnect, et chez le transporteur quand il le permet. Vous pourrez ensuite en créer un nouveau."
+
+msgid "Generate new webhook addresses?"
+msgstr "Générer de nouvelles adresses de webhook ?"
+
+msgid "Generate"
+msgstr "Générer"
+
+msgid "The current addresses stop working immediately. Paste the new ones in your carriers' dashboards."
+msgstr "Les adresses actuelles cessent de fonctionner immédiatement. Collez les nouvelles dans l'espace de vos transporteurs."
+
+msgid "Please wait…"
+msgstr "Patientez…"
+
+msgid "Link copied to the clipboard."
+msgstr "Lien copié dans le presse-papiers."
+
+msgid "Change saved."
+msgstr "Modification enregistrée."
+
+msgid "You have unsaved changes."
+msgstr "Vous avez des modifications non enregistrées."
+
+msgid "Carrier documentation"
+msgstr "Documentation du transporteur"
+
+msgid "Add a carrier without API"
+msgstr "Ajouter un transporteur sans API"
+
+msgid "Connect and test"
+msgstr "Connecter et tester"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgid "Send"
+msgstr "Envoyer"
+
+msgid "Required field"
+msgstr "Champ obligatoire"
+
+msgid "Send order %1$s with %2$s"
+msgstr "Envoyer la commande %1$s avec %2$s"
+
+msgid "Tracking number given by the carrier"
+msgstr "Numéro de suivi donné par le transporteur"
+
+msgid "Enter the tracking number."
+msgstr "Saisissez le numéro de suivi."
+
+msgid "Carrier prices for this order. Choose a service, then confirm."
+msgstr "Prix du transporteur pour cette commande. Choisissez un service, puis confirmez."
+
+msgid "Confirm and send"
+msgstr "Confirmer et envoyer"
+
+msgid "Choose a service to continue."
+msgstr "Choisissez un service pour continuer."
+
+msgid "1 day"
+msgstr "1 jour"
+
+msgid "%s days"
+msgstr "%s jours"
+
+msgid "Unknown carrier."
+msgstr "Transporteur inconnu."
+
+msgid "The \"%s\" field is required."
+msgstr "Le champ « %s » est obligatoire."
+
+msgid "Carrier connected."
+msgstr "Transporteur connecté."
+
+msgid "Connection not found."
+msgstr "Connexion introuvable."
+
+msgid "Carrier deleted. Existing shipments are kept."
+msgstr "Transporteur supprimé. Les envois déjà créés sont conservés."
+
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+msgid "New webhook addresses generated. Update them in your carriers' dashboards."
+msgstr "Nouvelles adresses de webhook générées. Mettez-les à jour dans l'espace de vos transporteurs."
+
+msgid "Order not found."
+msgstr "Commande introuvable."
+
+msgid "No rate available for this address."
+msgstr "Aucun tarif disponible pour cette adresse."
+
+msgid "Shipment created. Tracking no.: %s"
+msgstr "Envoi créé. N° de suivi : %s"
+
+msgid "Status: %s"
+msgstr "Statut : %s"
+
+msgid "Shipment updated."
+msgstr "Envoi mis à jour."
+
+msgid "Shipment cancelled. You can create a new one."
+msgstr "Envoi annulé. Vous pouvez en créer un nouveau."
+
+msgid "[%1$s] Delivery exception for order #%2$s"
+msgstr "[%1$s] Anomalie de livraison pour la commande n° %2$s"
+
+msgid "Parcel %1$s (%2$s) for order #%3$s is in exception."
+msgstr "Le colis %1$s (%2$s) de la commande n° %3$s est en anomalie."
+
+msgid "Latest event: %s"
+msgstr "Dernier événement : %s"
+
+msgid "Open the order: %s"
+msgstr "Ouvrir la commande : %s"
+
+msgid "API keys are not encrypted"
+msgstr "Les clés d'API ne sont pas chiffrées"
+
+msgid "Enable the sodium or OpenSSL PHP extension on your server."
+msgstr "Activez l'extension PHP sodium ou OpenSSL sur votre serveur."
+
+msgid "The credentials of %s can no longer be read"
+msgstr "Les identifiants de %s ne peuvent plus être lus"
+
+msgid "Reconnect this carrier in the Carriers tab."
+msgstr "Reconnectez ce transporteur dans l'onglet Transporteurs."
+
+msgid "Open carriers"
+msgstr "Ouvrir les transporteurs"
+
+msgid "%d order could not be sent to the carrier"
+msgid_plural "%d orders could not be sent to the carrier"
+msgstr[0] "%d commande n'a pas pu être envoyée au transporteur"
+msgstr[1] "%d commandes n'ont pas pu être envoyées au transporteur"
+
+msgid "Latest: order #%1$s — %2$s"
+msgstr "Dernière : commande n° %1$s — %2$s"
+
+msgid "Open order"
+msgstr "Ouvrir la commande"
+
+msgid "%d parcel in exception"
+msgid_plural "%d parcels in exception"
+msgstr[0] "%d colis en anomalie"
+msgstr[1] "%d colis en anomalie"
+
+msgid "Contact the carrier or the customer to unblock the delivery."
+msgstr "Contactez le transporteur ou le client pour débloquer la livraison."
+
+msgid "View shipments"
+msgstr "Voir les envois"
+
+msgid "%1$d parcel without update for %2$d days"
+msgid_plural "%1$d parcels without update for %2$d days"
+msgstr[0] "%1$d colis sans mise à jour depuis %2$d jours"
+msgstr[1] "%1$d colis sans mise à jour depuis %2$d jours"
+
+msgid "Check these parcels with the carrier."
+msgstr "Vérifiez ces colis auprès du transporteur."
+
+msgid "%d parcel returned in the last 7 days"
+msgid_plural "%d parcels returned in the last 7 days"
+msgstr[0] "%d colis retourné ces 7 derniers jours"
+msgstr[1] "%d colis retournés ces 7 derniers jours"
+
+msgid "Make sure returned parcels come back to your warehouse."
+msgstr "Assurez-vous que les colis retournés reviennent bien à votre entrepôt."
+
+msgid "View analytics"
+msgstr "Voir les analyses"
+
+msgid "%d order waiting to be shipped for more than 24 hours"
+msgid_plural "%d orders waiting to be shipped for more than 24 hours"
+msgstr[0] "%d commande attend d'être expédiée depuis plus de 24 heures"
+msgstr[1] "%d commandes attendent d'être expédiées depuis plus de 24 heures"
+
+msgid "Send them to the carrier from the orders list."
+msgstr "Envoyez-les au transporteur depuis la liste des commandes."
+
+msgid "Open orders"
+msgstr "Ouvrir les commandes"
+
+msgid "Automatic tracking is late"
+msgstr "Le suivi automatique est en retard"
+
+msgid "No carrier connected yet"
+msgstr "Aucun transporteur connecté"
+
+msgid "Connect a carrier to show rates and send orders."
+msgstr "Connectez un transporteur pour afficher les tarifs et envoyer les commandes."
+
+msgid "ShipConnect rates are not offered at checkout"
+msgstr "Les tarifs ShipConnect ne sont pas proposés au checkout"
+
+msgid "Sender address incomplete"
+msgstr "Adresse de l'expéditeur incomplète"
+
+msgid "Carriers need the sender phone, email and address for labels."
+msgstr "Les transporteurs ont besoin du téléphone, de l'e-mail et de l'adresse de l'expéditeur pour les étiquettes."
+
+msgid "Open settings"
+msgstr "Ouvrir les réglages"
+
+msgid "ShipConnect:"
+msgstr "ShipConnect :"
+
+msgid "View alerts"
+msgstr "Voir les alertes"
+
+msgid "Send orders in one click"
+msgstr "Envoyez vos commandes en un clic"
+
+msgid "A \"Send to carrier\" button and a bulk action are now in the orders list. The new \"Confirmed\" status lets you ship right after confirming the order by phone."
+msgstr "Un bouton « Envoyer au transporteur » et une action groupée sont maintenant dans la liste des commandes. Le nouveau statut « Confirmée » permet d'expédier juste après la confirmation par téléphone."
+
+msgid "Analytics and alerts"
+msgstr "Analyses et alertes"
+
+msgid "Follow your delivery rate, returns and cash on delivery in transit, and get alerts on blocked parcels."
+msgstr "Suivez votre taux de livraison, vos retours et le paiement à la livraison en cours, et recevez des alertes sur les colis bloqués."
+
+msgid "English and French"
+msgstr "Anglais et français"
+
+msgid "ShipConnect now follows your WordPress language."
+msgstr "ShipConnect suit maintenant la langue de votre WordPress."
+
+msgid "Add %s more to get free shipping."
+msgstr "Ajoutez encore %s pour bénéficier de la livraison offerte."
+
+msgid "%1$s does not list the city \"%2$s\". Correct the city name in the order, then try again."
+msgstr "%1$s ne dessert pas la ville « %2$s ». Corrigez le nom de la ville dans la commande, puis réessayez."
+
+msgid "Morocco"
+msgstr "Maroc"
+
+msgid "North Africa"
+msgstr "Afrique du Nord"
+
+msgid "Sub-Saharan Africa"
+msgstr "Afrique subsaharienne"
+
+msgid "South Africa"
+msgstr "Afrique du Sud"
+
+msgid "Middle East"
+msgstr "Moyen-Orient"
+
+msgid "Europe"
+msgstr "Europe"
+
+msgid "Americas"
+msgstr "Amériques"
+
+msgid "Asia"
+msgstr "Asie"
+
+msgid "Oceania"
+msgstr "Océanie"
+
+msgid "Multi-carrier tracking"
+msgstr "Suivi multi-transporteurs"
+
+msgid "Show data table"
+msgstr "Afficher le tableau de données"
+
+msgid "Carrier connection not found."
+msgstr "Connexion transporteur introuvable."
+
+msgid "Unknown carrier adapter."
+msgstr "Adaptateur transporteur inconnu."
+
+msgid "The saved credentials can no longer be read (the site security keys may have changed). Reconnect this carrier."
+msgstr "Les identifiants enregistrés ne peuvent plus être lus (les clés de sécurité du site ont peut-être changé). Reconnectez ce transporteur."
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Could not reach the carrier: %s"
+msgstr "Connexion impossible au transporteur : %s"
+
+msgid "The carrier answered %1$d: %2$s"
+msgstr "Le transporteur a répondu %1$d : %2$s"
+
+msgid "Label not found."
+msgstr "Étiquette introuvable."
+
+msgid "Track your delivery"
+msgstr "Suivi de votre livraison"
+
+msgid "Carrier:"
+msgstr "Transporteur :"
+
+msgid "Tracking number:"
+msgstr "Numéro de suivi :"
+
+msgid "Status:"
+msgstr "Statut :"
+
+msgid "Track my parcel"
+msgstr "Suivre mon colis"
+
+msgid "Shipment tracking:"
+msgstr "Suivi de livraison :"
+
+msgid "track the parcel"
+msgstr "suivre le colis"
+
+msgctxt "Order status"
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Confirmée <span class=\"count\">(%s)</span>"
+msgstr[1] "Confirmées <span class=\"count\">(%s)</span>"
+
+msgid "Send to carrier (ShipConnect)"
+msgstr "Envoyer au transporteur (ShipConnect)"
+
+msgid "Change status to confirmed"
+msgstr "Changer le statut en confirmée"
+
+msgid "%d order queued for sending to the carrier."
+msgid_plural "%d orders queued for sending to the carrier."
+msgstr[0] "%d commande mise en file pour envoi au transporteur."
+msgstr[1] "%d commandes mises en file pour envoi au transporteur."
+
+msgid "%d skipped (already sent)."
+msgid_plural "%d skipped (already sent)."
+msgstr[0] "%d ignorée (déjà envoyée)."
+msgstr[1] "%d ignorées (déjà envoyées)."
+
+msgid "%d order needs a tracking number: open it to enter the number."
+msgid_plural "%d orders need a tracking number: open them to enter the number."
+msgstr[0] "%d commande demande un numéro de suivi : ouvrez-la pour le saisir."
+msgstr[1] "%d commandes demandent un numéro de suivi : ouvrez-les pour le saisir."
+
+msgid "ShipConnect: shipment creation failed. %s"
+msgstr "ShipConnect : échec de la création de l’envoi. %s"
+
+msgid "Order %s"
+msgstr "Commande %s"
+
+msgid "Shipping quote"
+msgstr "Devis de livraison"
+
+msgid "A shipment is already being created for this order. Try again in a moment."
+msgstr "Un envoi est déjà en cours de création pour cette commande. Réessayez dans un instant."
+
+msgid "This order already has a shipment."
+msgstr "Cette commande a déjà un envoi."
+
+msgid "The shipment was created with the carrier (tracking no. %s) but could not be saved in the store. Do not send this order again: check the shipments table in the System status tab."
+msgstr "L'envoi a été créé chez le transporteur (n° de suivi %s) mais n'a pas pu être enregistré dans la boutique. Ne renvoyez pas cette commande : vérifiez la table des envois dans l'onglet État du système."
+
+msgid "ShipConnect: shipment created with %1$s, tracking no. %2$s."
+msgstr "ShipConnect : envoi créé chez %1$s, n° de suivi %2$s."
+
+msgid "ShipConnect: shipment created."
+msgstr "ShipConnect : envoi créé."
+
+msgid "Shipment not found."
+msgstr "Envoi introuvable."
+
+msgid "ShipConnect: parcel %1$s, status \"%2$s\""
+msgstr "ShipConnect : colis %1$s, statut « %2$s »"
+
+msgid "ShipConnect: parcel delivered."
+msgstr "ShipConnect : colis livré."
+
+msgid "ShipConnect: parcel returned."
+msgstr "ShipConnect : colis retourné."
+
+msgid "Unknown parcel status."
+msgstr "Statut de colis inconnu."
+
+msgid "ShipConnect: tracking number changed to %s."
+msgstr "ShipConnect : numéro de suivi remplacé par %s."
+
+msgid "The carrier refused the cancellation: %s"
+msgstr "Le transporteur a refusé l'annulation : %s"
+
+msgid "ShipConnect: shipment cancelled with the carrier."
+msgstr "ShipConnect : envoi annulé chez le transporteur."
+
+msgid "ShipConnect: shipment cancelled. If a label was bought, also cancel it with the carrier."
+msgstr "ShipConnect : envoi annulé. Si une étiquette a été achetée, annulez-la aussi auprès du transporteur."
+
+msgid "No active carrier. Connect one in the Carriers tab."
+msgstr "Aucun transporteur actif. Connectez-en un dans l’onglet Transporteurs."
+
+msgid "This carrier is no longer connected."
+msgstr "Ce transporteur n'est plus connecté."
+
+msgid "ShipConnect (carrier rates)"
+msgstr "ShipConnect (tarifs transporteurs)"
+
+msgid "Shows live rates from your connected carriers. The shipment is then created automatically."
+msgstr "Affiche en temps réel les tarifs de vos transporteurs connectés. L’envoi est ensuite créé automatiquement."
+
+msgid "Checkout title"
+msgstr "Titre au checkout"
+
+msgid "Title shown above the shipping options."
+msgstr "Titre affiché au-dessus des options de livraison."
+
+msgid "Shipping"
+msgstr "Livraison"
+
+msgid "Standard shipping"
+msgstr "Livraison standard"
+
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d jour"
+msgstr[1] "%d jours"
+
+msgid "free"
+msgstr "offerte"
+
+msgid "Last 7 days"
+msgstr "7 derniers jours"
+
+msgid "Last 30 days"
+msgstr "30 derniers jours"
+
+msgid "Last 90 days"
+msgstr "90 derniers jours"
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "Other"
+msgstr "Autres"
+
+msgid "Pending"
+msgstr "En attente"
+
+msgid "Exception"
+msgstr "Anomalie"
+
+msgid "Every 30 minutes (ShipConnect)"
+msgstr "Toutes les 30 minutes (ShipConnect)"
+
+msgid "Invalid webhook key."
+msgstr "Clé de webhook invalide."
+
+msgid "ShipConnect requires WooCommerce, active and up to date."
+msgstr "ShipConnect nécessite WooCommerce, activé et à jour."
+
+#. Description of the plugin
+msgid "Connect your carriers to WooCommerce: live rates at checkout, one-click or automatic shipment creation after order confirmation, automatic tracking, dashboards and alerts."
+msgstr "Connectez vos transporteurs à WooCommerce : tarifs en direct au checkout, envoi en un clic ou automatique après confirmation de la commande, suivi automatique, tableaux de bord et alertes."
+

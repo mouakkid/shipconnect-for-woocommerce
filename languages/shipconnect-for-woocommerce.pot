@@ -1,0 +1,2284 @@
+# Copyright (C) 2026 Acode
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShipConnect for WooCommerce 0.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shipconnect-for-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-18 23:00+0000\n"
+"X-Domain: shipconnect-for-woocommerce\n"
+
+#: admin/views/metabox-order.php:29 admin/views/metabox-order.php:123 admin/views/tab-analytics.php:155 admin/views/tab-analytics.php:169 admin/views/tab-dashboard.php:221 admin/views/tab-dashboard.php:245
+msgid "Carrier"
+msgstr ""
+
+#: admin/views/metabox-order.php:32 includes/carriers/class-shipc-carrier-mylerz.php:77
+msgid "Service"
+msgstr ""
+
+#: admin/views/metabox-order.php:35 admin/views/tab-dashboard.php:222 admin/views/tab-dashboard.php:246
+msgid "Tracking no."
+msgstr ""
+
+#: admin/views/metabox-order.php:38
+msgid "To collect"
+msgstr ""
+
+#: admin/views/metabox-order.php:42 admin/views/tab-dashboard.php:224 admin/views/tab-dashboard.php:254
+msgid "Latest event"
+msgstr ""
+
+#: admin/views/metabox-order.php:49
+msgid "Refresh tracking"
+msgstr ""
+
+#: admin/views/metabox-order.php:54 admin/views/tab-dashboard.php:264 includes/class-shipc-admin.php:102
+msgid "Label"
+msgstr ""
+
+#: admin/views/metabox-order.php:55 admin/views/metabox-order.php:62 admin/views/tab-carriers.php:122 admin/views/tab-carriers.php:239 admin/views/tab-dashboard.php:248 admin/views/tab-dashboard.php:265
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: admin/views/metabox-order.php:61
+msgid "Tracking page"
+msgstr ""
+
+#: admin/views/metabox-order.php:69
+msgid "Update the status"
+msgstr ""
+
+#: admin/views/metabox-order.php:69
+msgid "Correct this shipment"
+msgstr ""
+
+#: admin/views/metabox-order.php:71
+msgid "Parcel status"
+msgstr ""
+
+#: admin/views/metabox-order.php:84 admin/views/metabox-order.php:146
+msgid "Tracking number"
+msgstr ""
+
+#: admin/views/metabox-order.php:88
+msgid "Save"
+msgstr ""
+
+#: admin/views/metabox-order.php:90 includes/class-shipc-admin.php:213
+msgid "Cancel shipment"
+msgstr ""
+
+#: admin/views/metabox-order.php:96
+msgid "No active carrier."
+msgstr ""
+
+#: admin/views/metabox-order.php:97 admin/views/tab-help.php:37 admin/views/tab-status.php:168 includes/class-shipc-alerts.php:231
+msgid "Connect a carrier"
+msgstr ""
+
+#: admin/views/metabox-order.php:105
+#, php-format
+msgid "Previous shipment %1$s: %2$s."
+msgstr ""
+
+#: admin/views/metabox-order.php:112
+msgid "No shipment for this order yet."
+msgstr ""
+
+#: admin/views/metabox-order.php:117 admin/views/tab-dashboard.php:193 includes/class-shipc-admin.php:108
+msgid "Cash on delivery"
+msgstr ""
+
+#: admin/views/metabox-order.php:130
+msgid "(chosen at checkout)"
+msgstr ""
+
+#: admin/views/metabox-order.php:141
+msgid "This carrier does not collect cash on delivery through ShipConnect. Arrange the collection with the carrier, or choose another carrier."
+msgstr ""
+
+#: admin/views/metabox-order.php:148
+msgid "Given by the carrier when you hand over the parcel."
+msgstr ""
+
+#: admin/views/metabox-order.php:152 includes/class-shipc-order-workflow.php:146
+msgid "Send to carrier"
+msgstr ""
+
+#: admin/views/page.php:36 includes/class-shipc-admin.php:50
+msgid "ShipConnect"
+msgstr ""
+
+#: admin/views/page.php:40
+msgid "Carrier rates, shipments and tracking, right inside WooCommerce."
+msgstr ""
+
+#: admin/views/page.php:46 admin/views/tab-analytics.php:79 admin/views/tab-dashboard.php:213
+msgid "Orders"
+msgstr ""
+
+#: admin/views/page.php:54
+msgid "ShipConnect sections"
+msgstr ""
+
+#: admin/views/page.php:67
+#, php-format
+msgid "%d alert"
+msgid_plural "%d alerts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/views/tab-analytics.php:23
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/views/tab-analytics.php:68
+msgid "Period"
+msgstr ""
+
+#: admin/views/tab-analytics.php:78
+msgid "No shipments in this period yet. Figures appear as soon as orders are sent to a carrier."
+msgstr ""
+
+#: admin/views/tab-analytics.php:84
+msgid "Summary"
+msgstr ""
+
+#: admin/views/tab-analytics.php:86 admin/views/tab-analytics.php:173 admin/views/tab-analytics.php:184
+msgid "Delivery rate"
+msgstr ""
+
+#: admin/views/tab-analytics.php:91
+msgid "No finished parcels in this period."
+msgstr ""
+
+#: admin/views/tab-analytics.php:94
+#, php-format
+msgid "%1$s delivered, %2$s returned (finished parcels only)"
+msgstr ""
+
+#: admin/views/tab-analytics.php:102
+msgid "Shipments created"
+msgstr ""
+
+#: admin/views/tab-analytics.php:106 admin/views/tab-analytics.php:174 admin/views/tab-analytics.php:185
+msgid "Average delivery time"
+msgstr ""
+
+#: admin/views/tab-analytics.php:110
+msgid "Return rate"
+msgstr ""
+
+#: admin/views/tab-analytics.php:114 admin/views/tab-dashboard.php:134
+msgid "Exceptions"
+msgstr ""
+
+#: admin/views/tab-analytics.php:123 admin/views/tab-dashboard.php:138
+msgid "Cash on delivery in transit"
+msgstr ""
+
+#: admin/views/tab-analytics.php:125
+msgid "All parcels not yet delivered"
+msgstr ""
+
+#: admin/views/tab-analytics.php:131
+msgid "Shipments per day"
+msgstr ""
+
+#: admin/views/tab-analytics.php:133 admin/views/tab-analytics.php:135 admin/views/tab-analytics.php:155 admin/views/tab-analytics.php:170 admin/views/tab-analytics.php:181
+msgid "Shipments"
+msgstr ""
+
+#: admin/views/tab-analytics.php:135
+msgid "Day"
+msgstr ""
+
+#: admin/views/tab-analytics.php:140 admin/views/tab-analytics.php:144
+msgid "Parcels by status"
+msgstr ""
+
+#: admin/views/tab-analytics.php:142 admin/views/tab-analytics.php:152 admin/views/tab-analytics.php:163
+msgid "No data for this period."
+msgstr ""
+
+#: admin/views/tab-analytics.php:145 admin/views/tab-dashboard.php:223 admin/views/tab-dashboard.php:253
+msgid "Status"
+msgstr ""
+
+#: admin/views/tab-analytics.php:145
+msgid "Parcels"
+msgstr ""
+
+#: admin/views/tab-analytics.php:150 admin/views/tab-analytics.php:154
+msgid "Shipments by carrier"
+msgstr ""
+
+#: admin/views/tab-analytics.php:161
+msgid "Performance by carrier"
+msgstr ""
+
+#: admin/views/tab-analytics.php:171 admin/views/tab-analytics.php:182 includes/carriers/class-shipc-carrier-quick-livraison.php:278 includes/carriers/class-shipc-carrier-sendit.php:298 includes/class-shipc-status.php:24
+msgid "Delivered"
+msgstr ""
+
+#: admin/views/tab-analytics.php:172 admin/views/tab-analytics.php:183 includes/carriers/class-shipc-carrier-quick-livraison.php:294 includes/carriers/class-shipc-carrier-quick-livraison.php:295 includes/class-shipc-status.php:26
+msgid "Returned"
+msgstr ""
+
+#: admin/views/tab-carriers.php:16
+msgid "Public API"
+msgstr ""
+
+#: admin/views/tab-carriers.php:17
+msgid "API on request"
+msgstr ""
+
+#: admin/views/tab-carriers.php:18
+msgid "Partners only"
+msgstr ""
+
+#: admin/views/tab-carriers.php:19
+msgid "No API"
+msgstr ""
+
+#: admin/views/tab-carriers.php:20
+msgid "To be checked"
+msgstr ""
+
+#: admin/views/tab-carriers.php:46
+msgid "My carriers"
+msgstr ""
+
+#: admin/views/tab-carriers.php:50
+msgid "No carrier connected yet. Pick one below."
+msgstr ""
+
+#: admin/views/tab-carriers.php:65 admin/views/tab-carriers.php:236 includes/class-shipc-admin.php:106
+msgid "Manual tracking"
+msgstr ""
+
+#: admin/views/tab-carriers.php:65
+msgid "API connection"
+msgstr ""
+
+#: admin/views/tab-carriers.php:70
+#, php-format
+msgid "tested on %s"
+msgstr ""
+
+#: admin/views/tab-carriers.php:81
+msgid "Active"
+msgstr ""
+
+#: admin/views/tab-carriers.php:85
+msgid "Shown at checkout"
+msgstr ""
+
+#: admin/views/tab-carriers.php:90
+msgid "Test"
+msgstr ""
+
+#: admin/views/tab-carriers.php:92 includes/class-shipc-admin.php:211
+msgid "Delete"
+msgstr ""
+
+#: admin/views/tab-carriers.php:101
+msgid "Available connections"
+msgstr ""
+
+#: admin/views/tab-carriers.php:120 includes/class-shipc-admin.php:228
+msgid "Add"
+msgstr ""
+
+#: admin/views/tab-carriers.php:120 admin/views/tab-carriers.php:234 includes/class-shipc-admin.php:225
+msgid "Connect"
+msgstr ""
+
+#: admin/views/tab-carriers.php:122
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/tab-carriers.php:132
+msgid "Worldwide carrier catalogue"
+msgstr ""
+
+#: admin/views/tab-carriers.php:135
+msgid "Load logos"
+msgstr ""
+
+#: admin/views/tab-carriers.php:135
+msgid "Load missing logos"
+msgstr ""
+
+#: admin/views/tab-carriers.php:143
+msgid "Search"
+msgstr ""
+
+#: admin/views/tab-carriers.php:144
+msgid "Search a carrier or a country…"
+msgstr ""
+
+#: admin/views/tab-carriers.php:146 admin/views/tab-settings.php:46
+msgid "Country"
+msgstr ""
+
+#: admin/views/tab-carriers.php:148
+msgid "All countries"
+msgstr ""
+
+#: admin/views/tab-carriers.php:150
+msgid "Your store"
+msgstr ""
+
+#: admin/views/tab-carriers.php:154
+msgid "Countries"
+msgstr ""
+
+#: admin/views/tab-carriers.php:166
+msgid "Region"
+msgstr ""
+
+#: admin/views/tab-carriers.php:168
+msgid "All regions"
+msgstr ""
+
+#: admin/views/tab-carriers.php:174
+msgid "API type"
+msgstr ""
+
+#: admin/views/tab-carriers.php:176
+msgid "All API types"
+msgstr ""
+
+#: admin/views/tab-carriers.php:184
+msgid "Reset filters"
+msgstr ""
+
+#: admin/views/tab-carriers.php:201 includes/class-shipc-catalog.php:76
+msgid "Worldwide"
+msgstr ""
+
+#: admin/views/tab-carriers.php:203
+msgid "European Union"
+msgstr ""
+
+#: admin/views/tab-carriers.php:239
+msgid "API docs"
+msgstr ""
+
+#: admin/views/tab-carriers.php:239
+msgid "Request access"
+msgstr ""
+
+#: admin/views/tab-carriers.php:247
+msgid "No carrier matches these filters."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:49
+msgid "Connect a carrier (or add one without an API)."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:49 admin/views/tab-status.php:97 includes/class-shipc-admin.php:66
+msgid "Carriers"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:50 includes/class-shipc-alerts.php:233
+msgid "Add the \"ShipConnect\" method to a WooCommerce shipping zone."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:50 admin/views/tab-status.php:90
+msgid "Shipping zones"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:51
+msgid "Complete the sender address and phone."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:51 admin/views/tab-dashboard.php:52 admin/views/tab-settings.php:24 includes/class-shipc-admin.php:67
+msgid "Settings"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:52
+msgid "Turn on automatic sending after confirmation."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:57 admin/views/tab-status.php:106
+msgid "Critical"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:58 admin/views/tab-status.php:105
+msgid "Warning"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:59 admin/views/tab-status.php:104
+msgid "Info"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:68
+#, php-format
+msgid "Get started: %1$d of %2$d steps done"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:80
+msgid "(done)"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:80
+msgid "(to do)"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:92
+msgid "Alerts"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:96
+msgid "All good"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:96
+msgid "Nothing needs your attention."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:118
+msgid "Key figures"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:121 admin/views/tab-dashboard.php:145
+msgid "Orders to ship"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:125
+msgid "Parcels in progress"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:150
+#, php-format
+msgid "Orders with the \"%s\" status and no shipment yet."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:157 admin/views/tab-dashboard.php:164
+msgid "Open in the orders list"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:163
+msgid "Nothing to ship right now."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:171 admin/views/tab-dashboard.php:181 admin/views/tab-dashboard.php:220 admin/views/tab-dashboard.php:238
+msgid "Order"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:172 admin/views/tab-dashboard.php:182 includes/carriers/class-shipc-carrier-dhl-express.php:328
+msgid "Customer"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:173 admin/views/tab-dashboard.php:188
+msgid "Chosen shipping"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:174 admin/views/tab-dashboard.php:189
+msgid "Total"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:175 includes/class-shipc-order-workflow.php:88 includes/class-shipc-order-workflow.php:92
+msgid "Delivery"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:207
+msgid "Latest shipments"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:211
+msgid "No shipments yet."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:212
+msgid "Send an order to a carrier and it will show up here."
+msgstr ""
+
+#: admin/views/tab-dashboard.php:225
+msgid "Actions"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:259
+msgid "Refresh"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:281
+msgid "What's new"
+msgstr ""
+
+#: admin/views/tab-dashboard.php:293
+msgid "Dismiss"
+msgstr ""
+
+#: admin/views/tab-help.php:17
+msgid "How it works"
+msgstr ""
+
+#: admin/views/tab-help.php:19
+msgid "The customer chooses shipping"
+msgstr ""
+
+#: admin/views/tab-help.php:19
+msgid "they see your carriers' real rates at checkout."
+msgstr ""
+
+#: admin/views/tab-help.php:20
+msgid "You confirm the order"
+msgstr ""
+
+#: admin/views/tab-help.php:20
+msgid "for example after a phone call, by setting it to \"Confirmed\"."
+msgstr ""
+
+#: admin/views/tab-help.php:21
+msgid "ShipConnect sends it to the carrier"
+msgstr ""
+
+#: admin/views/tab-help.php:21
+msgid "automatically, or with the \"Send to carrier\" button in the orders list. The label is fetched for you."
+msgstr ""
+
+#: admin/views/tab-help.php:22
+msgid "Tracking is automatic"
+msgstr ""
+
+#: admin/views/tab-help.php:22
+msgid "the order, the customer and the emails are updated at every step."
+msgstr ""
+
+#: admin/views/tab-help.php:29
+msgid "Automatic tracking: webhooks"
+msgstr ""
+
+#: admin/views/tab-help.php:30
+msgid "Instead of waiting for the 30-minute refresh, the carrier can notify your store on every status change. Copy the address below into the carrier's dashboard."
+msgstr ""
+
+#: admin/views/tab-help.php:36
+msgid "Connect an API carrier first (Sendit, Shippo, EasyPost…)."
+msgstr ""
+
+#: admin/views/tab-help.php:45 admin/views/tab-status.php:176
+msgid "Copy"
+msgstr ""
+
+#: admin/views/tab-help.php:51
+msgid "Do not share this address: it contains a secret key."
+msgstr ""
+
+#: admin/views/tab-help.php:57
+msgid "Parcel statuses"
+msgstr ""
+
+#: admin/views/tab-help.php:66
+msgid "Troubleshooting"
+msgstr ""
+
+#: admin/views/tab-help.php:69
+msgid "No rate at checkout? Add the \"ShipConnect\" method to the relevant shipping zone."
+msgstr ""
+
+#: admin/views/tab-help.php:70 includes/class-shipc-alerts.php:233
+msgid "Open shipping zones"
+msgstr ""
+
+#: admin/views/tab-help.php:73
+msgid "A carrier error? Details are in the WooCommerce log, source \"shipconnect\"."
+msgstr ""
+
+#: admin/views/tab-help.php:74
+msgid "Open logs"
+msgstr ""
+
+#: admin/views/tab-help.php:77
+msgid "An order is not sent automatically? Check the trigger status in the settings and the alerts on the dashboard."
+msgstr ""
+
+#: admin/views/tab-help.php:78 includes/class-shipc-alerts.php:145 includes/class-shipc-alerts.php:227
+msgid "View status"
+msgstr ""
+
+#: admin/views/tab-settings.php:15
+msgid "1. Sender address"
+msgstr ""
+
+#: admin/views/tab-settings.php:16
+msgid "2. Order confirmation and sending"
+msgstr ""
+
+#: admin/views/tab-settings.php:17
+msgid "3. Alerts"
+msgstr ""
+
+#: admin/views/tab-settings.php:18
+msgid "4. Checkout rates"
+msgstr ""
+
+#: admin/views/tab-settings.php:19
+msgid "5. Messages to customers"
+msgstr ""
+
+#: admin/views/tab-settings.php:20
+msgid "6. Default parcel"
+msgstr ""
+
+#: admin/views/tab-settings.php:36
+msgid "Address printed on labels. Pre-filled with your store address."
+msgstr ""
+
+#: admin/views/tab-settings.php:39
+msgid "Name"
+msgstr ""
+
+#: admin/views/tab-settings.php:40
+msgid "Company"
+msgstr ""
+
+#: admin/views/tab-settings.php:41
+msgid "Address"
+msgstr ""
+
+#: admin/views/tab-settings.php:42
+msgid "Address line 2"
+msgstr ""
+
+#: admin/views/tab-settings.php:43
+msgid "City"
+msgstr ""
+
+#: admin/views/tab-settings.php:44
+msgid "Region / State"
+msgstr ""
+
+#: admin/views/tab-settings.php:45
+msgid "Postcode"
+msgstr ""
+
+#: admin/views/tab-settings.php:47
+msgid "Phone"
+msgstr ""
+
+#: admin/views/tab-settings.php:48
+msgid "Email"
+msgstr ""
+
+#: admin/views/tab-settings.php:55
+msgid "Typical flow: the customer orders, you confirm by phone, you set the order to \"Confirmed\" and ShipConnect sends it to the carrier."
+msgstr ""
+
+#: admin/views/tab-settings.php:58
+msgid "Add a \"Confirmed\" order status"
+msgstr ""
+
+#: admin/views/tab-settings.php:58
+msgid "Shown in the orders list and in the bulk actions."
+msgstr ""
+
+#: admin/views/tab-settings.php:59
+msgid "Put cash on delivery orders on hold until you confirm them"
+msgstr ""
+
+#: admin/views/tab-settings.php:60
+msgid "Send to the carrier automatically when the order reaches the trigger status"
+msgstr ""
+
+#: admin/views/tab-settings.php:60
+msgid "Uses the rate chosen at checkout, or your first API carrier. Carriers without an API wait for a tracking number."
+msgstr ""
+
+#: admin/views/tab-settings.php:65
+msgid "Trigger status"
+msgstr ""
+
+#: admin/views/tab-settings.php:65
+msgid "The \"Send to carrier\" button in the orders list works at any status."
+msgstr ""
+
+#: admin/views/tab-settings.php:66
+msgid "Order status after the shipment is created"
+msgstr ""
+
+#: admin/views/tab-settings.php:67
+msgid "Order status when the parcel is delivered"
+msgstr ""
+
+#: admin/views/tab-settings.php:67
+msgid "For example \"Completed\"."
+msgstr ""
+
+#: admin/views/tab-settings.php:68
+msgid "Order status when the parcel is returned"
+msgstr ""
+
+#: admin/views/tab-settings.php:77
+msgid "Email me when a parcel is in exception"
+msgstr ""
+
+#: admin/views/tab-settings.php:78
+msgid "Alert email address"
+msgstr ""
+
+#: admin/views/tab-settings.php:78
+msgid "Empty = the site administrator email."
+msgstr ""
+
+#: admin/views/tab-settings.php:79
+msgid "Flag parcels without update after (days)"
+msgstr ""
+
+#: admin/views/tab-settings.php:88
+#, php-format
+msgid "Markup on carrier rate (%)"
+msgstr ""
+
+#: admin/views/tab-settings.php:88
+msgid "Added to the carrier price. 0 = exact price."
+msgstr ""
+
+#: admin/views/tab-settings.php:90
+#, php-format
+msgid "Fixed handling fee (%s)"
+msgstr ""
+
+#: admin/views/tab-settings.php:90
+msgid "Added to every shipment."
+msgstr ""
+
+#: admin/views/tab-settings.php:92
+#, php-format
+msgid "Free shipping from (%s)"
+msgstr ""
+
+#: admin/views/tab-settings.php:92
+msgid "0 = disabled."
+msgstr ""
+
+#: admin/views/tab-settings.php:93
+msgid "Exchange rate (if currency differs)"
+msgstr ""
+
+#: admin/views/tab-settings.php:93
+msgid "Multiplies the carrier rate when its currency differs from your store's."
+msgstr ""
+
+#: admin/views/tab-settings.php:94
+msgid "Rate cache duration (minutes)"
+msgstr ""
+
+#: admin/views/tab-settings.php:94
+msgid "Avoids calling the APIs on every click. 0 = no cache."
+msgstr ""
+
+#: admin/views/tab-settings.php:99
+msgid "Fallback rate when no carrier responds"
+msgstr ""
+
+#: admin/views/tab-settings.php:101
+#, php-format
+msgid "Fallback rate price (%s)"
+msgstr ""
+
+#: admin/views/tab-settings.php:102
+msgid "Fallback rate label"
+msgstr ""
+
+#: admin/views/tab-settings.php:111
+msgid "Message shown in the cart and at checkout"
+msgstr ""
+
+#: admin/views/tab-settings.php:111
+msgid "For example: \"Delivery in 24-48 h across Morocco\". Empty = no message."
+msgstr ""
+
+#: admin/views/tab-settings.php:112
+msgid "Show how much is left to get free shipping"
+msgstr ""
+
+#: admin/views/tab-settings.php:112
+msgid "Requires a free shipping threshold."
+msgstr ""
+
+#: admin/views/tab-settings.php:119
+msgid "Used when a product has no weight or dimensions."
+msgstr ""
+
+#: admin/views/tab-settings.php:122
+msgid "Weight (kg)"
+msgstr ""
+
+#: admin/views/tab-settings.php:123
+msgid "Length (cm)"
+msgstr ""
+
+#: admin/views/tab-settings.php:124
+msgid "Width (cm)"
+msgstr ""
+
+#: admin/views/tab-settings.php:125
+msgid "Height (cm)"
+msgstr ""
+
+#: admin/views/tab-settings.php:131
+msgid "Unsaved changes"
+msgstr ""
+
+#: admin/views/tab-settings.php:132
+msgid "Save settings"
+msgstr ""
+
+#: admin/views/tab-status.php:22
+msgid "PHP version"
+msgstr ""
+
+#: admin/views/tab-status.php:22
+msgid "PHP 7.4 or later is required."
+msgstr ""
+
+#: admin/views/tab-status.php:23
+msgid "WordPress version"
+msgstr ""
+
+#: admin/views/tab-status.php:24
+msgid "WooCommerce version"
+msgstr ""
+
+#: admin/views/tab-status.php:25
+msgid "ShipConnect version"
+msgstr ""
+
+#: admin/views/tab-status.php:30
+msgid "API key encryption"
+msgstr ""
+
+#: admin/views/tab-status.php:32
+msgid "Enable the sodium or OpenSSL PHP extension."
+msgstr ""
+
+#: admin/views/tab-status.php:36
+msgid "Dedicated encryption key"
+msgstr ""
+
+#: admin/views/tab-status.php:37
+msgid "Defined in wp-config.php"
+msgstr ""
+
+#: admin/views/tab-status.php:37
+msgid "Not defined (WordPress keys are used)"
+msgstr ""
+
+#: admin/views/tab-status.php:38
+msgid "Optional: define SHIPC_ENCRYPTION_KEY in wp-config.php so that changing the WordPress keys does not make saved API keys unreadable."
+msgstr ""
+
+#: admin/views/tab-status.php:45
+msgid "Labels folder"
+msgstr ""
+
+#: admin/views/tab-status.php:46
+msgid "Protected"
+msgstr ""
+
+#: admin/views/tab-status.php:46
+msgid "Could not be checked"
+msgstr ""
+
+#: admin/views/tab-status.php:46
+msgid "Publicly reachable"
+msgstr ""
+
+#: admin/views/tab-status.php:47
+msgid "Labels contain customer addresses. On Nginx, deny access to wp-content/uploads/shipconnect-private/ in the server configuration."
+msgstr ""
+
+#: admin/views/tab-status.php:57
+msgid "Automatic tracking"
+msgstr ""
+
+#: admin/views/tab-status.php:59
+#, php-format
+msgid "Next run: %1$s · Last run: %2$s"
+msgstr ""
+
+#: admin/views/tab-status.php:60 includes/class-shipc-alerts.php:227
+msgid "WP-Cron does not seem to run. Set up a real cron job on your server."
+msgstr ""
+
+#: admin/views/tab-status.php:64
+msgid "WP-Cron"
+msgstr ""
+
+#: admin/views/tab-status.php:65
+msgid "Disabled in wp-config.php (a server cron job must call wp-cron.php)"
+msgstr ""
+
+#: admin/views/tab-status.php:65
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/tab-status.php:69
+msgid "Background queue (Action Scheduler)"
+msgstr ""
+
+#: admin/views/tab-status.php:70
+msgid "Available"
+msgstr ""
+
+#: admin/views/tab-status.php:70
+msgid "Not available: bulk sending uses WP-Cron"
+msgstr ""
+
+#: admin/views/tab-status.php:75
+msgid "Order storage"
+msgstr ""
+
+#: admin/views/tab-status.php:75
+msgid "High-performance order storage (HPOS)"
+msgstr ""
+
+#: admin/views/tab-status.php:75
+msgid "WordPress posts (classic)"
+msgstr ""
+
+#: admin/views/tab-status.php:81
+msgid "Shipments table"
+msgstr ""
+
+#: admin/views/tab-status.php:83
+#, php-format
+msgid "%1$s (schema %2$s)"
+msgstr ""
+
+#: admin/views/tab-status.php:84
+msgid "Deactivate and reactivate the plugin to create the table."
+msgstr ""
+
+#: admin/views/tab-status.php:91
+msgid "ShipConnect is offered at checkout"
+msgstr ""
+
+#: admin/views/tab-status.php:91
+msgid "ShipConnect is not in any shipping zone"
+msgstr ""
+
+#: admin/views/tab-status.php:99
+#, php-format
+msgid "%1$d connected, %2$d with automatic tracking"
+msgstr ""
+
+#: admin/views/tab-status.php:103
+msgid "OK"
+msgstr ""
+
+#: admin/views/tab-status.php:118 includes/class-shipc-admin.php:68
+msgid "System status"
+msgstr ""
+
+#: admin/views/tab-status.php:123
+msgid "Check"
+msgstr ""
+
+#: admin/views/tab-status.php:124 admin/views/tab-status.php:133
+msgid "State"
+msgstr ""
+
+#: admin/views/tab-status.php:125 admin/views/tab-status.php:139
+msgid "Details"
+msgstr ""
+
+#: admin/views/tab-status.php:153
+msgid "Open logs (source \"shipconnect\")"
+msgstr ""
+
+#: admin/views/tab-status.php:160
+msgid "Webhook security"
+msgstr ""
+
+#: admin/views/tab-status.php:161
+msgid "Each carrier has its own webhook address with a secret key. A notification only triggers a tracking check with the carrier: the store never trusts the content it receives."
+msgstr ""
+
+#: admin/views/tab-status.php:167
+msgid "No API carrier connected."
+msgstr ""
+
+#: admin/views/tab-status.php:182
+msgid "Generate new webhook addresses"
+msgstr ""
+
+#: admin/views/tab-status.php:183
+msgid "Use this if an address may have leaked. The old addresses stop working immediately."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:37
+msgid "Aramex: shipment creation and label through the Shipping API. For now, rates are entered as a flat rate and automatic tracking is not connected yet."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:52
+msgid "API username"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:55
+msgid "Provided by Aramex when the API account is opened."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:59
+msgid "API password"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:66
+msgid "Aramex account number"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:72
+msgid "Account PIN"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:79
+msgid "Account entity (3 letters)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:83
+msgid "Entity code provided by Aramex with your account."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:87
+msgid "Account country (2-letter ISO code)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:94 includes/carriers/class-shipc-carrier-dhl-express.php:68
+msgid "Environment"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:99 includes/carriers/class-shipc-carrier-dhl-express.php:73
+msgid "Test (sandbox)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:100 includes/carriers/class-shipc-carrier-dhl-express.php:74
+msgid "Production"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:102 includes/carriers/class-shipc-carrier-dhl-express.php:76
+msgid "Start with test mode: no real shipment is created."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:106
+msgid "International product type"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:111
+msgid "Economy Parcel Express: e-commerce, goods"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:112
+msgid "Priority Parcel Express: priority delivery"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:113
+msgid "Deferred Parcel Express: second-day delivery"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:115
+msgid "Used for shipments leaving the origin country. Shipments within the same country automatically use the domestic product."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:119 includes/carriers/class-shipc-carrier-atlas-livraison.php:79 includes/carriers/class-shipc-carrier-colivry.php:70 includes/carriers/class-shipc-carrier-manual.php:45 includes/carriers/class-shipc-carrier-mylerz.php:99
+msgid "Flat rate (optional)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:122
+msgid "Offered at checkout until live Aramex rates are connected. In your store currency."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:147
+#, php-format
+msgid "Connected to Aramex (%s)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:148 includes/carriers/class-shipc-carrier-dhl-express.php:123
+msgid "production"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:148 includes/carriers/class-shipc-carrier-dhl-express.php:123
+msgid "test environment"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:161 includes/carriers/class-shipc-carrier-manual.php:72 includes/class-shipc-carrier-base.php:210
+msgid "Flat rate"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:195
+msgid "Aramex did not return a tracking number (AWB)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:211
+msgid "Automatic Aramex tracking is not available yet. Use manual tracking if needed."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:253
+msgid "Aramex rejected the request without details."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-aramex.php:342 includes/carriers/class-shipc-carrier-dhl-express.php:288
+msgid "Goods"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:37
+msgid "Moroccan carrier: rates by city, shipment creation with cash on delivery and tracking. No label through the public API."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:52 includes/carriers/class-shipc-carrier-dhl-express.php:46 includes/carriers/class-shipc-carrier-quick-livraison.php:52
+msgid "API key"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:57
+msgid "In your Atlas Livraison dashboard: API settings. The API must first be activated for your account."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:61
+msgid "Store ID (optional)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:64
+msgid "Only needed if your account has several stores. Without it, parcels are attached to your store automatically."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:68 includes/carriers/class-shipc-carrier-mylerz.php:88 includes/carriers/class-shipc-carrier-sendit.php:77
+msgid "Customer may open the parcel"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:73 includes/carriers/class-shipc-carrier-mylerz.php:93 includes/carriers/class-shipc-carrier-sendit.php:82 includes/carriers/class-shipc-carrier-sendit.php:93
+msgid "No"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:74 includes/carriers/class-shipc-carrier-mylerz.php:94 includes/carriers/class-shipc-carrier-sendit.php:83 includes/carriers/class-shipc-carrier-sendit.php:94
+msgid "Yes"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:82 includes/carriers/class-shipc-carrier-colivry.php:73 includes/carriers/class-shipc-carrier-mylerz.php:102
+msgid "Used when the carrier API returns no price for the destination. In dirhams."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:96
+#, php-format
+msgid "Connected to %1$s (%2$d cities served)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:138
+#, php-format
+msgid "%s needs a Moroccan mobile number (06 or 07 followed by 8 digits). Correct the phone number in the order."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:145
+#, php-format
+msgid "%s only accepts a cash-on-delivery amount in whole dirhams. Round the order total, then try again."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:155
+#, php-format
+msgid "%s needs a delivery address of at least 10 characters. Complete the address in the order."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:186 includes/carriers/class-shipc-carrier-colivry.php:149 includes/carriers/class-shipc-carrier-mylerz.php:222 includes/carriers/class-shipc-carrier-quick-livraison.php:125
+#, php-format
+msgid "%s did not return a tracking number."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:206 includes/carriers/class-shipc-carrier-colivry.php:169 includes/carriers/class-shipc-carrier-dhl-express.php:211 includes/carriers/class-shipc-carrier-mylerz.php:250 includes/carriers/class-shipc-carrier-quick-livraison.php:152 includes/carriers/class-shipc-carrier-sendit.php:204
+msgid "Missing tracking number."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:219 includes/carriers/class-shipc-carrier-colivry.php:182 includes/carriers/class-shipc-carrier-mylerz.php:274 includes/carriers/class-shipc-carrier-quick-livraison.php:165
+#, php-format
+msgid "%s did not return a parcel status."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:282 includes/carriers/class-shipc-carrier-mylerz.php:394
+#, php-format
+msgid "%s rejected the request."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-atlas-livraison.php:325 includes/carriers/class-shipc-carrier-colivry.php:393 includes/carriers/class-shipc-carrier-mylerz.php:441 includes/carriers/class-shipc-carrier-quick-livraison.php:347
+#, php-format
+msgid "%s did not return its list of cities."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:34
+msgid "Moroccan carrier: shipment creation with cash on delivery, tracking and cancellation. No label through the API."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:49 includes/carriers/class-shipc-carrier-sendit.php:54
+msgid "Public key"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:52
+msgid "In your Colivry customer area: API integration. The private key is shown only once, when the key is created."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:56
+msgid "Private key"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:63
+msgid "Shop key (optional)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:66
+msgid "Leave empty if your account has a single shop: it is found automatically."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:85 includes/carriers/class-shipc-carrier-mylerz.php:113
+#, php-format
+msgid "Connected to %s (account verified)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-colivry.php:88 includes/carriers/class-shipc-carrier-colivry.php:350
+msgid "Your account does not have exactly one shop: enter the key of the shop to use."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:31
+msgid "DHL Express international shipping (MyDHL API): rates, shipment creation, label and tracking. Requires a DHL Express account."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:50
+msgid "Credentials provided by DHL Express: ask your sales contact or use the DHL developer portal."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:54
+msgid "API secret"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:61
+msgid "DHL Express account number"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:64
+msgid "The account that pays for shipments."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:80
+msgid "Default HS code (optional)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:83
+msgid "Harmonized System code of your goods, used for the customs declaration. Recommended for shipments leaving the origin country."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:122
+#, php-format
+msgid "Connected to DHL Express (%s)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:127
+msgid "Connection accepted, but DHL offered no product for the test route. Check the account number and its permissions."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-dhl-express.php:178
+msgid "DHL did not return a tracking number."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:22
+msgid "Multi-carrier aggregator (USPS, UPS, FedEx, DHL, Canada Post…): rates, labels and tracking."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:37
+msgid "EasyPost API key"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:41
+msgid "EZTK… (test) or EZAK… (live)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:42
+msgid "In EasyPost: Account > API Keys. The test key never creates a real shipment."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:53
+msgid "Connected to EasyPost."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:112 includes/carriers/class-shipc-carrier-shippo.php:131
+msgid "This rate is no longer available. Recalculate and try again."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-easypost.php:147 includes/carriers/class-shipc-carrier-shippo.php:168
+msgid "Missing tracking number or carrier."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:15
+msgid "Carrier without API (manual tracking)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:19
+msgid "For carriers without an API: enter the tracking number yourself. The customer tracking link is generated automatically."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:30
+msgid "Carrier name"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:37
+msgid "Tracking link (optional)"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:41
+msgid "Put {tracking} where the number goes. Leave empty if the carrier has no tracking page."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:49
+msgid "Shown at checkout when filled in, in your store currency."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:56
+msgid "Carrier saved. Tracking is manual."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:84
+msgid "Enter the tracking number provided by the carrier."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-manual.php:99
+msgid "Manual tracking: no automatic sync."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:41
+msgid "Mylerz Morocco: shipment creation with cash on delivery, waybill (AWB), tracking and cancellation."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:56
+msgid "Username"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:59
+msgid "Integration account provided by Mylerz."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:63
+msgid "Password"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:70
+msgid "Warehouse name"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:73
+msgid "Name of your pickup warehouse exactly as registered with Mylerz. Needed to get live rates."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:82 includes/carriers/class-shipc-carrier-mylerz.php:156
+msgid "Next day"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:83 includes/carriers/class-shipc-carrier-mylerz.php:156
+msgid "Same day"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:303
+#, php-format
+msgid "%s did not confirm the cancellation."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-mylerz.php:360
+#, php-format
+msgid "%s did not return an access token. Check your username and password."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:37
+msgid "Moroccan carrier: rates by city, shipment creation with cash on delivery, PDF label, tracking and cancellation."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:56
+msgid "In Quick Livraison: Profile, then API, then API keys."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:68
+#, php-format
+msgid "Connected to %s (API key accepted)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:269 includes/carriers/class-shipc-carrier-sendit.php:286
+msgid "Registered"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:270
+msgid "Waiting for pickup"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:271 includes/carriers/class-shipc-carrier-quick-livraison.php:272 includes/carriers/class-shipc-carrier-sendit.php:290
+msgid "Picked up"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:273 includes/carriers/class-shipc-carrier-quick-livraison.php:274 includes/carriers/class-shipc-carrier-quick-livraison.php:276 includes/carriers/class-shipc-carrier-sendit.php:292 includes/class-shipc-status.php:22
+msgid "In transit"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:275 includes/carriers/class-shipc-carrier-sendit.php:291
+msgid "At the warehouse"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:277 includes/carriers/class-shipc-carrier-sendit.php:294 includes/class-shipc-status.php:23
+msgid "Out for delivery"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:279 includes/carriers/class-shipc-carrier-quick-livraison.php:281 includes/carriers/class-shipc-carrier-sendit.php:296
+msgid "Postponed"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:280 includes/carriers/class-shipc-carrier-sendit.php:297
+msgid "Scheduled"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:282 includes/carriers/class-shipc-carrier-quick-livraison.php:283 includes/carriers/class-shipc-carrier-quick-livraison.php:284 includes/carriers/class-shipc-carrier-quick-livraison.php:285
+msgid "No answer from the customer"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:286 includes/carriers/class-shipc-carrier-quick-livraison.php:287 includes/carriers/class-shipc-carrier-sendit.php:295
+msgid "Customer unreachable"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:288
+msgid "Wrong phone number"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:289
+msgid "Address outside the delivery area"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:290 includes/carriers/class-shipc-carrier-sendit.php:300
+msgid "Refused by the customer"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-quick-livraison.php:291 includes/carriers/class-shipc-carrier-quick-livraison.php:292 includes/carriers/class-shipc-carrier-quick-livraison.php:293 includes/carriers/class-shipc-carrier-sendit.php:299 includes/class-shipc-status.php:27
+msgid "Cancelled"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:39
+msgid "Moroccan carrier: rates by city, shipment creation with cash on delivery, label and tracking."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:57
+msgid "In Sendit: API menu. Create a key pair for this store."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:61
+msgid "Secret key"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:68
+msgid "Pickup city ID"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:73
+msgid "Sendit ID of the city where parcels are picked up (Casablanca = 46)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:88
+msgid "Customer may try the product"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:111
+#, php-format
+msgid "Connected to Sendit (%s)."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:112
+msgid "account verified"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:178
+msgid "Sendit did not return a parcel code."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:287
+msgid "To prepare"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:288
+msgid "New destination"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:289
+msgid "Pickup in progress"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:293
+msgid "With the courier"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:342
+msgid "Sendit did not return an access token. Check your keys."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:376
+msgid "Sendit rejected the request."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:385 includes/class-shipc-carrier-base.php:155
+msgid "The delivery city is missing."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-sendit.php:408
+#, php-format
+msgid "No Sendit district found for the city \"%s\"."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:21
+msgid "Multi-carrier aggregator (USPS, UPS, DHL Express, FedEx, Canada Post…): rates, labels and tracking with a single API key."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:36
+msgid "Shippo API token"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:40
+msgid "shippo_test_… or shippo_live_…"
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:41
+msgid "In Shippo: Settings > API. Start with a test token to validate the connection."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:62
+#, php-format
+msgid "Connected: %d active carrier account."
+msgid_plural "Connected: %d active carrier accounts."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:67
+msgid "No active carrier account in Shippo. Add at least one carrier (USPS, UPS…) to get rates."
+msgstr ""
+
+#: includes/carriers/class-shipc-carrier-shippo.php:280
+msgid "Shippo could not generate the label."
+msgstr ""
+
+#: includes/class-shipc-admin.php:45 includes/class-shipc-order-integration.php:100
+msgid "ShipConnect Shipping"
+msgstr ""
+
+#: includes/class-shipc-admin.php:64
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-shipc-admin.php:65
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-shipc-admin.php:69
+msgid "Help & tracking"
+msgstr ""
+
+#: includes/class-shipc-admin.php:89 includes/class-shipc-admin.php:614 includes/class-shipc-labels.php:91
+msgid "Access denied."
+msgstr ""
+
+#: includes/class-shipc-admin.php:100
+msgid "Rates"
+msgstr ""
+
+#: includes/class-shipc-admin.php:101
+msgid "Shipment"
+msgstr ""
+
+#: includes/class-shipc-admin.php:103
+msgid "Tracking"
+msgstr ""
+
+#: includes/class-shipc-admin.php:104
+msgid "Auto tracking"
+msgstr ""
+
+#: includes/class-shipc-admin.php:105
+msgid "Webhook"
+msgstr ""
+
+#: includes/class-shipc-admin.php:107
+msgid "Pickup"
+msgstr ""
+
+#: includes/class-shipc-admin.php:109
+msgid "Returns"
+msgstr ""
+
+#: includes/class-shipc-admin.php:110
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-shipc-admin.php:138
+msgid "— Do nothing —"
+msgstr ""
+
+#: includes/class-shipc-admin.php:193 includes/class-shipc-admin.php:245
+#, php-format
+msgid "%1$s of %2$s carriers"
+msgstr ""
+
+#: includes/class-shipc-admin.php:195
+#, php-format
+msgid "%1$s of %2$s logos"
+msgstr ""
+
+#: includes/class-shipc-admin.php:196 includes/class-shipc-admin.php:220
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/class-shipc-admin.php:210
+msgid "Delete this carrier?"
+msgstr ""
+
+#: includes/class-shipc-admin.php:212
+msgid "Existing shipments are kept. You can reconnect the carrier later."
+msgstr ""
+
+#: includes/class-shipc-admin.php:214
+msgid "Keep the shipment"
+msgstr ""
+
+#: includes/class-shipc-admin.php:215
+msgid "The shipment is cancelled in ShipConnect, and with the carrier when it supports it. You can then create a new one."
+msgstr ""
+
+#: includes/class-shipc-admin.php:216
+msgid "Generate new webhook addresses?"
+msgstr ""
+
+#: includes/class-shipc-admin.php:217
+msgid "Generate"
+msgstr ""
+
+#: includes/class-shipc-admin.php:218
+msgid "The current addresses stop working immediately. Paste the new ones in your carriers' dashboards."
+msgstr ""
+
+#: includes/class-shipc-admin.php:219
+msgid "Please wait…"
+msgstr ""
+
+#: includes/class-shipc-admin.php:221
+msgid "Link copied to the clipboard."
+msgstr ""
+
+#: includes/class-shipc-admin.php:222
+msgid "Change saved."
+msgstr ""
+
+#: includes/class-shipc-admin.php:223
+msgid "You have unsaved changes."
+msgstr ""
+
+#: includes/class-shipc-admin.php:224
+msgid "Carrier documentation"
+msgstr ""
+
+#: includes/class-shipc-admin.php:226
+msgid "Add a carrier without API"
+msgstr ""
+
+#: includes/class-shipc-admin.php:227
+msgid "Connect and test"
+msgstr ""
+
+#: includes/class-shipc-admin.php:229
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-shipc-admin.php:230
+msgid "Close"
+msgstr ""
+
+#: includes/class-shipc-admin.php:231
+msgid "Confirm"
+msgstr ""
+
+#: includes/class-shipc-admin.php:232
+msgid "Send"
+msgstr ""
+
+#: includes/class-shipc-admin.php:233
+msgid "Required field"
+msgstr ""
+
+#: includes/class-shipc-admin.php:235
+#, php-format
+msgid "Send order %1$s with %2$s"
+msgstr ""
+
+#: includes/class-shipc-admin.php:236
+msgid "Tracking number given by the carrier"
+msgstr ""
+
+#: includes/class-shipc-admin.php:237
+msgid "Enter the tracking number."
+msgstr ""
+
+#: includes/class-shipc-admin.php:238
+msgid "Carrier prices for this order. Choose a service, then confirm."
+msgstr ""
+
+#: includes/class-shipc-admin.php:239
+msgid "Confirm and send"
+msgstr ""
+
+#: includes/class-shipc-admin.php:240
+msgid "Choose a service to continue."
+msgstr ""
+
+#: includes/class-shipc-admin.php:241
+msgid "1 day"
+msgstr ""
+
+#: includes/class-shipc-admin.php:243
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: includes/class-shipc-admin.php:261
+msgid "Unknown carrier."
+msgstr ""
+
+#: includes/class-shipc-admin.php:281
+#, php-format
+msgid "The \"%s\" field is required."
+msgstr ""
+
+#: includes/class-shipc-admin.php:321
+msgid "Carrier connected."
+msgstr ""
+
+#: includes/class-shipc-admin.php:335 includes/class-shipc-admin.php:350
+msgid "Connection not found."
+msgstr ""
+
+#: includes/class-shipc-admin.php:357
+msgid "Carrier deleted. Existing shipments are kept."
+msgstr ""
+
+#: includes/class-shipc-admin.php:393
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-shipc-admin.php:438
+msgid "New webhook addresses generated. Update them in your carriers' dashboards."
+msgstr ""
+
+#: includes/class-shipc-admin.php:451 includes/class-shipc-shipment-service.php:58
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-shipc-admin.php:477 includes/class-shipc-shipment-service.php:88
+msgid "No rate available for this address."
+msgstr ""
+
+#: includes/class-shipc-admin.php:531
+#, php-format
+msgid "Shipment created. Tracking no.: %s"
+msgstr ""
+
+#: includes/class-shipc-admin.php:552
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#: includes/class-shipc-admin.php:570
+msgid "Shipment updated."
+msgstr ""
+
+#: includes/class-shipc-admin.php:586
+msgid "Shipment cancelled. You can create a new one."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:89
+#, php-format
+msgid "[%1$s] Delivery exception for order #%2$s"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:96
+#, php-format
+msgid "Parcel %1$s (%2$s) for order #%3$s is in exception."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:102
+#, php-format
+msgid "Latest event: %s"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:104
+#, php-format
+msgid "Open the order: %s"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:145
+msgid "API keys are not encrypted"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:145
+msgid "Enable the sodium or OpenSSL PHP extension on your server."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:153
+#, php-format
+msgid "The credentials of %s can no longer be read"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:154
+msgid "Reconnect this carrier in the Carriers tab."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:156
+msgid "Open carriers"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:168
+#, php-format
+msgid "%d order could not be sent to the carrier"
+msgid_plural "%d orders could not be sent to the carrier"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-alerts.php:170
+#, php-format
+msgid "Latest: order #%1$s — %2$s"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:172
+msgid "Open order"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:181
+#, php-format
+msgid "%d parcel in exception"
+msgid_plural "%d parcels in exception"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-alerts.php:182
+msgid "Contact the carrier or the customer to unblock the delivery."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:184 includes/class-shipc-alerts.php:197
+msgid "View shipments"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:194
+#, php-format
+msgid "%1$d parcel without update for %2$d days"
+msgid_plural "%1$d parcels without update for %2$d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-alerts.php:195
+msgid "Check these parcels with the carrier."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:206
+#, php-format
+msgid "%d parcel returned in the last 7 days"
+msgid_plural "%d parcels returned in the last 7 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-alerts.php:207
+msgid "Make sure returned parcels come back to your warehouse."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:209 includes/class-shipc-announcements.php:36
+msgid "View analytics"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:218
+#, php-format
+msgid "%d order waiting to be shipped for more than 24 hours"
+msgid_plural "%d orders waiting to be shipped for more than 24 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-alerts.php:219
+msgid "Send them to the carrier from the orders list."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:221 includes/class-shipc-announcements.php:28
+msgid "Open orders"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:227
+msgid "Automatic tracking is late"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:231
+msgid "No carrier connected yet"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:231
+msgid "Connect a carrier to show rates and send orders."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:233
+msgid "ShipConnect rates are not offered at checkout"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:238
+msgid "Sender address incomplete"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:238
+msgid "Carriers need the sender phone, email and address for labels."
+msgstr ""
+
+#: includes/class-shipc-alerts.php:238
+msgid "Open settings"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:307
+msgid "ShipConnect:"
+msgstr ""
+
+#: includes/class-shipc-alerts.php:310
+msgid "View alerts"
+msgstr ""
+
+#: includes/class-shipc-announcements.php:25
+msgid "Send orders in one click"
+msgstr ""
+
+#: includes/class-shipc-announcements.php:26
+msgid "A \"Send to carrier\" button and a bulk action are now in the orders list. The new \"Confirmed\" status lets you ship right after confirming the order by phone."
+msgstr ""
+
+#: includes/class-shipc-announcements.php:33
+msgid "Analytics and alerts"
+msgstr ""
+
+#: includes/class-shipc-announcements.php:34
+msgid "Follow your delivery rate, returns and cash on delivery in transit, and get alerts on blocked parcels."
+msgstr ""
+
+#: includes/class-shipc-announcements.php:41
+msgid "English and French"
+msgstr ""
+
+#: includes/class-shipc-announcements.php:42
+msgid "ShipConnect now follows your WordPress language."
+msgstr ""
+
+#: includes/class-shipc-announcements.php:91
+#, php-format
+msgid "Add %s more to get free shipping."
+msgstr ""
+
+#: includes/class-shipc-carrier-base.php:160
+#, php-format
+msgid "%1$s does not list the city \"%2$s\". Correct the city name in the order, then try again."
+msgstr ""
+
+#: includes/class-shipc-catalog.php:67
+msgid "Morocco"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:68
+msgid "North Africa"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:69
+msgid "Sub-Saharan Africa"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:70
+msgid "South Africa"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:71
+msgid "Middle East"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:72
+msgid "Europe"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:73
+msgid "Americas"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:74
+msgid "Asia"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:75
+msgid "Oceania"
+msgstr ""
+
+#: includes/class-shipc-catalog.php:77
+msgid "Multi-carrier tracking"
+msgstr ""
+
+#: includes/class-shipc-charts.php:105
+msgid "Show data table"
+msgstr ""
+
+#: includes/class-shipc-connections.php:75 includes/class-shipc-tracking.php:125
+msgid "Carrier connection not found."
+msgstr ""
+
+#: includes/class-shipc-connections.php:80
+msgid "Unknown carrier adapter."
+msgstr ""
+
+#: includes/class-shipc-connections.php:85
+msgid "The saved credentials can no longer be read (the site security keys may have changed). Reconnect this carrier."
+msgstr ""
+
+#: includes/class-shipc-crypto.php:92
+msgid "None"
+msgstr ""
+
+#: includes/class-shipc-http.php:53
+#, php-format
+msgid "Could not reach the carrier: %s"
+msgstr ""
+
+#: includes/class-shipc-http.php:66
+#, php-format
+msgid "The carrier answered %1$d: %2$s"
+msgstr ""
+
+#: includes/class-shipc-labels.php:98
+msgid "Label not found."
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:153
+msgid "Track your delivery"
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:154
+msgid "Carrier:"
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:155
+msgid "Tracking number:"
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:156
+msgid "Status:"
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:158
+msgid "Track my parcel"
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:177 includes/class-shipc-order-integration.php:181
+msgid "Shipment tracking:"
+msgstr ""
+
+#: includes/class-shipc-order-integration.php:183
+msgid "track the parcel"
+msgstr ""
+
+#: includes/class-shipc-order-workflow.php:49 includes/class-shipc-order-workflow.php:65 includes/class-shipc-order-workflow.php:69
+msgctxt "Order status"
+msgid "Confirmed"
+msgstr ""
+
+#: includes/class-shipc-order-workflow.php:55
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-order-workflow.php:174 includes/class-shipc-order-workflow.php:254
+msgid "Send to carrier (ShipConnect)"
+msgstr ""
+
+#: includes/class-shipc-order-workflow.php:176
+msgid "Change status to confirmed"
+msgstr ""
+
+#: includes/class-shipc-order-workflow.php:234
+#, php-format
+msgid "%d order queued for sending to the carrier."
+msgid_plural "%d orders queued for sending to the carrier."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-order-workflow.php:237
+#, php-format
+msgid "%d skipped (already sent)."
+msgid_plural "%d skipped (already sent)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-order-workflow.php:241
+#, php-format
+msgid "%d order needs a tracking number: open it to enter the number."
+msgid_plural "%d orders need a tracking number: open them to enter the number."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-order-workflow.php:266 includes/class-shipc-shipment-service.php:107
+#, php-format
+msgid "ShipConnect: shipment creation failed. %s"
+msgstr ""
+
+#: includes/class-shipc-shipment-data.php:31
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: includes/class-shipc-shipment-data.php:59
+msgid "Shipping quote"
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:40
+msgid "A shipment is already being created for this order. Try again in a moment."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:61
+msgid "This order already has a shipment."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:141
+#, php-format
+msgid "The shipment was created with the carrier (tracking no. %s) but could not be saved in the store. Do not send this order again: check the shipments table in the System status tab."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:153
+#, php-format
+msgid "ShipConnect: shipment created with %1$s, tracking no. %2$s."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:162
+msgid "ShipConnect: shipment created."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:207 includes/class-shipc-shipment-service.php:316 includes/class-shipc-shipment-service.php:359
+msgid "Shipment not found."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:288
+#, php-format
+msgid "ShipConnect: parcel %1$s, status \"%2$s\""
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:298
+msgid "ShipConnect: parcel delivered."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:299
+msgid "ShipConnect: parcel returned."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:319
+msgid "Unknown parcel status."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:340
+#, php-format
+msgid "ShipConnect: tracking number changed to %s."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:372
+#, php-format
+msgid "The carrier refused the cancellation: %s"
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:381
+msgid "ShipConnect: shipment cancelled with the carrier."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:382
+msgid "ShipConnect: shipment cancelled. If a label was bought, also cancel it with the carrier."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:410
+msgid "No active carrier. Connect one in the Carriers tab."
+msgstr ""
+
+#: includes/class-shipc-shipment-service.php:415
+msgid "This carrier is no longer connected."
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:13
+msgid "ShipConnect (carrier rates)"
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:14
+msgid "Shows live rates from your connected carriers. The shipment is then created automatically."
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:23
+msgid "Checkout title"
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:25
+msgid "Title shown above the shipping options."
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:26
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:55
+msgid "Standard shipping"
+msgstr ""
+
+#: includes/class-shipc-shipping-method.php:96
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-shipc-shipping-method.php:101
+msgid "free"
+msgstr ""
+
+#: includes/class-shipc-stats.php:12
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-shipc-stats.php:13
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/class-shipc-stats.php:14
+msgid "Last 90 days"
+msgstr ""
+
+#: includes/class-shipc-stats.php:72 includes/class-shipc-stats.php:138 includes/class-shipc-status.php:28
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-shipc-stats.php:78
+msgid "Other"
+msgstr ""
+
+#: includes/class-shipc-status.php:21
+msgid "Pending"
+msgstr ""
+
+#: includes/class-shipc-status.php:25
+msgid "Exception"
+msgstr ""
+
+#: includes/class-shipc-tracking.php:37
+msgid "Every 30 minutes (ShipConnect)"
+msgstr ""
+
+#: includes/class-shipc-tracking.php:116
+msgid "Invalid webhook key."
+msgstr ""
+
+#: shipconnect-for-woocommerce.php:76
+msgid "ShipConnect requires WooCommerce, active and up to date."
+msgstr ""
+
+#. Description of the plugin
+#: shipconnect-for-woocommerce.php
+msgid "Connect your carriers to WooCommerce: live rates at checkout, one-click or automatic shipment creation after order confirmation, automatic tracking, dashboards and alerts."
+msgstr ""
